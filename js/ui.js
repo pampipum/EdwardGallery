@@ -28,7 +28,9 @@ export class GalleryUI {
     this.artOverlay = queryRequired('#artOverlay');
     this.artTitle = queryRequired('#artTitle');
     this.artYear = queryRequired('#artYear');
+    this.artStatus = queryRequired('#artStatus');
     this.artDescription = queryRequired('#artDescription');
+    this.acquireBtn = queryRequired('#acquireBtn');
 
     this.mobileControls = queryRequired('#mobileControls');
     this.movePad = queryRequired('#movePad');
@@ -142,6 +144,36 @@ export class GalleryUI {
     this.artTitle.textContent = artwork.title;
     this.artYear.textContent = `Year ${artwork.year}`;
     this.artDescription.textContent = artwork.description;
+
+    const status = artwork.status || 'available';
+    const statusLabel = status.charAt(0).toUpperCase() + status.slice(1);
+    this.artStatus.textContent = statusLabel;
+    this.artStatus.className = `art-status ${status}`;
+
+    const mockCheckoutUrl = new URL('./mock-checkout.html', window.location.href);
+    mockCheckoutUrl.searchParams.set('id', artwork.id);
+    mockCheckoutUrl.searchParams.set('title', artwork.title);
+    mockCheckoutUrl.searchParams.set('year', artwork.year);
+    mockCheckoutUrl.searchParams.set('status', status);
+    this.acquireBtn.href = mockCheckoutUrl.toString();
+
+    if (status === 'sold') {
+      this.acquireBtn.textContent = 'Sold';
+      this.acquireBtn.setAttribute('aria-disabled', 'true');
+      this.acquireBtn.classList.add('disabled');
+      this.acquireBtn.removeAttribute('href');
+    } else if (status === 'reserved') {
+      this.acquireBtn.textContent = 'Request to Acquire';
+      this.acquireBtn.removeAttribute('aria-disabled');
+      this.acquireBtn.classList.remove('disabled');
+      this.acquireBtn.href = mockCheckoutUrl.toString();
+    } else {
+      this.acquireBtn.textContent = 'Acquire';
+      this.acquireBtn.removeAttribute('aria-disabled');
+      this.acquireBtn.classList.remove('disabled');
+      this.acquireBtn.href = mockCheckoutUrl.toString();
+    }
+
     this.artOverlay.classList.add('visible');
   }
 

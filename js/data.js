@@ -45,10 +45,13 @@ function parseWorkLabel(raw, index) {
   const title = raw.replace(/^[0-9]{4}[A-Za-z0-9]+_/, '').replace(/_/g, ' ');
   const year = yearMatch ? yearMatch[1] : 'Unknown';
 
+  const statusCycle = ['available', 'available', 'reserved', 'sold'];
+
   return {
     id: `work-${index + 1}`,
     title,
     year,
+    status: statusCycle[index % statusCycle.length],
     description: `Edward Wurster, ${year === 'Unknown' ? 'unknown year' : year} study from the Davos-era collection.`,
     texturePath: `./assets/wurster/wurster-${String(index + 1).padStart(2, '0')}.jpg`
   };

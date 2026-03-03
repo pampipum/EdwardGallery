@@ -203,6 +203,7 @@ button.secondary {
 .art-overlay.visible {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
 }
 
 .art-overlay h2 {
@@ -345,6 +346,53 @@ button.secondary {
   margin-top: 0.25rem;
   font-weight: 700;
   color: #314150;
+}
+
+.art-status {
+  display: inline-block;
+  margin-top: 0.55rem;
+  padding: 0.2rem 0.58rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.art-status.available {
+  background: rgba(69, 141, 98, 0.16);
+  color: #22663f;
+}
+
+.art-status.reserved {
+  background: rgba(205, 144, 29, 0.18);
+  color: #8a5b10;
+}
+
+.art-status.sold {
+  background: rgba(132, 84, 84, 0.18);
+  color: #7a3030;
+}
+
+.acquire-btn {
+  display: inline-block;
+  margin-top: 0.85rem;
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 0.58rem 1rem;
+  font-weight: 700;
+  color: #f2f6fb;
+  background: linear-gradient(180deg, #6f8195, #5e7084);
+}
+
+.acquire-btn:hover {
+  filter: brightness(1.06);
+}
+
+.acquire-btn.disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .mobile-controls {

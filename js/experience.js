@@ -677,6 +677,11 @@ export class GalleryExperience {
     if (this.controls.isLocked) {
       this.controls.unlock();
     }
+
+    if (this.ui.isTouchDevice) {
+      this.ui.setMobileControlsVisible(false);
+    }
+
     this.ui.setHudDimmed(true);
   }
 
@@ -719,7 +724,9 @@ export class GalleryExperience {
         this.ui.hideArtwork();
         this.ui.setHudDimmed(true);
 
-        if (!this.ui.isTouchDevice) {
+        if (this.ui.isTouchDevice) {
+          this.ui.setMobileControlsVisible(true);
+        } else {
           this.controls.lock();
         }
       }
