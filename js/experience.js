@@ -466,18 +466,67 @@ export class GalleryExperience {
     const mountainTex = this.createAlpineMountainTexture();
     const treeTex = this.createPineTreeTexture();
 
+    // Snow Ground Plane (to anchor the scene)
+    const ground = new THREE.Mesh(
+      new THREE.PlaneGeometry(800, 800),
+      new THREE.MeshBasicMaterial({ color: 0xdde8f4 })
+    );
+    ground.rotation.x = -Math.PI / 2;
+    ground.position.set(-200, -2, 0);
+    worldGroup.add(ground);
+
     // Layer 1: Far Mountains (High detail silhouette)
-    for (let i = 0; i < 8; i++) {
-      const w = 180 + Math.random() * 120;
-      const h = 80 + Math.random() * 50;
+    for (let i = 0; i < 10; i++) {
+      const w = 400 + Math.random() * 200;
+      const h = 200 + Math.random() * 100;
       const mt = new THREE.Mesh(
         new THREE.PlaneGeometry(w, h),
         new THREE.MeshBasicMaterial({ 
           map: mountainTex, 
           transparent: true, 
-          color: 0xc8d6e5,
+          color: 0xffffff,
+          side: THREE.DoubleSide,
           fog: false 
         })
+      );
+      // Move closer and higher
+      mt.position.set(-150, h / 2 - 20, (i - 4.5) * 150);
+      mt.rotation.y = Math.PI / 2;
+      worldGroup.add(mt);
+    }
+
+    // Layer 2: Mid-range snowy forest hills
+    for (let i = 0; i < 15; i++) {
+      const w = 150 + Math.random() * 100;
+      const h = 60 + Math.random() * 40;
+      const hill = new THREE.Mesh(
+        new THREE.PlaneGeometry(w, h),
+        new THREE.MeshBasicMaterial({ color: 0xb0c4de, side: THREE.DoubleSide })
+      );
+      hill.position.set(-80 - Math.random() * 30, h / 2 - 15, (i - 7) * 80);
+      hill.rotation.y = Math.PI / 2;
+      worldGroup.add(hill);
+    }
+
+    // Layer 3: Near Pine Trees (Realistic Davos Forest)
+    for (let i = 0; i < 80; i++) {
+      const h = 8 + Math.random() * 14;
+      const w = h * 0.55;
+      const tree = new THREE.Mesh(
+        new THREE.PlaneGeometry(w, h),
+        new THREE.MeshBasicMaterial({ 
+          map: treeTex, 
+          transparent: true, 
+          alphaTest: 0.3,
+          side: THREE.DoubleSide 
+        })
+      );
+      // Much closer to window for guaranteed visibility
+      tree.position.set(-20 - Math.random() * 45, h / 2 - 5, (Math.random() - 0.5) * 300);
+      tree.rotation.y = Math.PI / 2 + (Math.random() - 0.5) * 0.4;
+      worldGroup.add(tree);
+    }
+  })
       );
       mt.position.set(-220, h / 2 - 15, (i - 3.5) * 110);
       mt.rotation.y = Math.PI / 2;
