@@ -122,6 +122,12 @@ export class GalleryExperience {
     }
 
     this.controls.lock();
+    
+    const hint = document.getElementById("interactionHint");
+    if (hint) {
+      hint.classList.add("visible");
+      setTimeout(() => hint.classList.remove("visible"), 4500);
+    }
   }
 
   setupScene() {
@@ -1033,7 +1039,14 @@ export class GalleryExperience {
     this.focusLookTarget.copy(this.tempVector);
     this.focusTargetPosition.copy(this.focusLookTarget).addScaledVector(normal, fitDistance);
     this.focusTargetPosition.addScaledVector(sideVector, hOffset);
-    this.focusTargetPosition.y = this.focusLookTarget.y;
+    
+    // Shift camera slightly lower on mobile to move painting into the upper 60% of screen
+    if (this.ui.isTouchDevice) {
+      this.focusTargetPosition.y = this.focusLookTarget.y - (paintingHeight * 0.22);
+    } else {
+      this.focusTargetPosition.y = this.focusLookTarget.y;
+    }
+
 
     const lookMatrix = new THREE.Matrix4().lookAt(this.focusTargetPosition, this.focusLookTarget, this.upVector);
     this.focusTargetQuaternion.setFromRotationMatrix(lookMatrix);
