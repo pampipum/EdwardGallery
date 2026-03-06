@@ -771,28 +771,22 @@ export class GalleryExperience {
     c.height = 320;
     const ctx = c.getContext('2d');
 
-    const g = ctx.createLinearGradient(0, 0, c.width, c.height);
-    g.addColorStop(0, '#faf7ef');
-    g.addColorStop(1, '#efe8dc');
-    ctx.fillStyle = g;
-    ctx.fillRect(0, 0, c.width, c.height);
+    ctx.clearRect(0, 0, c.width, c.height);
 
-    ctx.strokeStyle = 'rgba(60, 66, 72, 0.28)';
-    ctx.lineWidth = 9;
-    ctx.strokeRect(8, 8, c.width - 16, c.height - 16);
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.4)';
+    ctx.lineWidth = 4;
+    ctx.strokeRect(10, 10, c.width - 20, c.height - 20);
 
-    ctx.fillStyle = '#2f3032';
-    ctx.font = '700 62px "Segoe UI", Arial, sans-serif';
-    ctx.fillText(title.slice(0, 30), 46, 130);
-    ctx.font = '600 44px "Segoe UI", Arial, sans-serif';
-    ctx.fillText(year, 46, 206);
-    ctx.font = '500 36px "Segoe UI", Arial, sans-serif';
-    ctx.fillText('Edward Wurster', 46, 266);
+    ctx.fillStyle = '#ffffff';
+    ctx.font = '600 54px "Segoe UI", Arial, sans-serif';
+    ctx.fillText(title.toUpperCase(), 60, 120);
+    
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
+    ctx.font = '400 38px "Segoe UI", Arial, sans-serif';
+    ctx.fillText(year + ' • EDWARD WURSTER', 60, 200);
 
     const t = new THREE.CanvasTexture(c);
     t.colorSpace = THREE.SRGBColorSpace;
-    t.minFilter = THREE.LinearFilter;
-    t.magFilter = THREE.LinearFilter;
     return t;
   }
 
@@ -801,7 +795,6 @@ export class GalleryExperience {
     const h = 1.5;
     const x = HALL_CONFIG.width / 2 - 0.09;
 
-    // Root group for the entire artwork assembly
     const artGroup = new THREE.Group();
     artGroup.position.set(x, 2.7, zPos);
     artGroup.rotation.y = -Math.PI / 2;
@@ -815,84 +808,80 @@ export class GalleryExperience {
       artMap = this.createPlaceholderPaintingTexture(index, item.title, item.year);
     }
 
-    // The Canvas/Painting
     const painting = new THREE.Mesh(
       new THREE.PlaneGeometry(w, h),
-      new THREE.MeshStandardMaterial({ map: artMap, roughness: 0.82, metalness: 0.02 })
+      new THREE.MeshStandardMaterial({ map: artMap, roughness: 0.75, metalness: 0.05 })
     );
-    // Position relative to group (at origin)
-    painting.position.set(0, 0, 0.01); 
+    painting.position.set(0, 0, -0.04); 
     artGroup.add(painting);
 
-    // Frame configuration
-    const frameDepth = 0.08;
-    const frameThickness = 0.07;
-    const noiseTex = this.createRoughnessNoiseTexture();
+    const frameDepth = 0.18; 
+    const frameThickness = 0.08;
     const frameMat = new THREE.MeshPhysicalMaterial({
-      color: 0x1a1a1a,
-      roughness: 0.32,
-      metalness: 0.72,
-      clearcoat: 0.65,
-      clearcoatRoughness: 0.22,
-      roughnessMap: noiseTex
+      color: 0x1a1412, 
+      roughness: 0.45,
+      metalness: 0.1,
+      clearcoat: 0.2,
+      clearcoatRoughness: 0.3
     });
 
-    // Top & Bottom
-    const top = new THREE.Mesh(new THREE.BoxGeometry(w + 0.14, frameThickness, frameDepth), frameMat);
-    top.position.set(0, h / 2 + 0.035, 0.02);
+    const top = new THREE.Mesh(new THREE.BoxGeometry(w + 0.16, frameThickness, frameDepth), frameMat);
+    top.position.set(0, h / 2 + 0.04, 0);
     artGroup.add(top);
 
     const bottom = top.clone();
-    bottom.position.y = -h / 2 - 0.035;
+    bottom.position.y = -h / 2 - 0.04;
     artGroup.add(bottom);
 
-    // Sides
     const sideL = new THREE.Mesh(new THREE.BoxGeometry(frameThickness, h, frameDepth), frameMat);
-    sideL.position.set(-w / 2 - 0.035, 0, 0.02);
+    sideL.position.set(-w / 2 - 0.04, 0, 0);
     artGroup.add(sideL);
 
     const sideR = sideL.clone();
-    sideR.position.x = w / 2 + 0.035;
+    sideR.position.x = w / 2 + 0.04;
     artGroup.add(sideR);
 
-    // Backing (Prevent see-through gaps)
-    const backing = new THREE.Mesh(
-      new THREE.PlaneGeometry(w + 0.1, h + 0.1),
-      new THREE.MeshStandardMaterial({ color: 0x050505 })
-    );
-    backing.position.set(0, 0, -0.01);
-    artGroup.add(backing);
+    const innerMat = new THREE.MeshStandardMaterial({ color: 0x0a0a0a });
+    const innerTop = new THREE.Mesh(new THREE.PlaneGeometry(w, frameDepth), innerMat);
+    innerTop.rotation.x = Math.PI / 2;
+    innerTop.position.set(0, h/2, -frameDepth/2 + 0.05);
+    artGroup.add(innerTop);
+    
+    const innerSide = new THREE.Mesh(new THREE.PlaneGeometry(frameDepth, h), innerMat);
+    innerSide.rotation.y = Math.PI / 2;
+    innerSide.position.set(-w/2, 0, -frameDepth/2 + 0.05);
+    artGroup.add(innerSide);
 
-    // Lighting
-    const warmTint = 0xffefd9 + (index % 2) * 0x000306;
-    const spot = new THREE.SpotLight(warmTint, 0.8 + (index % 4) * 0.1, 8.6, Math.PI / 8, 0.2, 1.3);
-    spot.position.set(-1.5, 1.88, 0); // Positioned relative to the artGroup center
-    spot.target.position.set(0, 0, 0);
-    artGroup.add(spot, spot.target);
-
-    // Plaque
     const plaqueFaceTexture = this.createPlaqueTexture(item.title, item.year);
-    const plaque = new THREE.Mesh(
-      new THREE.BoxGeometry(0.92, 0.26, 0.022),
+    const glassPlaque = new THREE.Mesh(
+      new THREE.PlaneGeometry(1.0, 0.28),
       new THREE.MeshPhysicalMaterial({
         map: plaqueFaceTexture,
-        roughnessMap: noiseTex,
-        roughness: 0.25,
-        metalness: 0.5,
-        clearcoat: 0.8,
-        toneMapped: false
+        transparent: true,
+        opacity: 0.6,
+        transmission: 0.9,
+        roughness: 0.1,
+        metalness: 0.1,
+        thickness: 0.05,
+        emissive: 0xffffff,
+        emissiveIntensity: 0.15,
+        clearcoat: 1.0
       })
     );
-    plaque.position.set(-0.32, -1.0, 0.72); // Below the painting
-    artGroup.add(plaque);
+    glassPlaque.position.set(0, -h/2 - 0.35, 0.08); 
+    artGroup.add(glassPlaque);
 
-    // Store references
+    const spot = new THREE.SpotLight(0xfff1e0, 1.2, 10, Math.PI / 7, 0.3, 1.5);
+    spot.position.set(-2, 2.5, 0);
+    spot.target.position.set(0, 0, -0.05);
+    artGroup.add(spot, spot.target);
+
     painting.userData.frameWidth = w;
     painting.userData.frameHeight = h;
     this.paintings.push({ mesh: painting, info: item });
     this.paintingMeshes.push(painting);
 
-    this.addBlockedBox(new THREE.Vector3(x + 0.25, 2.7, zPos), new THREE.Vector3(0.45, h + 0.35, w + 0.35));
+    this.addBlockedBox(new THREE.Vector3(x + 0.25, 2.7, zPos), new THREE.Vector3(0.6, h + 0.8, w + 0.4));
   }
 
   buildPaintings() {
