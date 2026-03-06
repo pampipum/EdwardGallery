@@ -183,7 +183,7 @@ button.secondary {
   height: 12px;
   margin-left: -6px;
   margin-top: -6px;
-  border: 1px solid rgba(39, 53, 67, 0.58);
+  border: 1px solid rgba(255, 255, 255, 0.85); box-shadow: 0 0 6px rgba(255, 255, 255, 0.6), 0 0 3px rgba(0, 0, 0, 0.5), inset 0 0 4px rgba(0, 0, 0, 0.3);
   border-radius: 999px;
   box-shadow: 0 0 10px rgba(126, 149, 173, 0.52);
   z-index: 3;
@@ -515,7 +515,7 @@ button.secondary {
   padding-top: 0.8rem;
   border-top: 1px solid rgba(91, 107, 124, 0.15);
   font-size: 0.8rem;
-  color: #5c7288 !important;
+  color: #000000 !important; font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.05em;

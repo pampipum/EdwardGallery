@@ -125,8 +125,9 @@ export class GalleryExperience {
     
     const hint = document.getElementById("interactionHint");
     if (hint) {
+      hint.textContent = this.ui.isTouchDevice ? "Drag to explore" : "Move mouse to look around • Click to zoom";
       hint.classList.add("visible");
-      setTimeout(() => hint.classList.remove("visible"), 4500);
+      setTimeout(() => hint.classList.remove("visible"), 5000);
     }
   }
 
@@ -1034,7 +1035,7 @@ export class GalleryExperience {
     const fitDistance = Math.max(distForHeight, distForWidth) * 1.1;
 
     // Shift camera right on desktop to place painting on the left
-    const hOffset = this.ui.isTouchDevice ? 0 : paintingWidth * 0.45;
+    const hOffset = this.ui.isTouchDevice ? 0 : paintingWidth * 0.65;
 
     this.focusLookTarget.copy(this.tempVector);
     this.focusTargetPosition.copy(this.focusLookTarget).addScaledVector(normal, fitDistance);
