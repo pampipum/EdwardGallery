@@ -503,6 +503,7 @@ button.secondary {
 }
 
 .exit-hint {
+  display: none; /* Hidden on mobile */
   margin-top: 1.2rem !important;
   padding-top: 0.8rem;
   border-top: 1px solid rgba(91, 107, 124, 0.15);
@@ -537,5 +538,9 @@ button.secondary {
   
   .art-overlay p {
     font-size: 1.1rem;
+  }
+
+  .exit-hint {
+    display: block; /* Show on desktop */
   }
 }
