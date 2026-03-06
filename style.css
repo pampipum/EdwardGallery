@@ -193,7 +193,10 @@ button.secondary {
   padding: 1.15rem 1.2rem;
   border: 1px solid rgba(88, 106, 124, 0.32);
   border-radius: 1rem;
-  background: rgba(247, 251, 255, 0.9);
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(18px);
   box-shadow: 0 20px 40px rgba(35, 48, 61, 0.2);
   opacity: 0;
@@ -209,6 +212,8 @@ button.secondary {
 }
 
 .art-overlay h2 {
+  color: #000;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.4);
   margin: 0;
   font-size: 1.45rem;
   line-height: 1.2;

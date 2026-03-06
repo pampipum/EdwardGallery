@@ -771,19 +771,23 @@ export class GalleryExperience {
     c.height = 320;
     const ctx = c.getContext('2d');
 
-    ctx.clearRect(0, 0, c.width, c.height);
+    const g = ctx.createLinearGradient(0, 0, c.width, c.height);
+    g.addColorStop(0, '#faf7ef');
+    g.addColorStop(1, '#efe8dc');
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, c.width, c.height);
 
-    ctx.strokeStyle = 'rgba(255, 255, 255, 0.4)';
-    ctx.lineWidth = 4;
-    ctx.strokeRect(10, 10, c.width - 20, c.height - 20);
+    ctx.strokeStyle = 'rgba(60, 66, 72, 0.28)';
+    ctx.lineWidth = 9;
+    ctx.strokeRect(8, 8, c.width - 16, c.height - 16);
 
-    ctx.fillStyle = '#ffffff';
-    ctx.font = '600 54px "Segoe UI", Arial, sans-serif';
-    ctx.fillText(title.toUpperCase(), 60, 120);
-    
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
-    ctx.font = '400 38px "Segoe UI", Arial, sans-serif';
-    ctx.fillText(year + ' • EDWARD WURSTER', 60, 200);
+    ctx.fillStyle = '#2f3032';
+    ctx.font = '700 62px "Segoe UI", Arial, sans-serif';
+    ctx.fillText(title.slice(0, 30), 46, 130);
+    ctx.font = '600 44px "Segoe UI", Arial, sans-serif';
+    ctx.fillText(year, 46, 206);
+    ctx.font = '500 36px "Segoe UI", Arial, sans-serif';
+    ctx.fillText('Edward Wurster', 46, 266);
 
     const t = new THREE.CanvasTexture(c);
     t.colorSpace = THREE.SRGBColorSpace;
@@ -853,23 +857,16 @@ export class GalleryExperience {
     artGroup.add(innerSide);
 
     const plaqueFaceTexture = this.createPlaqueTexture(item.title, item.year);
-    const glassPlaque = new THREE.Mesh(
-      new THREE.PlaneGeometry(1.0, 0.28),
-      new THREE.MeshPhysicalMaterial({
+    const plaque = new THREE.Mesh(
+      new THREE.BoxGeometry(0.92, 0.26, 0.022),
+      new THREE.MeshStandardMaterial({
         map: plaqueFaceTexture,
-        transparent: true,
-        opacity: 0.6,
-        transmission: 0.9,
-        roughness: 0.1,
-        metalness: 0.1,
-        thickness: 0.05,
-        emissive: 0xffffff,
-        emissiveIntensity: 0.15,
-        clearcoat: 1.0
+        roughness: 0.3,
+        metalness: 0.02
       })
     );
-    glassPlaque.position.set(0, -h/2 - 0.35, 0.08); 
-    artGroup.add(glassPlaque);
+    plaque.position.set(0, -h/2 - 0.35, 0.08); 
+    artGroup.add(plaque);
 
     const spot = new THREE.SpotLight(0xfff1e0, 1.2, 10, Math.PI / 7, 0.3, 1.5);
     spot.position.set(-2, 2.5, 0);
