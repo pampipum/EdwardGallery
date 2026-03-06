@@ -1028,7 +1028,7 @@ export class GalleryExperience {
     const fitDistance = Math.max(distForHeight, distForWidth) * 1.1;
 
     // Shift camera right on desktop to place painting on the left
-    const hOffset = this.ui.isTouchDevice ? 0 : paintingWidth * 0.45;
+    const hOffset = this.ui.isTouchDevice ? 0 : -paintingWidth * 0.45;
 
     this.focusLookTarget.copy(this.tempVector);
     this.focusTargetPosition.copy(this.focusLookTarget).addScaledVector(normal, fitDistance);

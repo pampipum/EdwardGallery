@@ -516,11 +516,11 @@ button.secondary {
 /* Desktop side-by-side layout for artwork focus */
 @media (min-width: 1024px) {
   .art-overlay {
-    left: auto;
-    right: 5%;
+    left: 5%;
+    right: auto;
     bottom: auto;
     top: 50%;
-    transform: translateY(-50%) translateX(40px);
+    transform: translateY(-50%) translateX(-40px); /* Negative shift for entry from left */
     width: min(30rem, 38vw);
     max-height: 85vh;
     overflow-y: auto;
