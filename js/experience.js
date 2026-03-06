@@ -1437,25 +1437,11 @@ export class GalleryExperience {
   }
 
   updateArtworkInteraction() {
-    if (this.focusPhase !== 'idle') {
-      if (this.focusedArtwork) {
-        this.ui.showArtwork(this.focusedArtwork.info);
-      }
-      return;
+    if (this.focusPhase === "focused" && this.focusedArtwork) {
+      this.ui.showArtwork(this.focusedArtwork.info);
+    } else {
+      this.ui.hideArtwork();
     }
-
-    this.raycaster.setFromCamera(new THREE.Vector2(0, 0), this.camera);
-    const intersections = this.raycaster.intersectObjects(this.paintingMeshes, false);
-
-    let active = null;
-    if (intersections.length) {
-      const first = intersections[0];
-      if (first.distance < EXPERIENCE_CONFIG.interactDistance) {
-        active = this.paintings.find((p) => p.mesh === first.object) || null;
-      }
-    }
-
-    this.ui.showArtwork(active ? active.info : null);
   }
 
   resize() {
