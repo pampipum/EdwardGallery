@@ -801,6 +801,12 @@ export class GalleryExperience {
     const h = 1.5;
     const x = HALL_CONFIG.width / 2 - 0.09;
 
+    // Root group for the entire artwork assembly
+    const artGroup = new THREE.Group();
+    artGroup.position.set(x, 2.7, zPos);
+    artGroup.rotation.y = -Math.PI / 2;
+    this.scene.add(artGroup);
+
     let artMap;
     if (item.texturePath) {
       artMap = this.textureLoader.load(item.texturePath);
@@ -809,19 +815,21 @@ export class GalleryExperience {
       artMap = this.createPlaceholderPaintingTexture(index, item.title, item.year);
     }
 
+    // The Canvas/Painting
     const painting = new THREE.Mesh(
       new THREE.PlaneGeometry(w, h),
       new THREE.MeshStandardMaterial({ map: artMap, roughness: 0.82, metalness: 0.02 })
     );
-    painting.position.set(x, 2.7, zPos);
-    painting.rotation.y = -Math.PI / 2;
-    this.scene.add(painting);
+    // Position relative to group (at origin)
+    painting.position.set(0, 0, 0.01); 
+    artGroup.add(painting);
 
+    // Frame configuration
     const frameDepth = 0.08;
-    const frameOffset = 0.12;
+    const frameThickness = 0.07;
     const noiseTex = this.createRoughnessNoiseTexture();
     const frameMat = new THREE.MeshPhysicalMaterial({
-      color: 0x2a2f36,
+      color: 0x1a1a1a,
       roughness: 0.32,
       metalness: 0.72,
       clearcoat: 0.65,
@@ -829,40 +837,41 @@ export class GalleryExperience {
       roughnessMap: noiseTex
     });
 
-    const top = new THREE.Mesh(new THREE.BoxGeometry(w + 0.14, 0.07, frameDepth), frameMat);
-    top.position.set(x + frameOffset, 2.7 + h / 2 + 0.04, zPos);
-    top.rotation.y = -Math.PI / 2;
-    this.scene.add(top);
+    // Top & Bottom
+    const top = new THREE.Mesh(new THREE.BoxGeometry(w + 0.14, frameThickness, frameDepth), frameMat);
+    top.position.set(0, h / 2 + 0.035, 0.02);
+    artGroup.add(top);
 
     const bottom = top.clone();
-    bottom.position.y = 2.7 - h / 2 - 0.04;
-    this.scene.add(bottom);
+    bottom.position.y = -h / 2 - 0.035;
+    artGroup.add(bottom);
 
-    const sideL = new THREE.Mesh(new THREE.BoxGeometry(0.07, h, frameDepth), frameMat);
-    sideL.position.set(x + frameOffset, 2.7, zPos - w / 2 - 0.035);
-    sideL.rotation.y = -Math.PI / 2;
-    this.scene.add(sideL);
+    // Sides
+    const sideL = new THREE.Mesh(new THREE.BoxGeometry(frameThickness, h, frameDepth), frameMat);
+    sideL.position.set(-w / 2 - 0.035, 0, 0.02);
+    artGroup.add(sideL);
 
     const sideR = sideL.clone();
-    sideR.position.z = zPos + w / 2 + 0.035;
-    this.scene.add(sideR);
+    sideR.position.x = w / 2 + 0.035;
+    artGroup.add(sideR);
 
+    // Backing (Prevent see-through gaps)
+    const backing = new THREE.Mesh(
+      new THREE.PlaneGeometry(w + 0.1, h + 0.1),
+      new THREE.MeshStandardMaterial({ color: 0x050505 })
+    );
+    backing.position.set(0, 0, -0.01);
+    artGroup.add(backing);
+
+    // Lighting
     const warmTint = 0xffefd9 + (index % 2) * 0x000306;
-    const baseIntensity = 0.8 + (index % 4) * 0.1;
-    const cutoff = 8.6 + (index % 5) * 0.25;
-    const cone = THREE.MathUtils.degToRad(20 + (index % 3) * 2.5);
-    const penumbra = 0.2 + (index % 4) * 0.06;
-    const decay = 1.3 + (index % 3) * 0.08;
+    const spot = new THREE.SpotLight(warmTint, 0.8 + (index % 4) * 0.1, 8.6, Math.PI / 8, 0.2, 1.3);
+    spot.position.set(-1.5, 1.88, 0); // Positioned relative to the artGroup center
+    spot.target.position.set(0, 0, 0);
+    artGroup.add(spot, spot.target);
 
-    const spot = new THREE.SpotLight(warmTint, baseIntensity, cutoff, cone, penumbra, decay);
-    spot.position.set(HALL_CONFIG.width / 2 - 1.5, 4.58 + (index % 2) * 0.08, zPos + ((index % 3) - 1) * 0.08);
-    spot.target = painting;
-    this.scene.add(spot, spot.target);
-
+    // Plaque
     const plaqueFaceTexture = this.createPlaqueTexture(item.title, item.year);
-    plaqueFaceTexture.minFilter = THREE.LinearFilter;
-    plaqueFaceTexture.magFilter = THREE.LinearFilter;
-
     const plaque = new THREE.Mesh(
       new THREE.BoxGeometry(0.92, 0.26, 0.022),
       new THREE.MeshPhysicalMaterial({
@@ -874,10 +883,10 @@ export class GalleryExperience {
         toneMapped: false
       })
     );
-    plaque.position.set(HALL_CONFIG.width / 2 - 0.32, 1.7, zPos + 0.72);
-    plaque.rotation.y = -Math.PI / 2;
-    this.scene.add(plaque);
+    plaque.position.set(-0.32, -1.0, 0.72); // Below the painting
+    artGroup.add(plaque);
 
+    // Store references
     painting.userData.frameWidth = w;
     painting.userData.frameHeight = h;
     this.paintings.push({ mesh: painting, info: item });
