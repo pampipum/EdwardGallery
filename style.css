@@ -1,6 +1,6 @@
 :root {
   --bg: #d5dde5;
-  --ui: rgba(255, 255, 255, 0.85);
+  --ui: rgba(255, 255, 255, 0.28);
   --line: rgba(91, 107, 124, 0.3);
   --text: #1f2a35;
   --muted: #4f6072;
@@ -92,10 +92,13 @@ body {
   left: 1.25rem;
   max-width: 25rem;
   padding: 1.5rem;
-  border: 1px solid var(--line);
   border-radius: 1.5rem;
-  background: var(--ui);
-  backdrop-filter: blur(18px);
+  
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(28px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.12);
+
   z-index: 5;
   transition: opacity 300ms ease;
 }
@@ -192,12 +195,12 @@ button.secondary {
   width: min(36rem, calc(100vw - 2rem));
   padding: 1.5rem;
   border-radius: 1.25rem;
-  background: rgba(255, 255, 255, 0.88); /* Significantly more opaque */
-  backdrop-filter: blur(24px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  box-shadow: 
-    0 4px 12px rgba(0, 0, 0, 0.08),
-    0 24px 64px rgba(28, 38, 48, 0.25);
+  
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(28px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.12);
+
   opacity: 0;
   transition: opacity 320ms ease, transform 320ms ease;
   pointer-events: none;
@@ -211,7 +214,7 @@ button.secondary {
 }
 
 .art-overlay h2 {
-  color: #121a24;
+  color: #000000;
   margin: 0;
   font-size: 1.55rem;
   font-weight: 800;
@@ -242,11 +245,15 @@ button.secondary {
   width: min(58rem, calc(100vw - 2rem));
   max-height: 92vh;
   overflow: auto;
-  background: rgba(246, 250, 255, 0.97);
-  border: 1px solid rgba(87, 105, 122, 0.35);
-  border-radius: 1rem;
-  padding: 1.25rem 1.25rem 1.4rem;
-  box-shadow: 0 26px 60px rgba(20, 31, 43, 0.35);
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(28px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.12);
+
+  box-shadow: 0 32px 72px rgba(10, 20, 30, 0.4);
 }
 
 .modal-close {
@@ -344,7 +351,7 @@ button.secondary {
 
 .art-overlay p {
   margin: 0.6rem 0 0;
-  color: #314150; /* Darker than before */
+  color: #000000; font-weight: 500;
   line-height: 1.6;
   font-size: 1rem;
 }
@@ -521,11 +528,17 @@ button.secondary {
     right: auto;
     bottom: auto;
     top: 50%;
-    transform: translateY(-50%) translateX(-40px); /* Negative shift for entry from left */
+    transform: translateY(-50%) translateX(-40px);
     width: min(30rem, 38vw);
     max-height: 85vh;
     overflow-y: auto;
-    padding: 2rem;
+    padding: 2.5rem;
+    
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(28px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.12);
+
   }
   
   .art-overlay.visible {
