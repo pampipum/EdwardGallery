@@ -322,6 +322,69 @@ export class GalleryExperience {
     return new THREE.CanvasTexture(c);
   }
 
+  createAlpineMountainTexture() {
+    const c = document.createElement('canvas');
+    c.width = 1024;
+    c.height = 512;
+    const ctx = c.getContext('2d');
+    ctx.clearRect(0, 0, 1024, 512);
+    ctx.beginPath();
+    ctx.moveTo(0, 512);
+    const peaks = [[0, 480], [150, 220], [300, 380], [450, 120], [600, 280], [750, 180], [900, 400], [1024, 450]];
+    ctx.lineTo(peaks[0][0], peaks[0][1]);
+    for(let i=1; i<peaks.length; i++) ctx.lineTo(peaks[i][0], peaks[i][1]);
+    ctx.lineTo(1024, 512);
+    ctx.closePath();
+    const grad = ctx.createLinearGradient(0, 100, 0, 512);
+    grad.addColorStop(0, '#ffffff');
+    grad.addColorStop(0.2, '#dbe9f6');
+    grad.addColorStop(1, '#a5bcd1');
+    ctx.fillStyle = grad;
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,0.4)';
+    ctx.lineWidth = 1;
+    for(let i=0; i<40; i++) {
+      ctx.beginPath();
+      const x = Math.random() * 1024;
+      const y = 150 + Math.random() * 300;
+      ctx.moveTo(x, y);
+      ctx.lineTo(x + (Math.random()-0.5)*50, y + 40);
+      ctx.stroke();
+    }
+    const t = new THREE.CanvasTexture(c);
+    t.wrapS = THREE.RepeatWrapping;
+    return t;
+  }
+
+  createPineTreeTexture() {
+    const c = document.createElement('canvas');
+    c.width = 256;
+    c.height = 512;
+    const ctx = c.getContext('2d');
+    ctx.clearRect(0, 0, 256, 512);
+    ctx.fillStyle = '#161a20';
+    ctx.fillRect(115, 420, 26, 92);
+    ctx.fillStyle = '#243242';
+    for(let i=0; i<6; i++) {
+      const w = 220 - i * 35;
+      const h = 110;
+      const y = 380 - i * 65;
+      ctx.beginPath();
+      ctx.moveTo(128 - w/2, y + h);
+      ctx.lineTo(128 + w/2, y + h);
+      ctx.lineTo(128, y);
+      ctx.fill();
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.75)';
+      ctx.beginPath();
+      ctx.moveTo(128 - w/2 + 15, y + h - 8);
+      ctx.lineTo(128 + w/2 - 15, y + h - 8);
+      ctx.lineTo(128, y + 30);
+      ctx.fill();
+      ctx.fillStyle = '#243242';
+    }
+    return new THREE.CanvasTexture(c);
+  }
+
   createWoodTexture() {
     const c = document.createElement('canvas');
     c.width = 1024;
@@ -400,31 +463,55 @@ export class GalleryExperience {
     const worldGroup = new THREE.Group();
     this.scene.add(worldGroup);
 
-    // Far Mountains
-    const mtColor = 0xb4c6d8;
-    for (let i = 0; i < 6; i++) {
-      const mtWidth = 140 + Math.random() * 100;
-      const mtHeight = 50 + Math.random() * 40;
+    const mountainTex = this.createAlpineMountainTexture();
+    const treeTex = this.createPineTreeTexture();
+
+    // Layer 1: Far Mountains (High detail silhouette)
+    for (let i = 0; i < 8; i++) {
+      const w = 180 + Math.random() * 120;
+      const h = 80 + Math.random() * 50;
       const mt = new THREE.Mesh(
-        new THREE.PlaneGeometry(mtWidth, mtHeight),
-        new THREE.MeshBasicMaterial({ color: mtColor, fog: false })
+        new THREE.PlaneGeometry(w, h),
+        new THREE.MeshBasicMaterial({ 
+          map: mountainTex, 
+          transparent: true, 
+          color: 0xc8d6e5,
+          fog: false 
+        })
       );
-      mt.position.set(-180, mtHeight / 2 - 12, (i - 2.5) * 90);
+      mt.position.set(-220, h / 2 - 15, (i - 3.5) * 110);
       mt.rotation.y = Math.PI / 2;
       worldGroup.add(mt);
     }
 
-    // Mid Trees (simplified as silhouettes)
-    const treeColor = 0x4a5d6e;
-    for (let i = 0; i < 45; i++) {
-      const h = 5 + Math.random() * 8;
-      const w = h * 0.45;
+    // Layer 2: Mid-range snowy forest hills
+    for (let i = 0; i < 12; i++) {
+      const w = 100 + Math.random() * 60;
+      const h = 30 + Math.random() * 20;
+      const hill = new THREE.Mesh(
+        new THREE.PlaneGeometry(w, h),
+        new THREE.MeshBasicMaterial({ color: 0x98abc0, side: THREE.DoubleSide })
+      );
+      hill.position.set(-120 - Math.random() * 20, h / 2 - 10, (i - 5.5) * 60);
+      hill.rotation.y = Math.PI / 2;
+      worldGroup.add(hill);
+    }
+
+    // Layer 3: Near Pine Trees (Realistic Davos Forest)
+    for (let i = 0; i < 65; i++) {
+      const h = 6 + Math.random() * 10;
+      const w = h * 0.5;
       const tree = new THREE.Mesh(
         new THREE.PlaneGeometry(w, h),
-        new THREE.MeshBasicMaterial({ color: treeColor, side: THREE.DoubleSide })
+        new THREE.MeshBasicMaterial({ 
+          map: treeTex, 
+          transparent: true, 
+          alphaTest: 0.5,
+          side: THREE.DoubleSide 
+        })
       );
-      tree.position.set(-65 - Math.random() * 25, h / 2 - 3, (Math.random() - 0.5) * 220);
-      tree.rotation.y = Math.PI / 2;
+      tree.position.set(-60 - Math.random() * 40, h / 2 - 4, (Math.random() - 0.5) * 260);
+      tree.rotation.y = Math.PI / 2 + (Math.random() - 0.5) * 0.2;
       worldGroup.add(tree);
     }
   }
