@@ -91,9 +91,9 @@ body {
   top: 1.25rem;
   left: 1.25rem;
   max-width: 25rem;
-  padding: 1rem 1.1rem;
+  padding: 1.5rem;
   border: 1px solid var(--line);
-  border-radius: 0.9rem;
+  border-radius: 1.5rem;
   background: var(--ui);
   backdrop-filter: blur(10px);
   z-index: 5;

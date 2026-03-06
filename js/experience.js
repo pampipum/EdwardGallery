@@ -419,15 +419,18 @@ export class GalleryExperience {
     const woodTex = this.createWoodTexture();
     const noiseTex = this.createRoughnessNoiseTexture();
 
+    // High-reflectivity Polished Concrete Floor
     const floor = new THREE.Mesh(
       new THREE.PlaneGeometry(HALL_CONFIG.width, HALL_CONFIG.length),
-      new THREE.MeshStandardMaterial({
+      new THREE.MeshPhysicalMaterial({
         map: concreteTex,
         bumpMap: concreteBump,
-        bumpScale: 0.08,
-        roughnessMap: concreteRoughness,
-        roughness: 0.92,
-        metalness: 0.02
+        bumpScale: 0.05,
+        roughness: 0.12,
+        metalness: 0.15,
+        clearcoat: 1.0,
+        clearcoatRoughness: 0.08,
+        color: 0xeeeeee
       })
     );
     floor.rotation.x = -Math.PI / 2;
@@ -436,18 +439,28 @@ export class GalleryExperience {
     this.scene.add(floor);
     this.floor = floor;
 
-    const ceiling = new THREE.Mesh(
+    // Slatted Ceiling Design (Dark linear slats)
+    const ceilingGroup = new THREE.Group();
+    const slatMat = new THREE.MeshStandardMaterial({ color: 0x1a1a1a, roughness: 0.8 });
+    const slatCount = 80;
+    const slatSpacing = HALL_CONFIG.width / slatCount;
+    for (let i = 0; i < slatCount; i++) {
+      const slat = new THREE.Mesh(
+        new THREE.BoxGeometry(0.08, 0.15, HALL_CONFIG.length),
+        slatMat
+      );
+      slat.position.set(-HALL_CONFIG.width / 2 + i * slatSpacing, HALL_CONFIG.height, 0);
+      ceilingGroup.add(slat);
+    }
+    // Ceiling backing
+    const ceilingBack = new THREE.Mesh(
       new THREE.PlaneGeometry(HALL_CONFIG.width, HALL_CONFIG.length),
-      new THREE.MeshStandardMaterial({ 
-        color: 0xdde4ea, 
-        roughnessMap: noiseTex,
-        roughness: 0.85, 
-        metalness: 0.06 
-      })
+      new THREE.MeshStandardMaterial({ color: 0x050505 })
     );
-    ceiling.rotation.x = Math.PI / 2;
-    ceiling.position.y = HALL_CONFIG.height;
-    this.scene.add(ceiling);
+    ceilingBack.rotation.x = Math.PI / 2;
+    ceilingBack.position.y = HALL_CONFIG.height + 0.08;
+    ceilingGroup.add(ceilingBack);
+    this.scene.add(ceilingGroup);
 
     this.buildRightWall(concreteTex, concreteBump, concreteRoughness);
     this.buildWindowWall();
@@ -455,6 +468,19 @@ export class GalleryExperience {
     this.buildEndWalls(concreteTex, concreteBump, concreteRoughness);
     this.buildSkylightGrid();
     this.buildCenterDivider(concreteTex, concreteBump, concreteRoughness, woodTex);
+    
+    // Sleek Metal Handrail (Window Side)
+    const railMat = new THREE.MeshPhysicalMaterial({ color: 0x888888, metalness: 0.9, roughness: 0.1 });
+    const rail = new THREE.Mesh(new THREE.CylinderGeometry(0.025, 0.025, HALL_CONFIG.length), railMat);
+    rail.rotation.x = Math.PI / 2;
+    rail.position.set(-HALL_CONFIG.width / 2 + 0.6, 1.1, 0);
+    this.scene.add(rail);
+    // Rail supports
+    for(let z = -HALL_CONFIG.length/2; z <= HALL_CONFIG.length/2; z += 6) {
+      const support = new THREE.Mesh(new THREE.CylinderGeometry(0.015, 0.015, 1.1), railMat);
+      support.position.set(-HALL_CONFIG.width / 2 + 0.6, 0.55, z);
+      this.scene.add(support);
+    }
 
     this.snow = this.createSnowSystem();
   }
@@ -466,18 +492,65 @@ export class GalleryExperience {
     const mountainTex = this.createAlpineMountainTexture();
     const treeTex = this.createPineTreeTexture();
 
-    // Layer 1: Far Mountains (High detail silhouette)
+    // Massive Mist/Fog Plane for atmosphere
+    const mistGeo = new THREE.PlaneGeometry(1000, 200);
+    const mistMat = new THREE.MeshBasicMaterial({ 
+      color: 0xdde8f4, 
+      transparent: true, 
+      opacity: 0.6, 
+      fog: false 
+    });
+    const mist = new THREE.Mesh(mistGeo, mistMat);
+    mist.position.set(-80, 40, 0);
+    mist.rotation.y = Math.PI / 2;
+    worldGroup.add(mist);
+
+    // Snowy Ground
+    const ground = new THREE.Mesh(
+      new THREE.PlaneGeometry(1000, 1000),
+      new THREE.MeshBasicMaterial({ color: 0xeef4ff })
+    );
+    ground.rotation.x = -Math.PI / 2;
+    ground.position.set(-200, -1, 0);
+    worldGroup.add(ground);
+
+    // Distant Mountains
     for (let i = 0; i < 8; i++) {
-      const w = 180 + Math.random() * 120;
-      const h = 80 + Math.random() * 50;
+      const w = 500 + Math.random() * 300;
+      const h = 250 + Math.random() * 150;
       const mt = new THREE.Mesh(
         new THREE.PlaneGeometry(w, h),
         new THREE.MeshBasicMaterial({ 
           map: mountainTex, 
           transparent: true, 
-          color: 0xc8d6e5,
+          color: 0xffffff,
+          side: THREE.DoubleSide,
           fog: false 
         })
+      );
+      mt.position.set(-350, h / 2 - 40, (i - 3.5) * 250);
+      mt.rotation.y = Math.PI / 2;
+      worldGroup.add(mt);
+    }
+
+    // Dense Near Forest
+    for (let i = 0; i < 120; i++) {
+      const h = 10 + Math.random() * 18;
+      const w = h * 0.5;
+      const tree = new THREE.Mesh(
+        new THREE.PlaneGeometry(w, h),
+        new THREE.MeshBasicMaterial({ 
+          map: treeTex, 
+          transparent: true, 
+          alphaTest: 0.4,
+          side: THREE.DoubleSide 
+        })
+      );
+      tree.position.set(-45 - Math.random() * 60, h / 2 - 2, (Math.random() - 0.5) * 400);
+      tree.rotation.y = Math.PI / 2 + (Math.random() - 0.5) * 0.5;
+      worldGroup.add(tree);
+    }
+  })
       );
       mt.position.set(-220, h / 2 - 15, (i - 3.5) * 110);
       mt.rotation.y = Math.PI / 2;
