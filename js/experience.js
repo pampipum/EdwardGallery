@@ -1017,6 +1017,8 @@ export class GalleryExperience {
     entry.mesh.getWorldQuaternion(this.tempQuaternion);
 
     const normal = new THREE.Vector3(0, 0, 1).applyQuaternion(this.tempQuaternion).normalize();
+    const sideVector = new THREE.Vector3(1, 0, 0).applyQuaternion(this.tempQuaternion).normalize();
+    
     const paintingWidth = entry.mesh.userData.frameWidth || 2.2;
     const paintingHeight = entry.mesh.userData.frameHeight || 1.5;
     const verticalFov = THREE.MathUtils.degToRad(this.camera.fov);
@@ -1025,12 +1027,15 @@ export class GalleryExperience {
     const distForWidth = (paintingWidth * 0.5) / Math.tan(horizontalFov * 0.5);
     const fitDistance = Math.max(distForHeight, distForWidth) * 1.1;
 
-    this.focusLookTarget.copy(this.tempVector);
-    this.focusTargetPosition.copy(this.tempVector).addScaledVector(normal, fitDistance);
-    this.focusTargetPosition.y = this.tempVector.y;
+    // Shift camera right on desktop to place painting on the left
+    const hOffset = this.ui.isTouchDevice ? 0 : paintingWidth * 0.45;
 
-    this.tempVector.copy(this.focusLookTarget).addScaledVector(normal, 0.02);
-    const lookMatrix = new THREE.Matrix4().lookAt(this.focusTargetPosition, this.tempVector, this.upVector);
+    this.focusLookTarget.copy(this.tempVector);
+    this.focusTargetPosition.copy(this.focusLookTarget).addScaledVector(normal, fitDistance);
+    this.focusTargetPosition.addScaledVector(sideVector, hOffset);
+    this.focusTargetPosition.y = this.focusLookTarget.y;
+
+    const lookMatrix = new THREE.Matrix4().lookAt(this.focusTargetPosition, this.focusLookTarget, this.upVector);
     this.focusTargetQuaternion.setFromRotationMatrix(lookMatrix);
 
     this.focusedArtwork = entry;
