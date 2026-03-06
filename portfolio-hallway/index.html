@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edward Wurster | Davos Portfolio Hallway</title>
+    <meta
+      name="description"
+      content="Walk through an immersive Davos-inspired gallery featuring Edward Wurster works in an interactive 3D hallway."
+    />
+    <meta property="og:title" content="Edward Wurster | Davos Portfolio Hallway" />
+    <meta
+      property="og:description"
+      content="A cinematic 3D exhibition space with interactive artwork details and mobile controls."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#d5dde5" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.161.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.161.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <canvas id="app" aria-label="3D artwork gallery"></canvas>
+
+    <div id="preloader" class="preloader" role="status" aria-live="polite">
+      <div class="preloader-card">
+        <h2>Preparing Davos Gallery</h2>
+        <p id="loadStatus">Loading paintings and alpine atmosphere...</p>
+        <div class="load-track" aria-hidden="true">
+          <div id="loadBar" class="load-bar"></div>
+        </div>
+        <p id="loadPercent" class="load-percent">0%</p>
+      </div>
+    </div>
+
+    <div id="hud" class="hud">
+      <h1>Edward Wurster | Davos Portfolio Hallway</h1>
+      <p>Desktop: press <strong>Start</strong>, then use <strong>W A S D</strong> and mouse to explore.</p>
+      <p>Mobile: tap <strong>Start</strong>, then use left pad to move and right pad to look around.</p>
+      <p>Center a painting to preview details, then click/tap it to zoom in and read full info.</p>
+      <div class="hud-actions">
+        <button id="startBtn" disabled>Loading...</button>
+      </div>
+      <p class="hint">Press <strong>Esc</strong> to release cursor lock.</p>
+    </div>
+
+    <div id="bioModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="bioModalTitle" aria-hidden="true">
+      <div class="modal-backdrop" data-close-bio="true"></div>
+      <section class="modal-card">
+        <button id="bioCloseBtn" class="modal-close" type="button" aria-label="Close biography">×</button>
+        <div class="bio-header">
+          <img src="./assets/wurster/eduard-wurster-portrait.jpg" alt="Portrait of Eduard Wurster" class="bio-portrait" />
+          <div>
+            <h2 id="bioModalTitle">Eduard Wurster, History & Biography</h2>
+            <p id="bioIntro" class="bio-intro"></p>
+          </div>
+        </div>
+        <div id="bioTimeline" class="bio-timeline"></div>
+      </section>
+    </div>
+
+    <div id="crosshair" class="crosshair" aria-hidden="true"></div>
+    <div id="interactionHint" class="interaction-hint">Drag to explore</div>
+
+    <button id="bioFab" class="bio-fab" type="button" aria-label="Open history and biography">Biography</button>
+
+    <aside id="artOverlay" class="art-overlay" aria-live="polite">
+      <h2 id="artTitle">Painting Title</h2>
+      <p id="artYear">Year</p>
+      <p id="artStatus" class="art-status available">Available</p>
+      <p id="artDescription">Description</p>
+      <a id="acquireBtn" class="acquire-btn" href="./mock-checkout.html" role="button">Acquire</a>
+      <p class="exit-hint">Press <strong>Esc</strong> or click to return to the gallery</p>
+    </aside>
+
+    <div id="mobileControls" class="mobile-controls" aria-hidden="true">
+      <div id="movePad" class="touch-pad" aria-label="Move control">
+        <div id="moveKnob" class="touch-knob"></div>
+        <span>Move</span>
+      </div>
+      <div id="lookPad" class="touch-pad look-pad" aria-label="Look control">
+        <span>Look</span>
+      </div>
+    </div>
+
+    <noscript>
+      <div class="noscript">JavaScript is required to run this interactive gallery.</div>
+    </noscript>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
