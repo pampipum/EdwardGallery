@@ -550,43 +550,6 @@ export class GalleryExperience {
       tree.rotation.y = Math.PI / 2 + (Math.random() - 0.5) * 0.5;
       worldGroup.add(tree);
     }
-  })
-      );
-      mt.position.set(-220, h / 2 - 15, (i - 3.5) * 110);
-      mt.rotation.y = Math.PI / 2;
-      worldGroup.add(mt);
-    }
-
-    // Layer 2: Mid-range snowy forest hills
-    for (let i = 0; i < 12; i++) {
-      const w = 100 + Math.random() * 60;
-      const h = 30 + Math.random() * 20;
-      const hill = new THREE.Mesh(
-        new THREE.PlaneGeometry(w, h),
-        new THREE.MeshBasicMaterial({ color: 0x98abc0, side: THREE.DoubleSide })
-      );
-      hill.position.set(-120 - Math.random() * 20, h / 2 - 10, (i - 5.5) * 60);
-      hill.rotation.y = Math.PI / 2;
-      worldGroup.add(hill);
-    }
-
-    // Layer 3: Near Pine Trees (Realistic Davos Forest)
-    for (let i = 0; i < 65; i++) {
-      const h = 6 + Math.random() * 10;
-      const w = h * 0.5;
-      const tree = new THREE.Mesh(
-        new THREE.PlaneGeometry(w, h),
-        new THREE.MeshBasicMaterial({ 
-          map: treeTex, 
-          transparent: true, 
-          alphaTest: 0.5,
-          side: THREE.DoubleSide 
-        })
-      );
-      tree.position.set(-60 - Math.random() * 40, h / 2 - 4, (Math.random() - 0.5) * 260);
-      tree.rotation.y = Math.PI / 2 + (Math.random() - 0.5) * 0.2;
-      worldGroup.add(tree);
-    }
   }
 
   buildSkylightGrid() {
