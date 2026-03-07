@@ -1,1 +1,7 @@
 .vercel
+
+# Local generated/site exports (often nested git repos)
+sites/
+
+# Nested OpenClaw workspace used for experiments
+research-beast/
