@@ -35,6 +35,43 @@ Things like:
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
 
+## Agent Deployment Bootstrap
+
+For deploy-capable projects, agents should discover and use:
+
+- `docs/agent-credentials-playbook.md`
+- `.env.example`
+- `scripts/check-required-secrets.sh`
+
+This also applies to GitHub pushes, Vercel deploys, and project email tasks.
+Agents should check those files before asking where credentials live, use configured environment variables when available, and avoid making the user repeat credential locations if the workspace already documents them.
+
+Quick preflight:
+
+```bash
+bash scripts/check-required-secrets.sh
+```
+
+### Email sending note (Albi)
+
+Albi is allowed to send project emails as often as needed, provided SMTP credentials are configured securely via environment variables.
+
+## Installed Skills
+
+### web-design-guidelines
+
+Use for:
+- web and landing page design direction
+- layout, hierarchy, visual clarity, and presentation quality
+- cleaner, more modern website structure and UX decisions
+
+### frontend-design
+
+Use for:
+- frontend polish and design-oriented implementation work
+- component-level UI improvements
+- improving clarity, usability, and overall visual quality in frontends
+
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.

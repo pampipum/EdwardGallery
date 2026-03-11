@@ -117,6 +117,22 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+## Deploy Credentials Discovery (all agents)
+
+For any GitHub/Vercel push, deployment, or project email task, check these files first:
+
+- `docs/agent-credentials-playbook.md` (secure workflow and required vars)
+- `.env.example` (expected variable names)
+- `scripts/check-required-secrets.sh` (preflight validation)
+
+Rules:
+- Treat those files as the canonical credential-discovery path before asking the user where credentials live.
+- Infer which secrets/variables are required from those files and use already-configured environment variables when available.
+- Do not ask the user to repeat where GitHub, Vercel, or email credentials are if the workspace already documents them.
+- Never store raw secrets in `MEMORY.md`, `memory/*.md`, or committed files.
+- Use environment variables / secret manager injection.
+- Run `bash scripts/check-required-secrets.sh` before deploy.
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**
