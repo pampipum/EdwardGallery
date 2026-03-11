@@ -160,7 +160,9 @@ export function renderLayout() {
                         <span id="live-monitor-updated" class="text-[10px] font-mono text-gray-500">--:--:--</span>
                     </div>
                     <div id="live-pm-strip" class="grid grid-cols-3 gap-2 text-[10px] mb-2"></div>
-                    <div id="live-log-tail" class="h-20 overflow-y-auto custom-scrollbar font-mono text-[10px] leading-4 text-gray-300 bg-black/20 border border-glass-border rounded p-2"></div>
+                    <div id="live-pm-detail" class="text-[10px] text-gray-300 bg-black/20 border border-glass-border rounded p-2 mb-2">Select a PM for details…</div>
+                    <div id="live-trades-feed" class="h-16 overflow-y-auto custom-scrollbar font-mono text-[10px] leading-4 text-gray-300 bg-black/20 border border-glass-border rounded p-2 mb-2"></div>
+                    <div id="live-log-tail" class="h-16 overflow-y-auto custom-scrollbar font-mono text-[10px] leading-4 text-gray-300 bg-black/20 border border-glass-border rounded p-2"></div>
                 </div>
 
                 <div class="glass-card flex-1 rounded-2xl border border-glass-border flex flex-col overflow-hidden bg-space-900/40 backdrop-blur-sm">

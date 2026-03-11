@@ -20,6 +20,7 @@ window.renderMarkdownPreview = function (markdown) {
 
 // --- PM State Management ---
 let currentPM = 'all'; // Default to ALL PMs so user sees the big picture on load
+let selectedLivePM = 'pm1';
 
 const PM_INFO = {
     'pm1': { name: '1: ADAPTIVE STRUCTURAL ALPHA', label: '1: Adaptive Structural Alpha', strategy: 'current' },
@@ -305,9 +306,11 @@ async function updateLiveMonitor() {
     try {
         const data = await fetchLiveOverview(50);
         const strip = document.getElementById('live-pm-strip');
+        const detail = document.getElementById('live-pm-detail');
+        const trades = document.getElementById('live-trades-feed');
         const tail = document.getElementById('live-log-tail');
         const updated = document.getElementById('live-monitor-updated');
-        if (!strip || !tail || !updated) return;
+        if (!strip || !tail || !updated || !detail || !trades) return;
 
         const pmIds = ['pm1', 'pm2', 'pm3', 'pm4', 'pm5', 'pm6'];
         strip.innerHTML = pmIds.map((pmId) => {
@@ -315,8 +318,21 @@ async function updateLiveMonitor() {
             const running = p.is_running ? '🟢' : '⚪';
             const pos = p.positions_count ?? 0;
             const val = Number(p.total_value || 0).toFixed(0);
-            return `<div class="bg-black/20 border border-glass-border rounded px-2 py-1">${running} <span class="font-bold uppercase">${pmId}</span> | $${val} | ${pos} pos</div>`;
+            const activeCls = pmId === selectedLivePM ? 'border-accent-teal text-accent-teal' : 'border-glass-border text-gray-300';
+            return `<button onclick="window.selectLivePM('${pmId}')" class="bg-black/20 border ${activeCls} rounded px-2 py-1 text-left">${running} <span class="font-bold uppercase">${pmId}</span> | $${val} | ${pos} pos</button>`;
         }).join('');
+
+        const pm = data.pm?.[selectedLivePM] || {};
+        const lm = pm.last_manager?.message || 'No manager insight yet';
+        const lt = pm.last_trade;
+        const tradeText = lt ? `${lt.action || '?'} ${lt.ticker || '?'} @ ${lt.price || '?'} (${lt.timestamp || ''})` : 'No trades yet';
+        detail.innerHTML = `<div><span class="text-gray-500">${selectedLivePM.toUpperCase()}:</span> ${lm}</div><div class="text-gray-400 mt-1">Last trade: ${tradeText}</div>`;
+
+        trades.innerHTML = (data.recent_trades || []).map((t) => {
+            const cls = /BUY|COVER/i.test(t.action || '') ? 'text-accent-teal' : (/SELL|SHORT/i.test(t.action || '') ? 'text-accent-red' : 'text-gray-300');
+            const price = typeof t.price === 'number' ? t.price.toFixed(2) : (t.price || '?');
+            return `<div class="${cls}">[${t.pm_id}] ${t.action || '?'} ${t.ticker || '?'} @ $${price}</div>`;
+        }).join('') || '<div class="text-gray-500">No trades yet</div>';
 
         tail.innerHTML = (data.log_tail || []).slice(-50).map((line) => {
             const safe = line
@@ -333,6 +349,11 @@ async function updateLiveMonitor() {
         console.error('Live monitor update failed:', error);
     }
 }
+
+window.selectLivePM = function(pmId) {
+    selectedLivePM = pmId;
+    updateLiveMonitor();
+};
 
 // --- PM Switching ---
 window.switchPM = function (pmId) {

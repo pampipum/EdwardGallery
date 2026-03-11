@@ -319,12 +319,17 @@ def get_live_overview(lines: int = 60):
     """
     pm_ids = ['pm1', 'pm2', 'pm3', 'pm4', 'pm5', 'pm6']
     pm_status = {}
+    recent_trades = []
 
     for pm_id in pm_ids:
         status = portfolio_manager.get_portfolio(pm_id).get_status()
         trade_log = status.get('trade_log', []) or []
         manager_log = status.get('manager_log', []) or []
         history = status.get('history', []) or []
+
+        for t in trade_log[-10:]:
+            enriched = {**t, "pm_id": pm_id}
+            recent_trades.append(enriched)
 
         pm_status[pm_id] = {
             "is_running": bool(status.get("is_running")),
@@ -348,9 +353,12 @@ def get_live_overview(lines: int = 60):
     except Exception as e:
         logger.warning(f"Failed to read app.log tail: {e}")
 
+    recent_trades.sort(key=lambda x: x.get("timestamp", ""), reverse=True)
+
     return {
         "timestamp": datetime.utcnow().isoformat() + "Z",
         "pm": pm_status,
+        "recent_trades": recent_trades[:20],
         "log_tail": log_tail,
     }
 
