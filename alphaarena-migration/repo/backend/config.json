@@ -1,0 +1,51 @@
+{
+    "analyst_provider": "openai",
+    "analyst_model": "qwen3.5-plus",
+    "pm_provider": "openclaw",
+    "pm_model": "alphaarena",
+    "butler_provider": "openclaw",
+    "butler_model": "alphaarena",
+    "assets": [
+        "SOL-USD",
+        "BTC-USD",
+        "ETH-USD",
+        "TSLA",
+        "GOOGL",
+        "NVDA",
+        "META",
+        "AMD",
+        "TSM",
+        "ASML",
+        "MU",
+        "MRVL",
+        "ARM",
+        "AVGO",
+        "ALAB",
+        "PLTR",
+        "GOOG"
+    ],
+    "live_trading_enabled": false,
+    "trading_modes": {
+        "pm1": "PAPER",
+        "pm2": "PAPER",
+        "pm3": "PAPER",
+        "pm4": "PAPER",
+        "pm5": "PAPER",
+        "pm6": "PAPER"
+    },
+    "kraken": {
+        "default_slippage_bps": 50,
+        "max_slippage_bps": 300,
+        "transaction_timeout_seconds": 60,
+        "market_orders_only": true
+    },
+    "circuit_breaker": {
+        "enabled": true,
+        "failure_threshold": 5,
+        "cooldown_minutes": 15
+    },
+    "rate_limiting": {
+        "enabled": true,
+        "requests_per_minute": 60
+    }
+}
