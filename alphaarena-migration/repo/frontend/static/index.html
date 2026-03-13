@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaArena - The Real AI Race</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'space-100': '#151522',
+                        'space-200': '#0d0d18',
+                        'space-900': '#080812',
+                        'accent-teal': '#00e5a0',
+                        'accent-red': '#ff4d6d',
+                        'glass-bg': 'rgba(255, 255, 255, 0.04)',
+                        'glass-border': 'rgba(255, 255, 255, 0.08)',
+                    },
+                    fontFamily: {
+                        mono: ['"Space Mono"', 'monospace'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="h-screen flex flex-col overflow-hidden bg-space-900 text-slate-200 font-sans antialiased">
+    <div id="app" class="h-full flex flex-col overflow-hidden"></div>
+    <script type="module" src="/static/js/main.js"></script>
+</body>
+
+</html>

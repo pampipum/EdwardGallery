@@ -1,5 +1,5 @@
 # HEARTBEAT.md
 
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
-
-# Add tasks below when you want the agent to check something periodically.
+# Project paused by user on 2026-03-12.
+# Keep heartbeat quiet to minimize token usage.
+# Reply HEARTBEAT_OK unless explicitly reactivated by user.

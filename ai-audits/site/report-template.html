@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berichtsvorlage | KI-Standortbestimmung</title>
+    <style>
+      :root {
+        --ink: #1f2b31;
+        --muted: #5b6970;
+        --line: #d9dedb;
+        --paper: #fcfaf6;
+        --accent: #2f4a3f;
+        --soft: #ebe4d8;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--ink);
+        background: #efe8dc;
+      }
+
+      .page {
+        width: min(980px, calc(100% - 40px));
+        margin: 30px auto;
+        background: var(--paper);
+        border: 1px solid var(--line);
+        box-shadow: 0 18px 45px rgba(25, 31, 34, 0.12);
+      }
+
+      .cover {
+        padding: 54px;
+        border-bottom: 1px solid var(--line);
+        background:
+          linear-gradient(135deg, rgba(47, 74, 63, 0.96), rgba(27, 43, 37, 0.96)),
+          linear-gradient(180deg, rgba(255, 255, 255, 0.1), transparent);
+        color: #f9f5ee;
+      }
+
+      .eyebrow {
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        font-size: 11px;
+        opacity: 0.82;
+      }
+
+      h1, h2, h3 {
+        margin: 0;
+        font-weight: 400;
+      }
+
+      h1 {
+        font-size: 3.2rem;
+        margin-top: 18px;
+      }
+
+      .subtitle {
+        margin-top: 14px;
+        max-width: 46ch;
+        line-height: 1.75;
+        color: rgba(249, 245, 238, 0.8);
+      }
+
+      .meta {
+        margin-top: 28px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+
+      .meta-card {
+        padding: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        background: rgba(255, 255, 255, 0.06);
+      }
+
+      .section {
+        padding: 30px 54px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .section p, li {
+        line-height: 1.72;
+        color: var(--muted);
+      }
+
+      .grid-2, .grid-3 {
+        display: grid;
+        gap: 18px;
+      }
+
+      .grid-2 { grid-template-columns: repeat(2, 1fr); }
+      .grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+      .card {
+        padding: 18px;
+        border: 1px solid var(--line);
+        background: #fffdfa;
+      }
+
+      .score {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 7px 10px;
+        background: var(--soft);
+        color: var(--accent);
+        font-size: 0.9rem;
+      }
+
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 14px;
+      }
+
+      .table th, .table td {
+        text-align: left;
+        padding: 12px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+
+      .privacy-box {
+        padding: 20px;
+        background: #f2f6f3;
+        border: 1px solid #d7e4dc;
+      }
+
+      @media print {
+        body { background: #fff; }
+        .page { width: 100%; margin: 0; box-shadow: none; border: none; }
+      }
+
+      @media (max-width: 820px) {
+        .meta, .grid-2, .grid-3 { grid-template-columns: 1fr; }
+        .cover, .section { padding: 28px; }
+      }
+    </style>
+  </head>
+  <body>
+    <article class="page">
+      <section class="cover">
+        <div class="eyebrow">KI-Standortbestimmung · Berichtsvorlage</div>
+        <h1>[Firmenname]</h1>
+        <p class="subtitle">
+          Priorisierte KI-Potenziale, datenschutzrelevante Hinweise und empfohlene nächste Schritte
+          für den geprüften Unternehmensbereich.
+        </p>
+        <div class="meta">
+          <div class="meta-card">
+            <strong>Datum</strong><br />
+            [DD.MM.YYYY]
+          </div>
+          <div class="meta-card">
+            <strong>Region</strong><br />
+            [Davos / Graubünden / Bern / Zürich]
+          </div>
+          <div class="meta-card">
+            <strong>Ansprechperson</strong><br />
+            [Name]
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>1. Executive Summary</h2>
+        <p>
+          Kurzüberblick über die aktuelle Ausgangslage, die grössten Reibungspunkte und die
+          wichtigsten Empfehlungen. Diese Sektion sollte von der Geschäftsleitung in unter drei
+          Minuten erfassbar sein.
+        </p>
+        <div class="grid-3">
+          <div class="card">
+            <h3>Höchste Priorität</h3>
+            <p>[Top-Empfehlung]</p>
+          </div>
+          <div class="card">
+            <h3>Schnellster Quick Win</h3>
+            <p>[Quick Win]</p>
+          </div>
+          <div class="card">
+            <h3>Wichtigstes Risiko</h3>
+            <p>[Datenschutz / Qualität / Prozessabhängigkeit]</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>2. Beobachtete Engpässe</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Workflow A</h3>
+            <p>[Beschreibung des Ist-Zustands und der Reibung]</p>
+          </div>
+          <div class="card">
+            <h3>Workflow B</h3>
+            <p>[Beschreibung des Ist-Zustands und der Reibung]</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>3. Priorisierte Empfehlungen</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Use Case</th>
+              <th>Nutzen</th>
+              <th>Aufwand</th>
+              <th>Risiko</th>
+              <th>Empfehlung</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>[Use Case 1]</td>
+              <td>[hoch / mittel / tief]</td>
+              <td>[hoch / mittel / tief]</td>
+              <td>[hoch / mittel / tief]</td>
+              <td>[jetzt testen / später prüfen / nicht empfohlen]</td>
+            </tr>
+            <tr>
+              <td>[Use Case 2]</td>
+              <td>[hoch / mittel / tief]</td>
+              <td>[hoch / mittel / tief]</td>
+              <td>[hoch / mittel / tief]</td>
+              <td>[jetzt testen / später prüfen / nicht empfohlen]</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section">
+        <h2>4. Detailkarte pro Empfehlung</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>[Empfehlung 1]</h3>
+            <p>[Konkreter Kontext und Ziel]</p>
+            <div class="score">Priorität: [1-25]</div>
+            <p>[Vorgeschlagene Tools, Prozesslogik, Human Review]</p>
+          </div>
+          <div class="card">
+            <h3>[Empfehlung 2]</h3>
+            <p>[Konkreter Kontext und Ziel]</p>
+            <div class="score">Priorität: [1-25]</div>
+            <p>[Vorgeschlagene Tools, Prozesslogik, Human Review]</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>5. Datenschutz- und Governance-Hinweise</h2>
+        <div class="privacy-box">
+          <p>
+            Diese Empfehlungen wurden unter dem Grundsatz der Verhältnismässigkeit und der
+            Zweckbindung formuliert. Vor einer produktiven Umsetzung sollte geprüft werden:
+          </p>
+          <ul>
+            <li>welche Personendaten tatsächlich erforderlich sind</li>
+            <li>ob Anonymisierung oder Pseudonymisierung möglich ist</li>
+            <li>wo Daten verarbeitet oder gespeichert werden</li>
+            <li>welche Zugriffe dokumentiert und begrenzt werden müssen</li>
+            <li>welche Löschfristen und Informationspflichten gelten</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>6. Empfohlene nächste Schritte</h2>
+        <div class="grid-3">
+          <div class="card">
+            <h3>0-30 Tage</h3>
+            <p>[Quick Wins und Validierungen]</p>
+          </div>
+          <div class="card">
+            <h3>30-60 Tage</h3>
+            <p>[Pilot oder Workflow Redesign]</p>
+          </div>
+          <div class="card">
+            <h3>60-90 Tage</h3>
+            <p>[Skalierung oder Implementation Sprint]</p>
+          </div>
+        </div>
+      </section>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+# Environment variables
+.env
+.env.production
+.env.local
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Application data & caches
+.analyst_cache.json
+backend/.alpha_vantage_calls.json
+backend/.alpha_vantage_news_cache.json
+backend/.fear_greed_cache.json
+backend/.general_news_cache.json
+backend/data/daily_briefing.json
+backend/data/llm_usage.json
+deployment/cache.txt
+
+# Portfolio state & reports
+portfolios/*.json
+!portfolios/backend/
+backend/reports/*.json
+portfolio.json
+
+# Logs
+logs/*.log
+logs/*.log.*
+
+# Distribution / Packages
+pandas-ta.tar.gz
+*.egg-info/
+dist/
+build/
+*.tar.gz
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Project specific ignores
+.agent/

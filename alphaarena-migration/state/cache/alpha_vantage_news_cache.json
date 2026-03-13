@@ -1,0 +1,566 @@
+{
+  "TSLA": {
+    "timestamp": "2026-03-12T16:19:15.333971",
+    "news": [
+      {
+        "title": "What's Going On With XPeng Stock On Thursday?",
+        "publisher": "Benzinga",
+        "link": "https://www.benzinga.com/trading-ideas/movers/26/03/51208331/whats-going-on-with-xpeng-stock-on-thursday",
+        "published": "20260312T115245"
+      },
+      {
+        "title": "Elon Musk\u2019s Tesla Obtains License to Supply Electricity in Britain",
+        "publisher": "WSJ",
+        "link": "https://www.wsj.com/business/autos/elon-musks-tesla-obtains-license-to-supply-electricity-in-britain-553b4afc?gaa_at=eafs&gaa_n=AWEtsqeHieExyoGN8tk77N22YU8ldiqQIBAaz4Y9wU1UhARPRtRZO_LdzTO4&gaa_ts=69b2d65e&gaa_sig=X3iDNjvG8UU5gSBWDMIG5r7yWyzMcgE_-BLAi2AR9DWw8w5CzUWlS-rNr93k0pDM3mOMQY0-xWeYTR9NJlZHig%3D%3D",
+        "published": "20260312T115108"
+      },
+      {
+        "title": "Assessing XPeng (NYSE:XPEV) Valuation After VLA 2.0 Autonomy Progress And Morgan Stanley Endorsement",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/automobiles/nyse-xpev/xpeng/news/assessing-xpeng-nysexpev-valuation-after-vla-20-autonomy-pro",
+        "published": "20260312T095245"
+      },
+      {
+        "title": "Barclays PLC Reduces Stake in Franklin Resources",
+        "publisher": "National Today",
+        "link": "https://nationaltoday.com/us/tn/franklin/news/2026/03/12/barclays-plc-reduces-stake-in-franklin-resources/",
+        "published": "20260312T083348"
+      },
+      {
+        "title": "Tesla\u2019s Energy Division Gets UK License to Supply Electricity",
+        "publisher": "Bloomberg.com",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-12/tesla-s-energy-division-gets-uk-license-to-supply-electricity",
+        "published": "20260312T075500"
+      }
+    ]
+  },
+  "ETH-USD": {
+    "timestamp": "2026-03-12T16:24:24.985916",
+    "news": [
+      {
+        "title": "Why Is Eightco Stock Soaring Thursday? - Eightco Holdings  ( NASDAQ:ORBS ) ",
+        "publisher": "Benzinga",
+        "link": "https://www.benzinga.com/trading-ideas/movers/26/03/51214180/eightco-lands-125-million-boost-from-bitmine-ark-invest-kraken-parent",
+        "published": "20260312T141515"
+      },
+      {
+        "title": "Tether Backs Ark Labs' $5.2 Million Bet on Bitcoin's Stablecoin Revival",
+        "publisher": "Decrypt.co",
+        "link": "https://decrypt.co/360773/tether-backs-ark-labs-bet-on-bitcoins-stablecoin-revival",
+        "published": "20260312T130117"
+      },
+      {
+        "title": "New BlackRock Staked Ethereum Fund to Pay 82% of Rewards to Investors",
+        "publisher": "Decrypt.co",
+        "link": "https://decrypt.co/360756/new-blackrock-staked-ethereum-fund",
+        "published": "20260312T130051"
+      },
+      {
+        "title": "BlackRock Launches Staked Ethereum ETF Offering Yield",
+        "publisher": "Cointelegraph",
+        "link": "https://cointelegraph.com/news/blackrock-ishares-staked-ethereum-trust-etf-exposure-yield",
+        "published": "20260312T125654"
+      },
+      {
+        "title": "Why Every Blockchain Suddenly Wants Its Own Perp Dex",
+        "publisher": "Cointelegraph",
+        "link": "https://cointelegraph.com/features/perp-dexs-become-the-latest-battleground-for-blockchains",
+        "published": "20260312T124203"
+      }
+    ]
+  },
+  "SOL-USD": {
+    "timestamp": "2026-03-12T16:19:34.960693",
+    "news": [
+      {
+        "title": "Coinbase Partner Announces First Stablecoin Insurance Payment Using Ethereum, Solana - Aon  ( NYSE:AON ) ",
+        "publisher": "Benzinga",
+        "link": "https://www.benzinga.com/crypto/cryptocurrency/26/03/51141353/coinbase-partner-announces-first-stablecoin-insurance-payment-using-ethereum-solana",
+        "published": "20260309T193127"
+      },
+      {
+        "title": "$650B Moved On Solana In February as Stablecoin Activity Explodes",
+        "publisher": "Benzinga",
+        "link": "https://www.benzinga.com/Opinion/26/03/51075727/650b-moved-on-solana-in-february-as-stablecoin-activity-explodes",
+        "published": "20260305T174045"
+      },
+      {
+        "title": "Largest SOL Holder Down $1 Billion, But Exec Still Aims To Be The 'Berkshire Hathaway Of Solana' - Forward Industries  ( NASDAQ:FWDI ) ",
+        "publisher": "Benzinga",
+        "link": "https://www.benzinga.com/crypto/cryptocurrency/26/03/50967271/largest-sol-holder-down-1-billion-but-exec-still-aims-to-be-the-berkshire-hathaway-of-solan",
+        "published": "20260302T145318"
+      },
+      {
+        "title": "Grant Cardone To Tokenize $5B Of Real Estate, But XRP Is Not On His Partner Shortlist",
+        "publisher": "Benzinga",
+        "link": "https://www.benzinga.com/crypto/cryptocurrency/26/02/50930439/grant-cardone-to-tokenize-5b-of-real-estate-but-xrp-is-not-on-his-partner-shortlist",
+        "published": "20260227T151655"
+      },
+      {
+        "title": "XRP Ledger Sees Soci\u00e9t\u00e9 G\u00e9n\u00e9rale Launch First Euro Stablecoin",
+        "publisher": "Benzinga",
+        "link": "https://www.benzinga.com/crypto/cryptocurrency/26/02/50716249/xrp-ledger-sees-societe-generale-launch-first-euro-stablecoin",
+        "published": "20260219T125922"
+      }
+    ]
+  },
+  "BTC-USD": {
+    "timestamp": "2026-03-12T16:24:24.912640",
+    "news": []
+  },
+  "GOOGL": {
+    "timestamp": "2026-03-12T16:19:28.401801",
+    "news": [
+      {
+        "title": "Voya Limits Data Center Credit Investing on AI Demand Worries",
+        "publisher": "Bloomberg.com",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-12/voya-limits-data-center-credit-investing-on-ai-demand-worries",
+        "published": "20260312T124200"
+      },
+      {
+        "title": "Alphabet Inc. $GOOG Shares Purchased by Steginsky Capital LLC",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-alphabet-inc-goog-shares-purchased-by-steginsky-capital-llc-2026-03-12/",
+        "published": "20260312T123420"
+      },
+      {
+        "title": "AI: Vibe Coding and Vibe Shifting - Northern Trust - Commentaries",
+        "publisher": "Advisor Perspectives",
+        "link": "https://www.advisorperspectives.com/commentaries/2026/03/12/vibe-coding-vibe-shifting?topic=retirement-income",
+        "published": "20260312T115749"
+      },
+      {
+        "title": "The Walt Disney Company $DIS Shares Sold by KLCM Advisors Inc.",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-the-walt-disney-company-dis-shares-sold-by-klcm-advisors-inc-2026-03-12/",
+        "published": "20260312T113203"
+      },
+      {
+        "title": "Magnetar Financial LLC Raises Holdings in T-Mobile US, Inc. $TMUS",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-magnetar-financial-llc-raises-holdings-in-t-mobile-us-inc-tmus-2026-03-12/",
+        "published": "20260312T104316"
+      }
+    ]
+  },
+  "NVDA": {
+    "timestamp": "2026-03-12T16:19:31.050582",
+    "news": [
+      {
+        "title": "LRCX Stock Soars 33% in Three Months: Is There More Room for Growth?",
+        "publisher": "The Globe and Mail",
+        "link": "https://www.theglobeandmail.com/investing/markets/stocks/KLAC/pressreleases/716362/lrcx-stock-soars-33-in-three-months-is-there-more-room-for-growth/",
+        "published": "20260312T152439"
+      },
+      {
+        "title": "The Motley Fool Interviews IBM CFO Jim Kavanaugh",
+        "publisher": "The Globe and Mail",
+        "link": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/712004/the-motley-fool-interviews-ibm-cfo-jim-kavanaugh/",
+        "published": "20260312T131627"
+      },
+      {
+        "title": "Voya Limits Data Center Credit Investing on AI Demand Worries",
+        "publisher": "Bloomberg.com",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-12/voya-limits-data-center-credit-investing-on-ai-demand-worries",
+        "published": "20260312T124200"
+      },
+      {
+        "title": "TSMC Supply Chain Risks Rise As Valuation Premium Faces New Test",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/semiconductors/nyse-tsm/taiwan-semiconductor-manufacturing/news/tsmc-supply-chain-risks-rise-as-valuation-premium-faces-new",
+        "published": "20260312T123419"
+      },
+      {
+        "title": "Swiss National Bank Sells 27,600 Shares of Teradyne, Inc. $TER",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-swiss-national-bank-sells-27600-shares-of-teradyne-inc-ter-2026-03-12/",
+        "published": "20260312T115910"
+      }
+    ]
+  },
+  "META": {
+    "timestamp": "2026-03-12T16:20:13.235582",
+    "news": [
+      {
+        "title": "Elevatus Welath Management Has $2.14 Million Position in Advanced Micro Devices, Inc. $AMD",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-elevatus-welath-management-has-214-million-position-in-advanced-micro-devices-inc-amd-2026-03-12/",
+        "published": "20260312T110541"
+      },
+      {
+        "title": "Mackenzie Financial Corp Has $74.33 Million Position in Advanced Micro Devices, Inc. $AMD",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-mackenzie-financial-corp-has-7433-million-position-in-advanced-micro-devices-inc-amd-2026-03-12/",
+        "published": "20260312T110141"
+      },
+      {
+        "title": "Roberts Capital Advisors LLC Buys 2,631 Shares of Advanced Micro Devices, Inc. $AMD",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-roberts-capital-advisors-llc-buys-2631-shares-of-advanced-micro-devices-inc-amd-2026-03-12/",
+        "published": "20260312T104943"
+      },
+      {
+        "title": "Will AI-Focused Clean Energy Deals and 3 GW Nuclear Pact Redefine NextEra Energy's (NEE) Narrative?",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/utilities/nyse-nee/nextera-energy/news/will-ai-focused-clean-energy-deals-and-3-gw-nuclear-pact-red",
+        "published": "20260312T094754"
+      },
+      {
+        "title": "Connor Clark & Lunn Investment Management Ltd. Buys 307,223 Shares of Advanced Micro Devices, Inc. $AMD",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-connor-clark-lunn-investment-management-ltd-buys-307223-shares-of-advanced-micro-devices-inc-amd-2026-03-12/",
+        "published": "20260312T082650"
+      }
+    ]
+  },
+  "AMD": {
+    "timestamp": "2026-03-12T16:20:24.889589",
+    "news": [
+      {
+        "title": "NXP Semiconductors Keeps Quarterly Dividend at $1.014 per Share, Payable April 9 to Holders of Record as of March 25",
+        "publisher": "marketscreener.com",
+        "link": "https://www.marketscreener.com/news/nxp-semiconductors-keeps-quarterly-dividend-at-1-014-per-share-payable-april-9-to-holders-of-recor-ce7e5fddd181f426",
+        "published": "20260312T125549"
+      },
+      {
+        "title": "Is It Too Late To Consider Astera Labs (ALAB) After Its Recent Share Price Volatility",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-alab/astera-labs/news/is-it-too-late-to-consider-astera-labs-alab-after-its-recent",
+        "published": "20260312T125200"
+      },
+      {
+        "title": "TSMC Supply Chain Risks Rise As Valuation Premium Faces New Test",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/semiconductors/nyse-tsm/taiwan-semiconductor-manufacturing/news/tsmc-supply-chain-risks-rise-as-valuation-premium-faces-new",
+        "published": "20260312T123419"
+      },
+      {
+        "title": "Elevatus Welath Management Has $2.14 Million Position in Advanced Micro Devices, Inc. $AMD",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-elevatus-welath-management-has-214-million-position-in-advanced-micro-devices-inc-amd-2026-03-12/",
+        "published": "20260312T110541"
+      },
+      {
+        "title": "Mackenzie Financial Corp Has $74.33 Million Position in Advanced Micro Devices, Inc. $AMD",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-mackenzie-financial-corp-has-7433-million-position-in-advanced-micro-devices-inc-amd-2026-03-12/",
+        "published": "20260312T110141"
+      }
+    ]
+  },
+  "TSM": {
+    "timestamp": "2026-03-12T16:20:30.817260",
+    "news": [
+      {
+        "title": "TSMC Supply Chain Risks Rise As Valuation Premium Faces New Test",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/semiconductors/nyse-tsm/taiwan-semiconductor-manufacturing/news/tsmc-supply-chain-risks-rise-as-valuation-premium-faces-new",
+        "published": "20260312T123419"
+      },
+      {
+        "title": "8,701 Shares in Taiwan Semiconductor Manufacturing Company Ltd. $TSM Bought by Shannon River Fund Management LLC",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-8701-shares-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-bought-by-shannon-river-fund-management-llc-2026-03-12/",
+        "published": "20260312T122019"
+      },
+      {
+        "title": "Douglass Winthrop Advisors LLC Has $16.45 Million Position in Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-douglass-winthrop-advisors-llc-has-1645-million-position-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-03-12/",
+        "published": "20260312T085219"
+      },
+      {
+        "title": "Taiwan's Semiconductor Ecosystem Powers Next-Gen Embedded Systems | 2026 - News and Statistics",
+        "publisher": "IndexBox - Market Intelligence Platform",
+        "link": "https://www.indexbox.io/blog/taiwans-semiconductor-leadership-drives-embedded-systems-evolution-in-2026/",
+        "published": "20260312T005219"
+      },
+      {
+        "title": "PFG Advisors Purchases 1,878 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-pfg-advisors-purchases-1878-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-03-11/",
+        "published": "20260311T105140"
+      }
+    ]
+  },
+  "ASML": {
+    "timestamp": "2026-03-12T16:20:37.500921",
+    "news": [
+      {
+        "title": "ASML Sets 2026 AGM Agenda With Board Changes and New CTO Appointment Plan",
+        "publisher": "TipRanks",
+        "link": "https://www.tipranks.com/news/company-announcements/asml-sets-2026-agm-agenda-with-board-changes-and-new-cto-appointment-plan",
+        "published": "20260311T135150"
+      },
+      {
+        "title": "DE Burlo Group Inc. Trims Stock Position in ASML Holding N.V. $ASML",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-de-burlo-group-inc-trims-stock-position-in-asml-holding-nv-asml-2026-03-11/",
+        "published": "20260311T085150"
+      },
+      {
+        "title": "Capital Group Private Client Services Inc. Has $4.30 Million Holdings in ASML Holding N.V. $ASML",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-capital-group-private-client-services-inc-has-430-million-holdings-in-asml-holding-nv-asml-2026-03-11/",
+        "published": "20260311T085150"
+      },
+      {
+        "title": "ASML Holding NV Stock (ASML) Opened Up by 6.62% on Mar 10: What Signal Does It Send?",
+        "publisher": "TradingKey",
+        "link": "https://www.tradingkey.com/news/stocks/261665313-market-movers-asml-20260310",
+        "published": "20260310T135246"
+      },
+      {
+        "title": "ASML Holding N.V. $ASML Shares Acquired by Van ECK Associates Corp",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-asml-holding-nv-asml-shares-acquired-by-van-eck-associates-corp-2026-03-10/",
+        "published": "20260310T125246"
+      }
+    ]
+  },
+  "MU": {
+    "timestamp": "2026-03-12T16:21:24.237857",
+    "news": [
+      {
+        "title": "Cramer: Buy Western Digital, Micron, Seagate on oil-driven dips",
+        "publisher": "24/7 Wall St.",
+        "link": "https://247wallst.com/investing/2026/03/12/cramer-buy-western-digital-micron-seagate-on-oil-driven-dips/",
+        "published": "20260312T124720"
+      },
+      {
+        "title": "Tennessee Valley Asset Management Partners Makes New $2.57 Million Investment in Procter & Gamble Company (The) $PG",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-tennessee-valley-asset-management-partners-makes-new-257-million-investment-in-procter-gamble-company-the-pg-2026-03-12/",
+        "published": "20260312T121956"
+      },
+      {
+        "title": "Swiss National Bank Sells 27,600 Shares of Teradyne, Inc. $TER",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-swiss-national-bank-sells-27600-shares-of-teradyne-inc-ter-2026-03-12/",
+        "published": "20260312T115910"
+      },
+      {
+        "title": "Franklin Resources Inc. Reduces Stock Position in Micron Technology, Inc. $MU",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-franklin-resources-inc-reduces-stock-position-in-micron-technology-inc-mu-2026-03-12/",
+        "published": "20260312T105053"
+      },
+      {
+        "title": "Franklin Resources Inc. Sells 199,881 Shares of Applied Materials, Inc. $AMAT",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-franklin-resources-inc-sells-199881-shares-of-applied-materials-inc-amat-2026-03-12/",
+        "published": "20260312T103942"
+      }
+    ]
+  },
+  "MRVL": {
+    "timestamp": "2026-03-12T16:21:28.331669",
+    "news": [
+      {
+        "title": "Franklin Resources Boosts Stake in Marvell Technology",
+        "publisher": "National Today",
+        "link": "https://nationaltoday.com/us/ca/santa-clara/news/2026/03/11/franklin-resources-boosts-stake-in-marvell-technology/",
+        "published": "20260311T145138"
+      },
+      {
+        "title": "Marvell Technology, Inc. $MRVL Shares Acquired by Franklin Resources Inc.",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-marvell-technology-inc-mrvl-shares-acquired-by-franklin-resources-inc-2026-03-11/",
+        "published": "20260311T105138"
+      },
+      {
+        "title": "Marvell Technology Stock Rises as Bigger AI Revenue Bet Draws Wall Street Backing",
+        "publisher": "TechStock\u00b2",
+        "link": "https://ts2.tech/en/marvell-technology-stock-rises-as-bigger-ai-revenue-bet-draws-wall-street-backing/",
+        "published": "20260310T135210"
+      },
+      {
+        "title": "Marvell Technology, Inc. $MRVL Shares Purchased by Van ECK Associates Corp",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-marvell-technology-inc-mrvl-shares-purchased-by-van-eck-associates-corp-2026-03-10/",
+        "published": "20260310T125210"
+      },
+      {
+        "title": "WINTON GROUP Ltd Boosts Holdings in Marvell Technology, Inc. $MRVL",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-winton-group-ltd-boosts-holdings-in-marvell-technology-inc-mrvl-2026-03-10/",
+        "published": "20260310T105210"
+      }
+    ]
+  },
+  "ARM": {
+    "timestamp": "2026-03-12T16:21:36.165941",
+    "news": [
+      {
+        "title": "Capital World Investors Lowers Position in ARM Holdings PLC Sponsored ADR $ARM",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-capital-world-investors-lowers-position-in-arm-holdings-plc-sponsored-adr-arm-2026-03-11/",
+        "published": "20260311T085120"
+      },
+      {
+        "title": "Capital Research Global Investors Makes New Investment in ARM Holdings PLC Sponsored ADR $ARM",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-capital-research-global-investors-makes-new-investment-in-arm-holdings-plc-sponsored-adr-arm-2026-03-11/",
+        "published": "20260311T085120"
+      },
+      {
+        "title": "Arm Holdings PLC Stock (ARM) Moved Up by 3.96% on Mar 10: Facts Behind the Movement",
+        "publisher": "TradingKey",
+        "link": "https://www.tradingkey.com/news/stocks/261666152-market-movers-arm-20260310",
+        "published": "20260310T165120"
+      },
+      {
+        "title": "First Trust Advisors LP Grows Stock Holdings in ARM Holdings PLC Sponsored ADR $ARM",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-first-trust-advisors-lp-grows-stock-holdings-in-arm-holdings-plc-sponsored-adr-arm-2026-03-10/",
+        "published": "20260310T085215"
+      },
+      {
+        "title": "What Does the Market Think About ARM Holdings PLC?",
+        "publisher": "Benzinga",
+        "link": "https://www.benzinga.com/insights/short-sellers/26/03/51142426/what-does-the-market-think-about-arm-holdings-plc",
+        "published": "20260309T195215"
+      }
+    ]
+  },
+  "AVGO": {
+    "timestamp": "2026-03-12T16:21:39.323815",
+    "news": [
+      {
+        "title": "Broadcom: AI Is Turning This Chip Giant Into A Strong Buy Cash Flow Machine (NASDAQ:AVGO)",
+        "publisher": "Seeking Alpha",
+        "link": "https://seekingalpha.com/article/4881600-broadcom-ai-turning-chip-giant-into-strong-buy-cash-flow-machine",
+        "published": "20260312T142042"
+      },
+      {
+        "title": "After Earnings, Is Broadcom Stock a Buy, a Sell, or Fairly Valued?",
+        "publisher": "Morningstar",
+        "link": "https://www.morningstar.com/stocks/after-earnings-is-broadcom-stock-buy-sell-or-fairly-valued-8",
+        "published": "20260312T100744"
+      },
+      {
+        "title": "Assessing Analog Devices (ADI) Valuation As Recent Momentum Cools After Strong Longer Term Gains",
+        "publisher": "Simply Wall St",
+        "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/assessing-analog-devices-adi-valuation-as-recent-momentum-co",
+        "published": "20260312T062839"
+      },
+      {
+        "title": "Is It Time To Reassess Microchip Technology (MCHP) After Its Recent Share Price Pullback?",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mchp/microchip-technology/news/is-it-time-to-reassess-microchip-technology-mchp-after-its-r",
+        "published": "20260312T015132"
+      },
+      {
+        "title": "JPMorgan Chase & Co. Significantly Reduces Stake in Hims & Hers Health Inc.",
+        "publisher": "GuruFocus",
+        "link": "https://www.gurufocus.com/news/8699827/jpmorgan-chase-co-significantly-reduces-stake-in-hims-hers-health-inc",
+        "published": "20260312T005025"
+      }
+    ]
+  },
+  "ALAB": {
+    "timestamp": "2026-03-12T16:22:20.749223",
+    "news": [
+      {
+        "title": "Astera Labs to Participate in the 38th Annual Roth Conference",
+        "publisher": "GlobeNewswire",
+        "link": "https://www.globenewswire.com/news-release/2026/03/11/3254122/0/en/astera-labs-to-participate-in-the-38th-annual-roth-conference.html",
+        "published": "20260312T155200"
+      },
+      {
+        "title": "Is It Too Late To Consider Astera Labs (ALAB) After Its Recent Share Price Volatility",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-alab/astera-labs/news/is-it-too-late-to-consider-astera-labs-alab-after-its-recent",
+        "published": "20260312T125200"
+      },
+      {
+        "title": "Silvant Capital Management LLC Buys New Stake in Astera Labs, Inc. $ALAB",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-silvant-capital-management-llc-buys-new-stake-in-astera-labs-inc-alab-2026-03-12/",
+        "published": "20260312T115200"
+      },
+      {
+        "title": "First Trust Advisors LP Grows Stock Holdings in Astera Labs, Inc. $ALAB",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-first-trust-advisors-lp-grows-stock-holdings-in-astera-labs-inc-alab-2026-03-12/",
+        "published": "20260312T095200"
+      },
+      {
+        "title": "Astera Labs\u2019 Stock Soars After Strategic Moves in European Markets",
+        "publisher": "Timothy Sykes",
+        "link": "https://www.timothysykes.com/news/astera-labs-inc-alab-news-2026_03_11/",
+        "published": "20260311T195200"
+      }
+    ]
+  },
+  "PLTR": {
+    "timestamp": "2026-03-12T16:22:22.043850",
+    "news": [
+      {
+        "title": "GE Aerospace Palantir AI Push Targets Readiness And Production Efficiency",
+        "publisher": "Simply Wall St",
+        "link": "https://simplywall.st/stocks/us/capital-goods/nyse-ge/general-electric/news/ge-aerospace-palantir-ai-push-targets-readiness-and-producti",
+        "published": "20260312T133128"
+      },
+      {
+        "title": "Centrus Taps Palantir's AI To Supercharge America's Nuclear Comeback",
+        "publisher": "Benzinga",
+        "link": "https://www.benzinga.com/markets/large-cap/26/03/51211255/centrus-taps-palantirs-ai-to-supercharge-americas-nuclear-comeback",
+        "published": "20260312T130259"
+      },
+      {
+        "title": "Is Intuit (INTU) Pricing Reflect Long Term Value After Recent Share Price Weakness",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/software/nasdaq-intu/intuit/news/is-intuit-intu-pricing-reflect-long-term-value-after-recent",
+        "published": "20260312T123426"
+      },
+      {
+        "title": "AI steps in to keep US Air Force jets flying, as GE and Palantir team up",
+        "publisher": "Stock Titan",
+        "link": "https://www.stocktitan.net/news/GE/ge-aerospace-and-palantir-expand-partnership-to-transform-military-juyyyhm88ir1.html",
+        "published": "20260312T105915"
+      },
+      {
+        "title": "Dimensional Fund Advisors LP Has $133.58 Million Position in Woodward, Inc. $WWD",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-dimensional-fund-advisors-lp-has-13358-million-position-in-woodward-inc-wwd-2026-03-12/",
+        "published": "20260312T075149"
+      }
+    ]
+  },
+  "GOOG": {
+    "timestamp": "2026-03-12T16:22:50.306984",
+    "news": [
+      {
+        "title": "Alphabet Inc. $GOOG Shares Purchased by Steginsky Capital LLC",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-alphabet-inc-goog-shares-purchased-by-steginsky-capital-llc-2026-03-12/",
+        "published": "20260312T123420"
+      },
+      {
+        "title": "AI: Vibe Coding and Vibe Shifting - Northern Trust - Commentaries",
+        "publisher": "Advisor Perspectives",
+        "link": "https://www.advisorperspectives.com/commentaries/2026/03/12/vibe-coding-vibe-shifting?topic=retirement-income",
+        "published": "20260312T115749"
+      },
+      {
+        "title": "Magnetar Financial LLC Raises Holdings in T-Mobile US, Inc. $TMUS",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-magnetar-financial-llc-raises-holdings-in-t-mobile-us-inc-tmus-2026-03-12/",
+        "published": "20260312T104316"
+      },
+      {
+        "title": "Korea Investment CORP Sells 16,600 Shares of Humana Inc. $HUM",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-korea-investment-corp-sells-16600-shares-of-humana-inc-hum-2026-03-12/",
+        "published": "20260312T095028"
+      },
+      {
+        "title": "Will AI-Focused Clean Energy Deals and 3 GW Nuclear Pact Redefine NextEra Energy's (NEE) Narrative?",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/utilities/nyse-nee/nextera-energy/news/will-ai-focused-clean-energy-deals-and-3-gw-nuclear-pact-red",
+        "published": "20260312T094754"
+      }
+    ]
+  }
+}

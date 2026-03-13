@@ -117,6 +117,17 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+## Project Channels / PM Workflow
+
+When working on a named project or inside a project channel:
+- check `docs/project-channel-workflow.md`
+- then check `docs/projects/<project-slug>.md` if it exists
+- follow the project rules and PM/owner guidance there first
+- default update format is:
+  - Status
+  - Blockers
+  - Next steps
+
 ## Deploy Credentials Discovery (all agents)
 
 For any GitHub/Vercel push, deployment, or project email task, check these files first:

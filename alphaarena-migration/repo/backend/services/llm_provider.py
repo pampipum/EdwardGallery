@@ -200,7 +200,7 @@ class OpenAIProvider(LLMProvider):
                     
                     cached = 0
                     if hasattr(usage, 'prompt_tokens_details') and hasattr(usage.prompt_tokens_details, 'cached_tokens'):
-                        cached = usage.prompt_tokens_details.cached_tokens
+                        cached = usage.prompt_tokens_details.cached_tokens or 0
                     
                     if cached > 0:
                         savings = cached / usage.prompt_tokens if usage.prompt_tokens > 0 else 0

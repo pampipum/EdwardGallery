@@ -1,0 +1,1894 @@
+{
+    "pm_id": "pm2",
+    "balance": 100000.0,
+    "initial_capital": 100000.0,
+    "positions": {},
+    "history": [
+        {
+            "timestamp": "2026-03-11T20:43:53.435279",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T20:43:53.451951",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T20:48:54.494772",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T20:53:54.515263",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T20:58:55.490323",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T21:03:56.308403",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T21:08:56.751959",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T21:13:57.476899",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T21:26:05.087066",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T21:26:05.117737",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T21:31:05.129426",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T21:36:05.140831",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T21:41:05.153207",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T21:46:05.165059",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T21:51:05.175855",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T21:56:05.188824",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:01:05.202550",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:06:05.215759",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:11:05.227616",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:16:20.039767",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:16:20.042876",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:21:20.058989",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:26:20.071034",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:31:20.082820",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:36:20.096521",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:41:20.109506",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:46:20.121218",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:51:20.132777",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T22:56:20.148992",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:01:20.159633",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:06:20.171858",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:11:20.184873",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:15:32.641280",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:16:32.706568",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:21:32.720029",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:26:32.735216",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:31:32.748833",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:36:32.761590",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:41:32.777093",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:46:32.792551",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:51:32.804770",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-11T23:56:32.819819",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:01:32.834875",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:06:32.847552",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:11:32.860739",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:15:29.040012",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:17:29.053565",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:22:29.066674",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:27:29.081723",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:32:29.095826",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:37:29.110289",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:42:29.122167",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:47:29.134289",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:52:29.148784",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T00:57:29.163374",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:02:29.175790",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:07:29.187697",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:12:29.201624",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:17:29.779917",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:17:29.784533",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:22:30.474220",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:27:31.161021",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:32:31.881061",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:37:32.569225",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:42:33.275624",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:47:33.983523",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:52:34.697532",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T01:57:35.384407",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T02:02:36.063735",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T02:07:36.748377",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T02:12:37.492180",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T02:27:21.245643",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T02:27:21.253171",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T02:32:21.268213",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T02:37:21.280090",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T02:42:21.295035",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T02:47:21.311335",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T02:52:21.325816",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T02:57:21.339056",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:02:21.352480",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:07:21.366618",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:12:21.380890",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:17:19.949259",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:18:19.956949",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:23:20.660899",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:28:21.354981",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:33:22.041887",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:38:22.751861",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:43:23.442685",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:48:24.124732",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:53:24.833903",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T03:58:25.536205",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:03:26.228058",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:08:26.915572",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:13:27.599283",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:17:53.463082",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:18:53.473182",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:23:53.486690",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:28:54.155800",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:33:55.847502",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:38:56.530267",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:43:57.208602",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:48:57.945617",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:53:59.109721",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T04:58:59.851625",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:04:00.552566",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:09:01.243499",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:14:02.863097",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:18:37.677164",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:19:37.686044",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:24:37.719899",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:29:37.735652",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:34:37.751061",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:39:37.766888",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:44:37.781560",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:49:37.795397",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:54:37.809280",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T05:59:37.825021",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:04:37.842476",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:09:37.858518",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:14:37.876481",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:20:48.326093",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:20:48.331591",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:25:48.353287",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:27:43.612026",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:32:40.595116",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:37:41.153117",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:42:38.354459",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:47:50.250861",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:52:38.609941",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T06:57:38.673140",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T07:02:41.457345",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T07:07:42.155020",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T07:12:39.927700",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T07:17:40.165184",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T07:22:42.235429",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T07:27:39.835230",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T07:32:39.155157",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T07:37:37.803969",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T07:42:39.706672",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T07:47:39.136756",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T07:52:39.258817",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T07:57:39.584347",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T08:02:40.643298",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T08:07:39.325794",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T08:12:45.600796",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T08:17:39.090394",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T08:22:41.579734",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T08:27:38.765314",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T08:32:49.773365",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T08:37:51.837176",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T08:42:50.508631",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T08:47:42.132966",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T08:52:39.589819",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T08:57:41.135137",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T09:02:40.197171",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T09:07:39.810880",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T09:12:40.662755",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T09:21:41.955457",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T09:26:45.505752",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T09:31:54.422223",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T09:36:43.917395",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T09:41:46.483223",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T09:46:42.649282",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T09:51:42.550559",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T09:56:40.713887",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T10:01:45.010489",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T10:06:43.850579",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T10:11:44.354219",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T10:16:42.769151",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T10:21:42.639692",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T10:26:53.095846",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T10:31:43.618004",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T10:36:40.557385",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T10:41:43.196905",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T10:46:41.679577",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T10:51:45.855643",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T10:56:45.204966",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T11:01:44.378474",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T11:06:41.261333",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T11:11:43.761650",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T11:16:41.487540",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T11:21:40.902991",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T11:26:41.816925",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T11:31:42.658309",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T11:36:43.042749",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T11:41:42.565855",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T11:46:44.168592",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T11:51:46.383798",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T11:56:42.523963",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T12:01:45.071419",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T12:06:42.229970",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T12:11:42.710012",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T12:16:43.159954",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T12:21:43.815364",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T12:26:43.323463",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T12:31:43.443963",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T12:36:42.440756",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T12:41:42.597599",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T12:46:40.634066",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T12:51:45.374777",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T12:56:50.785949",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T13:01:42.596230",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T14:36:50.915649",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T14:41:47.342478",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T14:46:47.502700",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T14:51:49.460349",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T14:56:48.265152",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T15:01:47.684722",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T15:06:48.714066",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T15:11:49.924426",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T15:16:47.719699",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T15:21:49.205805",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T15:26:47.956948",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T15:31:47.041269",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T15:36:50.657223",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T15:41:50.269338",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T15:46:48.724776",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T15:51:52.098347",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T15:56:50.477892",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T16:01:53.566831",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T16:06:47.879559",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T16:11:50.407149",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T16:16:49.186153",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T16:21:48.650369",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T16:33:53.632586",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T16:33:53.635554",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T16:36:48.053313",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T16:41:49.029402",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T16:46:48.800408",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T16:51:48.431266",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T16:56:49.989864",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T17:01:48.635055",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T17:06:48.321666",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T17:11:49.518840",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T17:16:48.167774",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T17:21:50.809085",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T17:26:48.224971",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T17:31:48.725780",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T17:36:49.735446",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T17:41:49.659820",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T17:46:51.693325",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T17:51:48.175373",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T17:56:50.003199",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T18:01:49.230544",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T18:06:51.374160",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T18:11:49.215094",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T18:16:47.140014",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T18:21:59.574640",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T18:26:49.962156",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T18:31:51.209465",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T18:36:49.082474",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T18:41:49.772055",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T18:46:49.059611",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T18:51:48.559978",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T18:56:49.989835",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:01:58.497962",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:06:48.597316",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:11:51.633384",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:16:48.259207",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:21:50.589578",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:26:50.544756",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:31:48.564187",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:36:48.246137",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:41:50.334275",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:46:35.464640",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:46:35.470584",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:50:19.302521",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T19:55:19.018062",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T20:00:21.172349",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T20:05:23.160377",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T20:10:24.297487",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T20:15:24.935690",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T20:20:25.084003",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T20:25:25.227993",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T20:30:23.837593",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T20:35:31.083741",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T20:40:23.140788",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T20:45:25.039242",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T20:50:26.440204",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T20:55:24.378563",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T21:00:23.761049",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T21:05:23.305063",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T21:10:23.720700",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T21:15:23.953219",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T21:20:34.016779",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T21:25:24.213234",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T21:30:25.690250",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T21:35:25.043919",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T21:40:23.644356",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T21:45:24.775557",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T21:50:24.957973",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T21:55:25.258345",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T22:00:25.075683",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T22:05:31.250790",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T22:10:31.645561",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T22:15:32.016678",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T22:20:31.656162",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T22:25:31.698778",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T22:30:33.826789",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T22:36:16.631810",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T22:41:17.411299",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T22:46:17.574846",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T22:51:18.928907",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T22:56:17.299849",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T23:01:16.211343",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T23:06:15.941124",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T23:11:16.070406",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T23:16:17.171493",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T23:21:17.529623",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T23:26:17.574268",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T23:31:17.515834",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T23:36:15.981532",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T23:41:15.263685",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T23:46:18.070828",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T23:51:19.678750",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-12T23:56:22.701325",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-13T00:06:16.169680",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-13T00:11:15.899418",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-13T00:16:17.498648",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-13T00:21:15.816925",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-13T00:26:16.812770",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-13T00:31:16.909329",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-13T00:36:16.430876",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-13T00:41:16.141048",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-13T00:46:16.248272",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-13T00:51:17.815675",
+            "total_value": 100000.0
+        },
+        {
+            "timestamp": "2026-03-13T00:56:16.376032",
+            "total_value": 100000.0
+        }
+    ],
+    "trade_log": [],
+    "manager_log": [
+        {
+            "timestamp": "2026-03-11T21:25:26.211214",
+            "message": "\ud83d\udee1\ufe0f **SENTINEL ADVISORY (PAPER BYPASS)**: Sentinel: Market within normal range. LLM call blocked.\n\nContinuing to Phase 2 for paper-mode decisioning."
+        },
+        {
+            "timestamp": "2026-03-11T21:26:05.083211",
+            "message": "Reviewed 2 assets: ARM and SOL-USD. No trades placed. ARM scores too low because there is no sentiment extreme, no VWAP reclaim, no confirming reversal candle, and all monitored timeframes remain bearish with ADX only 14.05. SOL has the better setup due to fear at 25, negative funding, and price above VWAP and EMA21, but it still fails the Sentient Structurist threshold because sentiment is not decisively extreme under the stated rule set, ADX is still in transition, higher-timeframe trend remains bearish, and no explicit sweep-plus-confirmation candle is provided. Best action is WAIT and preserve full cash for a clearer sentiment-exhaustion setup."
+        },
+        {
+            "timestamp": "2026-03-11T22:15:32.847950",
+            "message": "\ud83d\udee1\ufe0f **SENTINEL ADVISORY (PAPER BYPASS)**: Sentinel: Market within normal range. LLM call blocked.\n\nContinuing to Phase 2 for paper-mode decisioning."
+        },
+        {
+            "timestamp": "2026-03-11T22:16:20.034590",
+            "message": "Reviewed 2 assets: ARM and NVDA. No trades placed. ARM scores too low because there is no sentiment extreme, no confirming reversal candle, no VWAP reclaim, and ADX 14.05 only supports compression/chop rather than a high-quality exhaustion fade. NVDA also scores too low because sentiment is neutral, ADX 14.93 is below the required regime threshold, and the stock is consolidating rather than showing a statistically extreme crowding event. Best action is WAIT and preserve full cash until sentiment becomes extreme and structure confirms exhaustion."
+        },
+        {
+            "timestamp": "2026-03-11T23:14:48.314588",
+            "message": "\ud83d\udee1\ufe0f **SENTINEL ADVISORY (PAPER BYPASS)**: Sentinel: Market within normal range. LLM call blocked.\n\nContinuing to Phase 2 for paper-mode decisioning."
+        },
+        {
+            "timestamp": "2026-03-11T23:15:32.625025",
+            "message": "Reviewed 2 assets: ARM and SOL-USD. No trades placed. ARM scores too low because sentiment is neutral, structure is still bearish below VWAP and all major EMAs, and there is no confirming reclaim or reversal candle. SOL-USD has the strongest developing case due to fear at 25, negative funding, bullish short-term structure above VWAP and EMA21, and crowd positioning leaning short, but it still does not meet the threshold for execution because the required sweep-and-confirmation sequence is not documented and ADX 24.89 leaves regime clarity incomplete. Best action is WAIT and preserve full cash until sentiment becomes unmistakably extreme and structure confirms exhaustion."
+        },
+        {
+            "timestamp": "2026-03-12T00:14:52.169238",
+            "message": "\ud83d\udee1\ufe0f **SENTINEL ADVISORY (PAPER BYPASS)**: Sentinel: Market within normal range. LLM call blocked.\n\nContinuing to Phase 2 for paper-mode decisioning."
+        },
+        {
+            "timestamp": "2026-03-12T00:15:29.036742",
+            "message": "Reviewed 2 assets: ARM and ETH-USD. No trades placed. ARM scores too low because sentiment is neutral, structure is still bearish below VWAP and all major EMAs, and there is no confirming reclaim or reversal candle. ETH-USD is closer than ARM because Crypto Fear & Greed is 25 and price is still near VWAP and above the 21 EMA in the main report, but it still fails the execution threshold because derivatives positioning is modestly long-biased instead of fear-extreme, the required sweep-and-confirmation sequence is not documented, and the updated volume ratio at 0.01 indicates there is no real participation behind the move. Best action is WAIT and preserve full cash until sentiment becomes unmistakably extreme and structure confirms exhaustion."
+        },
+        {
+            "timestamp": "2026-03-12T01:16:16.564409",
+            "message": "\ud83d\udee1\ufe0f **SENTINEL ADVISORY (PAPER BYPASS)**: Sentinel: Market within normal range. LLM call blocked.\n\nContinuing to Phase 2 for paper-mode decisioning."
+        },
+        {
+            "timestamp": "2026-03-12T01:17:29.775959",
+            "message": "Reviewed 2 assets: ARM and SOL-USD. No trades placed. ARM scores too low because sentiment is neutral, structure is still bearish below VWAP and all major EMAs, and there is no confirming reclaim or reversal candle. SOL-USD is closer than ARM because fear is elevated and funding remains negative, but it still does not meet the threshold for execution because the required sweep-and-confirmation sequence is not documented, ADX 24.89 leaves regime clarity incomplete, and updated volume at 0.02x average shows no real participation behind the move. Best action is WAIT and preserve full cash until sentiment becomes unmistakably extreme and structure confirms exhaustion."
+        },
+        {
+            "timestamp": "2026-03-12T02:25:53.487765",
+            "message": "\ud83d\udee1\ufe0f **SENTINEL ADVISORY (PAPER BYPASS)**: Sentinel: Market within normal range. LLM call blocked.\n\nContinuing to Phase 2 for paper-mode decisioning."
+        },
+        {
+            "timestamp": "2026-03-12T02:27:21.241568",
+            "message": "Reviewed 2 assets: ARM and ETH-USD. No trades placed. ARM scores too low because sentiment is neutral, structure is still bearish below VWAP and all major EMAs, and there is no confirming reclaim or reversal candle. ETH-USD is more interesting than ARM because price is holding near the 21 EMA and downside momentum has cooled, but it still does not meet the threshold for execution because fear is only 26, the required sweep-and-confirmation sequence is not documented, funding is not extreme, and the updated volume profile remains far too weak to validate exhaustion. Best action is WAIT and preserve full cash until sentiment becomes unmistakably extreme and structure confirms exhaustion."
+        },
+        {
+            "timestamp": "2026-03-12T03:16:55.614699",
+            "message": "\ud83d\udee1\ufe0f **SENTINEL ADVISORY (PAPER BYPASS)**: Sentinel: Market within normal range. LLM call blocked.\n\nContinuing to Phase 2 for paper-mode decisioning."
+        },
+        {
+            "timestamp": "2026-03-12T03:17:19.945199",
+            "message": "Reviewed 2 assets: ARM and ETH-USD. No trades placed. ARM remains a clear wait because sentiment is neutral and structure is still bearish below VWAP and all major moving averages with no confirmation candle. ETH-USD is less attractive than before because live price has slipped to the 21 EMA area instead of reclaiming VWAP, so the structure-confirmation gate is still closed. With sentiment only near fear rather than at an extreme, funding not contrarian enough, and volume still collapsed, neither asset reaches the 7.0 confidence threshold. Best action is WAIT and preserve full cash until sentiment becomes truly extreme and price confirms exhaustion through a sweep-and-reclaim sequence."
+        },
+        {
+            "timestamp": "2026-03-12T04:17:14.278066",
+            "message": "\ud83d\udee1\ufe0f **SENTINEL ADVISORY (PAPER BYPASS)**: Sentinel: Market within normal range. LLM call blocked.\n\nContinuing to Phase 2 for paper-mode decisioning."
+        },
+        {
+            "timestamp": "2026-03-12T04:17:53.449546",
+            "message": "Reviewed 2 assets: ARM and SOL-USD. No trades placed. ARM scores too low because sentiment is neutral, structure is still bearish below VWAP and all major moving averages, and there is no confirmation candle or sweep-and-reclaim sequence. SOL-USD is not actionable because Fear & Greed at 26 is near fear but not below the stated extreme threshold, funding is not extreme enough to justify a greed fade, structure remains bearish below VWAP and key moving averages, and updated volume is still collapsed at 0.14x average. Neither asset reaches the 7.0 confidence threshold. Best action is WAIT and preserve full cash until sentiment becomes unmistakably extreme and structure confirms exhaustion."
+        },
+        {
+            "timestamp": "2026-03-12T05:18:13.955253",
+            "message": "\ud83d\udee1\ufe0f **SENTINEL ADVISORY (PAPER BYPASS)**: Sentinel: Market within normal range. LLM call blocked.\n\nContinuing to Phase 2 for paper-mode decisioning."
+        },
+        {
+            "timestamp": "2026-03-12T05:18:37.672218",
+            "message": "Reviewed 2 assets: ARM and BTC-USD. No trades placed. ARM scores too low because sentiment is neutral, structure is still bearish below VWAP and all major moving averages, and there is no confirmation candle or sweep-and-reclaim sequence. BTC-USD is the better watchlist candidate because negative funding creates a more contrarian setup than most recent crypto reviews, but it still does not meet the threshold for execution because Fear & Greed is only 26, price has not reclaimed VWAP, no explicit liquidity sweep is documented, and participation remains collapsed at 0.14x average volume. Neither asset reaches the 7.0 confidence threshold. Best action is WAIT and preserve full cash until sentiment becomes unmistakably extreme and structure confirms exhaustion."
+        },
+        {
+            "timestamp": "2026-03-12T06:19:07.406438",
+            "message": "\ud83d\udee1\ufe0f **SENTINEL ADVISORY (PAPER BYPASS)**: Sentinel: Market within normal range. LLM call blocked.\n\nContinuing to Phase 2 for paper-mode decisioning."
+        },
+        {
+            "timestamp": "2026-03-12T06:20:48.320832",
+            "message": "Reviewed 2 assets: ARM and BTC-USD. No trades placed. ARM scores too low because sentiment is neutral, structure is still bearish below VWAP and all major moving averages, and there is no confirmation candle or sweep-and-reclaim sequence. BTC-USD is the better watchlist candidate because negative funding creates a more contrarian setup than most recent crypto reviews, but it still does not meet the threshold for execution because Fear & Greed is only 26, price has not reclaimed VWAP, no explicit liquidity sweep is documented, and participation remains collapsed at 0.16x average volume. Neither asset reaches the 7.0 confidence threshold. Best action is WAIT and preserve full cash until sentiment becomes unmistakably extreme and structure confirms exhaustion."
+        },
+        {
+            "timestamp": "2026-03-12T16:25:41.464236",
+            "message": "\ud83d\udee1\ufe0f **SENTINEL ADVISORY (PAPER BYPASS)**: Sentinel: Market within normal range. LLM call blocked.\n\nContinuing to Phase 2 for paper-mode decisioning."
+        },
+        {
+            "timestamp": "2026-03-12T16:33:53.630187",
+            "message": "Reviewed 2 assets: META and ARM. No trades placed. META is not actionable because sentiment is not extreme, structure remains weak below VWAP and all major moving averages, and the current squeeze is occurring under resistance on only 0.31x volume without a confirming reclaim sequence. ARM is also not actionable because sentiment is mixed rather than extreme, price remains below VWAP and all major EMAs, and ADX/volume remain too weak to validate exhaustion. Neither asset reaches the 7.0 confidence threshold for The Sentient Structurist. Best action is WAIT and preserve full cash until sentiment becomes unmistakably extreme and price confirms exhaustion through a sweep-and-reclaim sequence."
+        },
+        {
+            "timestamp": "2026-03-12T19:46:35.457562",
+            "message": "Reviewed 2 assets: META and ARM. No trades placed. META scores only around 2/10 because ADX below 20 supports mean reversion, but there is no extreme sentiment input, no sweep plus VWAP reclaim or loss sequence, no confirming candle, and no validated exhaustion signal. ARM also scores around 2/10 to 3/10 because ADX below 20 helps the regime filter, but sentiment is not extreme, structure remains weak below VWAP and all major moving averages, and no confirming reversal pattern is supplied. Neither asset reaches the 7.0 confidence threshold. Best action is WAIT and preserve full cash until sentiment becomes statistically extreme and price confirms exhaustion through a liquidity sweep and VWAP reclaim or loss."
+        }
+    ],
+    "ledger": [
+        {
+            "timestamp": "2026-03-11T20:43:53.435305",
+            "type": "DEPOSIT",
+            "amount": 100000.0,
+            "description": "Initial capital deposit",
+            "running_balance": 100000.0
+        }
+    ],
+    "is_running": true,
+    "active_learnings": [],
+    "retired_learnings": [],
+    "latest_analysis": [
+        {
+            "ticker": "TSLA",
+            "analyst_report": "## Institutional Market Briefing: TSLA\n\n### 1. Technical Deep Dive\n- **Price Structure**: Current price $399.27 sits between the 21-day EMA ($407.36) and 200-day EMA ($381.74), creating a compression zone. Multi-timeframe analysis shows bearish alignment on 15m ($399.27), 1h ($399.26), and 1d ($399.27), contrasting with a bullish weekly trend ($399.26 close).\n- **Indicator Confluence**: Daily RSI at 43.65 indicates momentum weakness without reaching oversold territory (<30). MACD registers a bullish crossover despite price stagnation, suggesting potential hidden divergence. ADX at 24.88 confirms a lack of strong trending force, consistent with the \"Bullish (Weak)\" trend score of 2.\n- **Chart Patterns**: Price action is consolidating below the VWAP at $400.14, indicating intraday seller control. Bollinger Bands are \"Normal,\" implying volatility is not currently compressed for an explosive breakout.\n- **Volatility**: Volume ratio is 0.57 (32.56M current vs 57.23M average), signaling a significant decline in participation during this price level. Low volume on weakness suggests either a lack of seller conviction or absent buyer interest.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: VIX at 25.88 indicates elevated market fear, correlating with TSLA's short-term bearish technicals on daily timeframes. US 10Y Yield at 4.25% presents headwinds for high-multiple growth assets. DXY at 99.71 shows a neutral dollar environment.\n- **Fundamental Health**: Trailing PE stands at 376.70 with a Forward PE of 142.08, pricing in significant future growth. Market Cap is $1.49T. Price is 19.9% below the 52-week high ($498.83) and 86.3% above the 52-week low ($214.25).\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Expansion into energy infrastructure versus EV competition. Headlines focus on Tesla obtaining a UK electricity supply license (WSJ, Bloomberg) and competitor XPeng's autonomy progress (Benzinga, Simply Wall Street).\n- **News Reaction**: Price action ignores positive fundamental news; UK license approval did not propel price above VWAP ($400.14) or EMA 21 ($407.36). Market appears to be prioritizing macro headwinds (VIX 25.88) and valuation concerns (Forward PE 142.08) over regulatory approvals.\n- **Insider Activity**: No recent insider activity reported, indicating management neutrality at current price levels ($399.27).\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $400.14 \u2014 Intraday VWAP confluence; price currently trading below this level.\n  - \ud83d\udd34 $407.36 \u2014 21-day EMA; immediate dynamic resistance for short-term trend reversal.\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $381.74 \u2014 200-day EMA; major long-term trend support zone.\n  - \ud83d\udfe2 $399.27 \u2014 Current price consolidation floor; breach invalidates immediate support structure.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Daily close above $407.36 (21 EMA) with volume > 57.23M (Average).\n  - Target: $498.83 (52-week high).\n  - Invalidation: Daily close below $381.74 (200 EMA).\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $400.14 (VWAP) with RSI failing to cross 50.\n  - Target: $381.74 (200 EMA).\n  - Invalidation: Daily close above $407.36 (21 EMA).\n\n- **Risk Factors to Monitor**: VIX levels above 25.88, US 10Y Yield fluctuations around 4.25%, Competitor autonomy developments (XPeng), High valuation multiples (Forward PE 142.08).",
+            "summary": {
+                "current_trend": "Bullish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 5,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 397.02. Relation to EMAs: 20(406.68), 50(417.88), 200(381.72)",
+                "momentum": "RSI: 42.61 (Neutral), MACD: Bullish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.91)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "BTC-USD",
+            "analyst_report": "## Institutional Market Briefing: BTC-USD\n\n### 1. Technical Deep Dive\n- **Price Structure**: Price action at $70,293.40 exhibits a multi-timeframe conflict; 15m and 1h trends are Bullish (RSI ~54.6), while Daily and Weekly trends remain Bearish (Weekly RSI 33.16). Price trades above the 21 EMA ($68,972.32) but remains significantly below the 200 EMA ($87,951.96), indicating a counter-trend rally within a broader downtrend.\n- **Indicator Confluence**: Daily RSI at 51.90 signals neutral momentum, lacking overbought or oversold extremes. MACD registers a Bullish Crossover, suggesting short-term momentum shift despite the weekly bearish bias. ADX at 27.09 confirms a trending environment rather than consolidation.\n- **Chart Patterns**: Price is currently testing the VWAP at $70,066.63; holding above this level is required to maintain intraday bullish structure. No distinct reversal patterns (H&S, Flags) are confirmed without further price data.\n- **Volatility**: Bollinger Bands are classified as \"Normal,\" implying no immediate volatility expansion signal. Volume ratio is 0.68 (Current 145,145 vs Average 212,886), indicating declining participation during the current price advance.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: DXY at 99.69 suggests a weakening USD, historically correlating positively with BTC liquidity. VIX at 26.69 indicates elevated equity market fear, which may limit risk-on appetite for crypto assets. US 10Y Yield sits at 4.25%, maintaining pressure on non-yielding assets.\n- **Fundamental Health**: Market Cap stands at $1.41T with 24h Volume at $42.43B. Current price ($70,293.40) is 44.3% below the 52-week high ($126,198.07) and 17.0% above the 52-week low ($60,074.20), placing asset in the lower quartile of its annual range.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: No specific narrative drivers identified in the provided data feed.\n- **News Reaction**: News section contains empty entries from Yahoo Finance; no specific headlines available to correlate with price action. Market is moving on technical liquidity rather than information flow.\n- **Insider Activity**: No recent insider activity reported. Institutional positioning must be inferred from derivative data alone.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $87,951.96 \u2014 200 EMA confluence on Daily timeframe.\n  - \ud83d\udd34 $70,066.63 \u2014 VWAP level (currently acting as immediate support/resistance flip).\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $68,972.32 \u2014 21 EMA confluence on Daily timeframe.\n  - \ud83d\udfe2 $60,074.20 \u2014 52-week low structural support.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Close above $70,066.63 (VWAP) with volume exceeding 212,886 average.\n  - Target: $87,951.96\n  - Invalidation: $68,972.32\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection below $68,972.32 (21 EMA) with increasing volume.\n  - Target: $60,074.20\n  - Invalidation: $70,066.63\n\n- **Risk Factors to Monitor**: VIX elevation at 26.69 indicates broader market instability; US 10Y Yield at 4.25% remains a headwind for risk assets.\n\n### 5. Derivative Divergence Analysis (Dog vs. Tail)\n- **Global Structure (Dog):** Bearish (Daily and Weekly trends indicate downward price direction).\n- **Local Positioning (Tail):** Funding Rate at -7.381e-05 indicates shorts are paying longs; Open Interest at $5.87B shows significant leverage in the system.\n- **Divergence Verdict:** BULLISH DIVERGENCE\n  - Interpretation: Price trend is bearish, but negative funding rates suggest short positions are crowded and paying fees, creating conditions for a short squeeze if price holds above key support.",
+            "summary": {
+                "current_trend": "Bearish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 5,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 70269.80. Relation to EMAs: 20(68907.96), 50(72904.68), 200(87951.73)",
+                "momentum": "RSI: 51.84 (Neutral), MACD: Bullish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.79)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "SOL-USD",
+            "analyst_report": "## Institutional Market Briefing: SOL-USD\n\n### 1. Technical Deep Dive\n- **Price Structure**: SOL-USD trades at $86.32, positioned below the long-term bearish threshold of the 200 EMA ($129.34) but holding above the short-term 21 EMA ($86.11). Multi-timeframe analysis shows a conflict: 15m and 1h trends are Bullish (RSI 49.38/51.07), while 1d and 1wk trends remain Bearish (RSI 48.26/31.87).\n- **Indicator Confluence**: RSI at 48.29 indicates neutral momentum, lacking overbought or oversold pressure. MACD shows a Bullish Crossover, suggesting potential short-term momentum stabilization. ADX at 23.30 confirms a weak trend environment, reducing the reliability of breakout signals.\n- **Chart Patterns**: Price is consolidating near the 21 EMA ($86.11) and VWAP ($86.20). No distinct reversal patterns (H&S, Flags) are confirmed due to low ADX and normal Bollinger Band status.\n- **Volatility**: Volume ratio is 0.66 (Current 18.2M vs Average 27.7M), indicating declining participation. Bollinger Bands are \"Normal,\" suggesting no immediate volatility expansion is priced in by the bands themselves.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: VIX at 25.81 indicates elevated risk aversion in broader markets, correlating with SOL's weekly bearish trend. DXY at 99.71 suggests slight dollar weakness, which typically supports risk assets, yet SOL remains suppressed below key moving averages. US 10Y Yield at 4.25% maintains pressure on non-yielding assets.\n- **Fundamental Health**: Market Cap stands at $49.2B with 24h volume of $4.02B. Price action is disconnected from 52-week extremes, trading 65.9% below the 52-week high ($253.21) and 25.6% above the 52-week low ($68.69). Valuation metrics (PE/Dividend) are N/A as per asset class structure.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Institutional infrastructure development is the primary driver, highlighted by Coinbase/Aon announcing stablecoin insurance payments using Solana and reports of $650B moved on Solana in February via stablecoin activity.\n- **News Reaction**: Despite positive fundamental flow (stablecoin volume/insurance integration), price remains below the 200 EMA. The market is currently ignoring positive utility news, prioritizing broader macro risk (VIX 25.81) over network activity metrics.\n- **Insider Activity**: No recent insider activity reported. Public commentary exists (Forward Industries exec aiming for \"Berkshire Hathaway of Solana\" despite $1B holdings drawdown), but no actionable insider trade data is available.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section must be FACTUAL ONLY. Do NOT include verdicts, probabilities, or directional calls.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $129.34 \u2014 200 EMA confluence (Long-term trend divider)\n  - \ud83d\udd34 $253.21 \u2014 52-Week High (Historical supply zone)\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $86.11 \u2014 21 EMA (Short-term dynamic support)\n  - \ud83d\udfe2 $68.69 \u2014 52-Week Low (Historical demand zone)\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Close above $129.34 (200 EMA) with volume > 27.7M average\n  - Target: $253.21\n  - Invalidation: Close below $86.11\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $86.11 (21 EMA) with volume > 27.7M average\n  - Target: $68.69\n  - Invalidation: Close above $129.34\n\n- **Risk Factors to Monitor**: VIX elevation above 25.00, US 10Y Yield fluctuations around 4.25%, Stablecoin regulatory developments referenced in news flow.\n\n### 5. Derivative Divergence Analysis (Dog vs. Tail)\n*Only include this section when derivative data is available*\n\n- **Global Structure (Dog):** Bearish (Daily and Weekly trends defined as Bearish in technical data).\n- **Local Positioning (Tail):** Funding Rate at -3.63e-06 (Negative). Open Interest at $800.6M. Negative funding indicates shorts are paying longs, suggesting short-side dominance or hedging.\n- **Divergence Verdict:** ALIGNED\n  - Interpretation: Price trend is Bearish and Funding is Negative. Sentiment aligns with price action; no immediate crowded short squeeze signal detected due to negligible funding rate magnitude.",
+            "summary": {
+                "current_trend": "Bearish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 6,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 86.68. Relation to EMAs: 20(85.99), 50(94.74), 200(129.34)",
+                "momentum": "RSI: 48.83 (Neutral), MACD: Bullish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.77)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "ETH-USD",
+            "analyst_report": "## Institutional Market Briefing: ETH-USD\n\n### 1. Technical Deep Dive\n- **Price Structure**: Asset trades at $2069.82, positioning below the long-term bearish barrier of the 200 EMA ($2777.35) but holding above the short-term 21 EMA ($2027.83). Daily and Weekly trends remain Bearish, while 15m and 1h timeframes show Bullish structure, indicating a counter-trend consolidation phase.\n- **Indicator Confluence**: RSI sits at 50.95 (Neutral), lacking momentum conviction. MACD registers a Bullish Crossover, suggesting immediate upside pressure, yet ADX at 23.39 confirms weak trend strength overall. Price holds above VWAP ($2060.19), providing intraday support.\n- **Chart Patterns**: No distinct reversal patterns (H&S, Flags) identified in provided data; structure resembles a range-bound consolidation between the 21 EMA and 200 EMA.\n- **Volatility**: Bollinger Bands classified as \"Normal,\" implying no immediate volatility expansion. Volume ratio at 0.75 (Current 4.1M vs Avg 5.4M) indicates declining participation, reducing the reliability of current price moves.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: VIX at 26.69 signals elevated equity market fear, typically correlating with risk-off sentiment in crypto. DXY at 99.69 (below parity 100) offers theoretical support for non-dollar assets. US 10Y Yield at 4.25% maintains pressure on non-yielding assets, though ETH now has yield products.\n- **Fundamental Health**: Market Cap stands at $249.98B with 24h Volume at $19.51B. Price is 58.2% below 52-week high ($4953.73) and 49.3% above 52-week low ($1386.80), placing valuation in the mid-range of annual performance. No PE or dividend metrics available for direct equity comparison.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Institutional yield adoption drives current headlines, specifically BlackRock launching a Staked Ethereum ETF offering yield (82% rewards to investors). Tether backing Ark Labs on stablecoin infrastructure adds secondary layer confidence.\n- **News Reaction**: Despite positive institutional yield news (BlackRock), price action remains constrained below the 200 EMA. Market is not exhibiting immediate expansive bullish reaction to fundamental upgrades, suggesting either \"priced-in\" sentiment or capital rotation lag.\n- **Insider Activity**: No recent insider activity reported.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $2777.35 \u2014 200 EMA confluence (Primary long-term trend barrier)\n  - \ud83d\udd34 $2100.00 \u2014 Psychological resistance above current VWAP ($2060.19)\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $2027.83 \u2014 21 EMA (Short-term trend support)\n  - \ud83d\udfe2 $1386.80 \u2014 52-Week Low (Major structural floor)\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Close above $2100.00 with volume ratio > 1.0\n  - Target: $2777.35\n  - Invalidation: Close below $2027.83\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $2060.19 (VWAP) with volume spike\n  - Target: $1386.80\n  - Invalidation: Close above $2100.00\n\n- **Risk Factors to Monitor**: VIX elevation (26.69), Low volume participation (0.75 ratio), US 10Y Yield fluctuations (4.25%).\n\n### 5. Derivative Divergence Analysis (Dog vs. Tail)\n- **Global Structure (Dog):** Bearish (Price below 200 EMA, Daily/Weekly trend negative).\n- **Local Positioning (Tail):** Funding Rate at -0.00001513 indicates shorts are paying longs (slight short skew). Open Interest at $4.33B shows significant capital deployed.\n- **Divergence Verdict:** BULLISH DIVERGENCE\n  - Interpretation: Price structure is bearish, but funding rates are negative. Shorts are crowded relative to the immediate price action, creating potential for a short squeeze if price breaches VWAP ($2060.19) with volume.",
+            "summary": {
+                "current_trend": "Bearish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 5,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 2067.79. Relation to EMAs: 20(2024.27), 50(2218.40), 200(2777.33)",
+                "momentum": "RSI: 50.82 (Neutral), MACD: Bullish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.86)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "GOOGL",
+            "analyst_report": "## Institutional Market Briefing: GOOGL\n\n### 1. Technical Deep Dive\n- **Price Structure**: Price trades at $303.42, positioned below the 21-day EMA ($308.91) but significantly above the 200-day EMA ($255.99). Multi-timeframe analysis shows conflict: Weekly trend is Bullish (RSI 56.39), while 15m, 1h, and 1d trends are Bearish (RSI 36.19, 44.28, 42.38 respectively).\n- **Indicator Confluence**: Daily RSI at 42.38 indicates neutral-to-weak momentum without reaching oversold territory. MACD displays a Bullish Crossover despite the bearish daily price trend, signaling potential momentum divergence. ADX at 29.25 confirms a trending environment rather than consolidation.\n- **Chart Patterns**: Price is currently trading below VWAP ($304.47), indicating intraday seller control. No distinct reversal patterns (e.g., H&S) are confirmed; structure is defined by EMA compression.\n- **Volatility**: Bollinger Bands status is \"Normal,\" suggesting no immediate volatility expansion. Volume ratio is 0.35 (11.36M current vs 32.51M average), indicating a 65% contraction in participation; current price moves lack conviction.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: VIX at 25.88 indicates elevated market fear, correlating with GOOGL's weak daily trend. US 10Y Yield at 4.25% presents headwind for growth valuation multiples. DXY at 99.71 suggests a weaker dollar, typically supportive of multinational tech earnings, though overshadowed by volatility.\n- **Fundamental Health**: Forward P/E of 22.62 is lower than Trailing P/E of 28.09, pricing in earnings growth. Current price ($303.42) is 13.0% below the 52-week high ($349.00) and 115.9% above the 52-week low ($140.53). Market Cap stands at $3.67T.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Conflicting signals between AI infrastructure concerns and institutional accumulation. Voya Financial limiting data center credit due to \"AI Demand Worries\" creates sector headwinds.\n- **News Reaction**: Price action (Bearish Daily Trend) aligns more closely with the negative AI credit narrative than the positive institutional flow (Steginsky Capital LLC purchases). Low volume suggests the market is waiting for clarification on AI demand sustainability.\n- **Insider Activity**: No recent insider activity reported. Institutional buying (Steginsky Capital) is present but insufficient to override broader technical weakness.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section must be FACTUAL ONLY. Do NOT include verdicts, probabilities, or directional calls.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $304.47 \u2014 Intraday VWAP confluence; reclaiming this level shifts intraday control to buyers.\n  - \ud83d\udd34 $308.91 \u2014 21-day EMA; acts as dynamic resistance for the current bearish daily trend.\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $255.99 \u2014 200-day EMA; major long-term trend support zone.\n  - \ud83d\udfe2 $303.42 \u2014 Current price level; failure here extends downside toward weekly support structures.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Close above $308.91 (21 EMA) with volume > 32.51M average.\n  - Target: $349.00 (52-week high).\n  - Invalidation: Close below $303.42 (Current Price).\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $304.47 (VWAP) with RSI failing to cross 50.\n  - Target: $255.99 (200 EMA).\n  - Invalidation: Close above $308.91 (21 EMA).\n\n- **Risk Factors to Monitor**: VIX elevation above 25.88, US 10Y Yield fluctuations around 4.25%, AI sector credit conditions (Voya news impact).",
+            "summary": {
+                "current_trend": "Bullish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 5,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 304.31. Relation to EMAs: 20(308.70), 50(311.32), 200(256.01)",
+                "momentum": "RSI: 43.16 (Neutral), MACD: Bullish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.54)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "NVDA",
+            "analyst_report": "## Institutional Market Briefing: NVDA\n\n### 1. Technical Deep Dive\n- **Price Structure**: Current price $184.57 sits in a consolidation zone between the 200 EMA ($169.62) and 52-week high ($212.19). Daily trend is Bearish while Weekly trend remains Bullish, indicating a medium-term correction within a long-term uptrend. Price is currently trading below the 21 EMA ($184.60) but above VWAP ($183.75).\n- **Indicator Confluence**: RSI at 49.74 (Daily) signals neutral momentum, lacking bullish or bearish conviction. MACD shows a Bearish Crossover, suggesting downward momentum pressure. ADX at 15.10 confirms a weak trend environment, implying range-bound behavior rather than directional expansion.\n- **Chart Patterns**: No distinct reversal or continuation patterns identified in provided data. However, the compression between EMA 21 ($184.60) and VWAP ($183.75) suggests a coiling structure pending volume expansion.\n- **Volatility**: Bollinger Bands status is \"Normal,\" indicating no immediate squeeze condition. Volume analysis shows significant contraction; current volume (76.3M) is 40% of the average (189.2M), suggesting a lack of institutional participation at current levels.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: VIX at 25.88 indicates elevated market fear, correlating with the weak ADX (15.10) and low volume observed in NVDA. US 10Y Yield at 4.25% presents a moderate headwind for high-valuation tech multiples. DXY at 99.71 suggests neutral currency pressure.\n- **Fundamental Health**: Forward P/E of 17.10 contrasts with Trailing P/E of 37.74, pricing in significant earnings growth. Market Cap stands at $4.48T. Price is currently 13.0% below the 52-week high ($212.19) and 112.8% above the 52-week low ($86.62).\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: No asset-specific headlines found in provided [News] section. Narrative is driven by sector-wide proxies: AI demand sustainability (Voya limiting data center credit) and supply chain valuation tests (TSMC).\n- **News Reaction**: Sector peers show mixed signals; LRCX up 33% in three months suggests equipment demand, while Voya's credit limits imply capex caution. NVDA price action (low volume, neutral RSI) suggests the market is currently ignoring sector noise awaiting specific catalysts.\n- **Insider Activity**: No recent insider activity reported. Institutional positioning cannot be inferred from derivative data (Not available).\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section is FACTUAL ONLY. No verdicts or probabilities included.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $184.60 \u2014 21 EMA confluence; immediate intraday ceiling.\n  - \ud83d\udd34 $212.19 \u2014 52-week high; major structural resistance.\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $183.75 \u2014 VWAP level; intraday liquidity support.\n  - \ud83d\udfe2 $169.62 \u2014 200 EMA; major trend defense line.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Close above $184.60 with volume > 189M.\n  - Target: $212.19\n  - Invalidation: Close below $183.75\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $184.60 with MACD bearish expansion.\n  - Target: $169.62\n  - Invalidation: Close above $185.00\n\n- **Risk Factors to Monitor**: VIX elevation (25.88), Sector AI capex concerns (Voya News), Low volume participation (40% of avg).",
+            "summary": {
+                "current_trend": "Bullish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 5,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 182.96. Relation to EMAs: 20(184.41), 50(184.90), 200(169.61)",
+                "momentum": "RSI: 48.05 (Neutral), MACD: Bearish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.65)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "META",
+            "analyst_report": "## Institutional Market Briefing: META\n\n### 1. Technical Deep Dive\n- **Price Structure**: Asset is trading at $640.90, positioned below the 21-day EMA ($653.24) and the 200-day EMA ($664.82). This alignment confirms a bearish market structure where moving averages act as dynamic resistance layers. Multi-timeframe analysis shows consistent bearish trends across 15m, 1h, 1d, and 1wk intervals.\n- **Indicator Confluence**: Daily RSI stands at 44.28, indicating neutral-bearish momentum without reaching oversold territory (<30). MACD registers a bearish crossover. ADX reads 9.85, signaling a weak trend strength despite the bearish direction, suggesting potential consolidation rather than a strong directional move.\n- **Chart Patterns**: Bollinger Bandwidth is compressed at 4.93, indicating a volatility squeeze. Price action is coiling within the bands, typically preceding a volatility expansion event.\n- **Volatility**: Current volume is 3,503,665 shares, significantly below the average of 11,521,843 (Volume Ratio: 0.3). This 70% deviation below average volume confirms the low-volatility squeeze environment indicated by the Bollinger Bands. Price remains below VWAP ($644.29), reinforcing intraday seller control.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: VIX is elevated at 25.83, indicating heightened broader market fear which correlates with META's weak technical score (5/10). US 10Y Yield at 4.25% presents a headwind for growth valuation multiples. SP500 reference level is 6707.14; DXY is at 99.71.\n- **Fundamental Health**: Market Cap stands at $1.62T. Valuation metrics show a Forward P/E of 17.86 compared to a Trailing P/E of 27.26, implying anticipated earnings growth. Current price ($640.90) is approximately 19.5% below the 52-week high ($796.25) and 33.5% above the 52-week low ($479.80). Dividend yield is minimal at 0.32%.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: The provided news feed contains **zero** META-specific catalysts. All equity flow headlines reference Advanced Micro Devices (AMD) or NextEra Energy (NEE). The lack of idiosyncratic news flow aligns with the observed low volume ratio (0.3) and Bollinger Squeeze.\n- **News Reaction**: Price action is decoupled from the provided news stream. Institutional flows mentioned (Elevatus Wealth, Mackenzie Financial, Roberts Capital, Connor Clark & Lunn) are exclusively allocated to AMD, not META. Market movement is currently driven by technical levels and macro factors (VIX/Yields) rather than company-specific headlines.\n- **Insider Activity**: No recent insider activity reported. Derivative data is unavailable for analysis.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section must be FACTUAL ONLY. Do NOT include verdicts, probabilities, or directional calls.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $644.29 \u2014 Intraday VWAP confluence.\n  - \ud83d\udd34 $653.24 \u2014 21-day EMA dynamic resistance.\n  - \ud83d\udd34 $664.82 \u2014 200-day EMA major trend resistance.\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $640.90 \u2014 Current price consolidation floor.\n  - \ud83d\udfe2 $479.80 \u2014 52-week low historical support.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Close above $653.24 (21-day EMA) with volume > 11,521,843.\n  - Target: $664.82 (200-day EMA).\n  - Invalidation: Close below $640.90.\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $644.29 (VWAP) with RSI < 40.\n  - Target: $479.80 (52-week low).\n  - Invalidation: Close above $664.82.\n\n- **Risk Factors to Monitor**: \n  - VIX elevation above 25.83 indicating broader market instability.\n  - US 10Y Yield fluctuations around 4.25% impacting valuation multiples.\n  - Liquidity risk due to current volume 70% below average (3.5M vs 11.5M).\n  - Absence of specific catalyst news in current feed.",
+            "summary": {
+                "current_trend": "Bearish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 8,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 638.08. Relation to EMAs: 20(652.81), 50(655.95), 200(664.79)",
+                "momentum": "RSI: 43.29 (Neutral), MACD: Bearish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.59)"
+            },
+            "trade_setup": {
+                "entry_zone": "634.89 - 641.27",
+                "stop_loss": "666.39",
+                "target_1": "581.45",
+                "target_2": "553.14",
+                "risk_reward": "1:2",
+                "duration": "3-14 Days"
+            },
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "AMD",
+            "analyst_report": "## Institutional Market Briefing: AMD\n\n### 1. Technical Deep Dive\n- **Price Structure**: Asset trades at $199.54, positioned below the 21 EMA ($204.70) indicating short-term bearish momentum, yet remains above the 200 EMA ($182.59) preserving the long-term bullish market structure. Multi-timeframe analysis reveals a divergence: Weekly trend is Bullish (RSI 48.9), while 15m, 1h, and 1d trends are Bearish (RSI 41.81, 45.28, 45.20 respectively).\n- **Indicator Confluence**: Daily RSI at 45.20 sits in neutral territory, lacking the momentum required for a decisive breakout above the $204.70 EMA 21 resistance. ADX at 15.73 confirms a weak trend environment, suggesting consolidation rather than directional expansion. MACD indicates a Bullish Crossover, conflicting with the bearish price action on sub-daily timeframes.\n- **Chart Patterns**: Price compression is evident between the 21 EMA ($204.70) and 200 EMA ($182.59), creating a $22.11 range-bound structure. Current price ($199.54) is trading below VWAP ($199.94), signaling intraday seller control.\n- **Volatility**: Bollinger Bands are \"Normal\", indicating no immediate volatility expansion signal. Volume is critically low at 15.15M against an average of 34.96M (Ratio 0.43), suggesting the current downward pressure lacks institutional conviction.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: VIX at 25.81 indicates elevated market fear, correlating with AMD's weak short-term technical score (2/10). US 10Y Yield at 4.25% presents a headwind for high-multiple tech assets, while DXY at 99.7 offers neutral currency conditions. SP500 at 6708.07 provides the broader equity context for beta correlation.\n- **Fundamental Health**: Trailing PE stands at 76.74, contrasting sharply with a Forward PE of 18.33, pricing in significant earnings growth expectations. Market Cap is $325.3B. Price action is 25.3% below the 52-week high ($267.08) and 161.0% above the 52-week low ($76.48).\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Supply chain stability vs. Institutional accumulation. Headlines highlight \"TSMC Supply Chain Risks Rise As Valuation Premium Faces New Test,\" directly impacting AMD's fabless manufacturing model.\n- **News Reaction**: Despite supply chain risk headlines, institutional capital continues to deploy; Mackenzie Financial Corp holds a $74.33M position and Elevatus Wealth Management holds $2.14M. The market is currently ignoring broader sector volatility (Astera Labs share price volatility) to focus on specific supply chain valuation tests.\n- **Insider Activity**: No recent insider activity reported; institutional flows (Mackenzie, Elevatus) are the primary drivers of sentiment data.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section must be FACTUAL ONLY. Do NOT include verdicts, probabilities, or directional calls.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $204.70 \u2014 21 EMA confluence; breach required to negate short-term bearish trend.\n  - \ud83d\udd34 $267.08 \u2014 52-week high; major liquidity zone for long-term breakout.\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $199.94 \u2014 VWAP level; immediate intraday support.\n  - \ud83d\udfe2 $182.59 \u2014 200 EMA confluence; critical long-term trend support.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Close above $204.70 (21 EMA) with volume > 34.96M.\n  - Target: $267.08 (52-week high).\n  - Invalidation: Close below $182.59 (200 EMA).\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $204.70 (21 EMA) with RSI < 45.\n  - Target: $182.59 (200 EMA).\n  - Invalidation: Close above $204.70.\n\n- **Risk Factors to Monitor**: TSMC supply chain valuation tests (News), VIX elevation above 25.81, Volume sustained below 34.96M average.",
+            "summary": {
+                "current_trend": "Bullish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 5,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 197.60. Relation to EMAs: 20(204.16), 50(211.29), 200(182.57)",
+                "momentum": "RSI: 44.13 (Neutral), MACD: Bullish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.65)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "TSM",
+            "analyst_report": "## Institutional Market Briefing: TSM\n\n### 1. Technical Deep Dive\n- **Price Structure**: Price action at $340.42 sits below the 21-day EMA ($354.85), indicating short-term bearish momentum, while remaining above the 200-day EMA ($279.47), preserving the long-term bullish market structure. Multi-timeframe analysis reveals a divergence: Weekly trend is Bullish (RSI 61.05), whereas 15m, 1h, and 1d trends are Bearish (RSI 34.04, 38.92, 43.28 respectively).\n- **Indicator Confluence**: Daily RSI at 43.26 indicates neutral-to-weak momentum without reaching oversold territory (<30). MACD confirms a Bearish Crossover. ADX at 19.07 signals a weak trend environment, suggesting consolidation rather than a strong directional breakout. Price trading below VWAP ($341.23) confirms intraday seller dominance.\n- **Chart Patterns**: No distinct reversal or continuation patterns (e.g., Flags, H&S) are explicitly identified in the current data set. The divergence between weekly bullishness and daily bearishness suggests a corrective phase within a broader uptrend.\n- **Volatility**: Bollinger Bands are classified as \"Normal,\" indicating no immediate volatility squeeze. However, broader market VIX at 25.81 suggests elevated systemic volatility which may expand TSM's trading ranges. Volume is below average (10.3M vs 12.2M avg, ratio 0.85), indicating lack of conviction in the current downward move.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: Elevated VIX (25.81) correlates with TSM's short-term technical weakness. US 10Y Yield at 4.25% presents a headwind for tech valuation multiples. DXY at 99.69 suggests a neutral currency impact on export revenues.\n- **Fundamental Health**: Forward P/E of 18.87 contrasts with Trailing P/E of 32.77, implying anticipated earnings growth of approximately 42% year-over-year. Market Cap stands at $1.76T. Current price ($340.42) is 12.7% below the 52-week high ($390.21) and 153% above the 52-week low ($134.25). Dividend yield is 0.99%.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Headlines highlight rising supply chain risks testing valuation premiums (Simply Wall Street). Counter-narrative focuses on Taiwan's semiconductor ecosystem powering next-gen embedded systems through 2026 (IndexBox).\n- **News Reaction**: Price weakness contrasts with institutional accumulation. Shannon River Fund Management LLC purchased 8,701 shares. Douglass Winthrop Advisors LLC maintains a $16.45 Million position. PFG Advisors purchased 1,878 shares. This divergence suggests institutions are utilizing the pullback to accumulate despite negative headline risk.\n- **Insider Activity**: No recent insider activity reported.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section must be FACTUAL ONLY. Do NOT include verdicts, probabilities, or directional calls.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $354.85 \u2014 21-day EMA confluence; immediate dynamic resistance.\n  - \ud83d\udd34 $390.21 \u2014 52-week high; major structural resistance.\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $340.00 \u2014 Current price consolidation zone; psychological support.\n  - \ud83d\udfe2 $279.47 \u2014 200-day EMA; major long-term trend support.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Price closes above $354.85 (21-day EMA) with volume > 12.2M average.\n  - Target: $390.21 (52-week high).\n  - Invalidation: Price closes below $340.00.\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Price rejects below $341.23 (VWAP) with increasing volume.\n  - Target: $279.47 (200-day EMA).\n  - Invalidation: Price closes above $354.85.\n\n- **Risk Factors to Monitor**: Supply chain risk developments (Simply Wall Street), US 10Y Yield fluctuations (Current: 4.25%), Elevated VIX (Current: 25.81).",
+            "summary": {
+                "current_trend": "Bullish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 5,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 338.14. Relation to EMAs: 20(354.77), 50(343.25), 200(279.44)",
+                "momentum": "RSI: 42.33 (Neutral), MACD: Bearish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 1.18)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "ASML",
+            "analyst_report": "## Institutional Market Briefing: ASML\n\n### 1. Technical Deep Dive\n- **Price Structure**: Current price ($1355.93) sits below the 21-day EMA ($1394.41), indicating short-term bearish pressure, while remaining above the 200-day EMA ($1047.90), preserving the long-term bullish market structure. Multi-timeframe analysis shows divergence: Weekly trend is Bullish (RSI 63.61), whereas 15m, 1h, and 1d trends are Bearish with RSI values of 43.37, 45.01, and 45.97 respectively.\n- **Indicator Confluence**: Daily RSI at 45.97 occupies neutral territory, lacking momentum for a sustained directional move. MACD signals a Bearish Crossover, aligning with the short-term EMA rejection. ADX at 22.21 confirms a weak trend environment, suggesting consolidation rather than trending behavior.\n- **Chart Patterns**: Price action is currently compressing between the VWAP ($1353.76) and the 21-day EMA ($1394.41). No distinct reversal patterns (H&S, Flags) are explicitly identified in the data, but the failure to hold above the 21-day EMA suggests a potential lower high formation.\n- **Volatility**: Bollinger Bands are classified as \"Normal,\" indicating no immediate squeeze condition. However, volume analysis shows a ratio of 0.69 (Current 1,016,911 vs Average 1,472,005), signaling below-average participation and lack of conviction in the current price level.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: Broader market volatility is elevated with VIX at 25.74, creating a risk-off backdrop for high-beta tech assets. US 10Y Yield at 4.25% imposes discount rate pressure on growth valuations. DXY at 99.7 suggests a neutral-to-weak dollar environment, which typically supports exporters like ASML.\n- **Fundamental Health**: Forward P/E of 31.14 contrasts with a Trailing P/E of 47.24, implying anticipated earnings expansion. Market Cap stands at $532.4B. Current price ($1355.93) is 12.3% below the 52-week high ($1547.22) and 134.4% above the 52-week low ($578.51). Dividend yield is minimal at 0.63%.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Corporate governance and institutional positioning are the primary drivers. Headlines focus on the 2026 AGM agenda, Board changes, and new CTO appointment plans.\n- **News Reaction**: Institutional flow is divergent. DE Burlo Group Inc. trimmed their stock position, signaling caution. Conversely, Van ECK Associates Corp acquired shares, and Capital Group Private Client Services Inc. maintains $4.30 Million in holdings. A specific event on Mar 10 saw the stock open up 6.62%, though current technicals indicate that gap has been partially faded or consolidated given the current bearish short-term trend.\n- **Insider Activity**: No recent insider activity reported. Institutional moves are mixed (trimming vs. acquiring), suggesting no consensus among large cap managers.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section must be FACTUAL ONLY. Do NOT include verdicts, probabilities, or directional calls.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $1394.41 \u2014 21-day EMA confluence; immediate short-term ceiling.\n  - \ud83d\udd34 $1547.22 \u2014 52-week high; major structural resistance.\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $1353.76 \u2014 VWAP level; immediate intraday support.\n  - \ud83d\udfe2 $1047.90 \u2014 200-day EMA; major long-term trend support.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Daily close above $1394.41 with volume exceeding 1,472,005.\n  - Target: $1547.22\n  - Invalidation: Daily close below $1353.76\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $1394.41 with RSI failing to cross 50.\n  - Target: $1047.90\n  - Invalidation: Daily close above $1547.22\n\n- **Risk Factors to Monitor**: Elevated VIX at 25.74 indicating broader market instability, US 10Y Yield movements around 4.25%, mixed institutional flow (trimming vs. acquiring).",
+            "summary": {
+                "current_trend": "Bullish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 5,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 1351.98. Relation to EMAs: 20(1394.23), 50(1342.62), 200(1047.86)",
+                "momentum": "RSI: 45.57 (Neutral), MACD: Bearish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.95)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "MRVL",
+            "analyst_report": "## Institutional Market Briefing: MRVL\n\n### 1. Technical Deep Dive\n- **Price Structure**: Asset trades at $89.04, positioned above the 21-day EMA ($83.70) and 200-day EMA ($77.20), confirming a higher-low structure on daily/weekly timeframes. However, the 15-minute trend is Bearish (RSI 38.69) against the Daily Bullish trend (RSI 59.74), indicating short-term consolidation within a broader uptrend.\n- **Indicator Confluence**: Daily RSI at 59.72 indicates momentum without overbought conditions. MACD registers a Bullish Crossover, yet ADX at 19.84 signals weak trend strength, suggesting the current bullish bias lacks directional conviction.\n- **Chart Patterns**: Bollinger Bands are \"Normal\" with price tracking near VWAP ($89.04), indicating a compression phase. No distinct reversal patterns (H&S, Wedges) are identified in the current data set.\n- **Volatility**: Volume ratio is 0.34 (6.53M current vs 19.37M average), marking a significant deviation from norm. Low volume during a bullish price structure often precedes volatility expansion or trend failure.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: VIX at 25.79 indicates elevated market fear, which typically correlates with compressed multiples for growth tech. US 10Y Yield at 4.25% presents a headwind for valuation expansion. DXY at 99.69 suggests a neutral currency environment for multinational revenue translation.\n- **Fundamental Health**: Forward P/E of 16.36 is substantially lower than Trailing P/E of 29.01, pricing in significant earnings growth. Current price ($89.04) remains 13.4% below the 52-week high ($102.77), offering room before testing historical resistance. Market Cap stands at $77.78B.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Institutional accumulation driven by AI revenue expectations. Headlines explicitly cite \"Bigger AI Revenue Bet Draws Wall Street Backing\" as the primary price driver.\n- **News Reaction**: Multiple institutional entities (Franklin Resources, Van ECK Associates, Winton Group) are reported acquiring shares. Despite headlines stating \"Stock Rises,\" technical volume data (0.34 ratio) suggests accumulation is occurring via passive limits rather than aggressive market orders.\n- **Insider Activity**: No recent insider activity reported. Institutional flow is the sole driver of current sentiment shifts.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section is FACTUAL ONLY. No verdicts, probabilities, or directional calls.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $102.77 \u2014 52-Week High liquidity zone.\n  - \ud83d\udd34 $90.00 \u2014 Psychological resistance aligning with current VWAP ($89.04) consolidation ceiling.\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $83.70 \u2014 21-day EMA confluence (short-term trend defense).\n  - \ud83d\udfe2 $77.20 \u2014 200-day EMA confluence (long-term trend defense).\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Close above $90.00 with volume > 19.37M (Average).\n  - Target: $102.77\n  - Invalidation: Daily close below $83.70\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $90.00 with RSI > 70 on 1H timeframe.\n  - Target: $83.70\n  - Invalidation: Daily close above $102.77\n\n- **Risk Factors to Monitor**: VIX elevation (25.79), US 10Y Yield fluctuations (4.25%), Volume divergence (Current 6.53M vs Avg 19.37M).",
+            "summary": {
+                "current_trend": "Bullish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 6,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 87.63. Relation to EMAs: 20(83.69), 50(82.74), 200(77.19)",
+                "momentum": "RSI: 57.24 (Neutral), MACD: Bullish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.6)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "MU",
+            "analyst_report": "## Institutional Market Briefing: MU\n\n### 1. Technical Deep Dive\n- **Price Structure**: Asset trades at $405.42, maintaining position above the 21-day EMA at $401.45 and significantly above the 200-day EMA at $242.18. Daily trend classification is \"Bullish (Weak)\" with a trend score of 3, while the 15-minute timeframe shows a \"Bearish\" trend with RSI at 42.01, indicating short-term pressure within the broader uptrend.\n- **Indicator Confluence**: Daily RSI sits at 52.09, residing in neutral territory without divergence. MACD registers a \"Bearish Crossover,\" signaling momentum deceleration despite price holding above key moving averages. ADX reads 21.71, confirming a weak trend environment lacking strong directional conviction.\n- **Chart Patterns**: Price action is consolidating near the VWAP of $405.27. The discrepancy between the 1-week RSI (69.69) and Daily RSI (52.09) suggests higher timeframe strength is fading into the medium term.\n- **Volatility**: Bollinger Bands are classified as \"Normal,\" suggesting no immediate expansion breakout. However, volume ratio is 0.62 (19.58M current vs 31.35M average), indicating declining participation which often precedes volatility expansion or trend exhaustion.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: VIX at 25.79 indicates elevated market fear, which correlates with the \"Weak\" trend classification on MU. US 10Y Yield at 4.25% presents a headwind for tech valuation multiples, while DXY at 99.69 offers slight relief for exporters.\n- **Fundamental Health**: Trailing PE stands at 38.58, contrasting sharply with a Forward PE of 8.51, implying analysts expect significant earnings expansion to justify current prices. Market Cap is $456.41B. Price is currently 11.0% below the 52-week high of $455.50.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Media commentary (24/7 Wall St.) suggests buying on \"oil-driven dips,\" positioning the asset as a value play during macro weakness.\n- **News Reaction**: Institutional flow contradicts media narrative; Franklin Resources Inc. explicitly \"Reduces Stock Position in Micron Technology, Inc.\" per MarketBeat data. This creates a divergence between retail/media sentiment (Buy) and institutional positioning (Reduce).\n- **Insider Activity**: No recent insider activity reported. Institutional reduction by Franklin Resources coincides with similar reductions in sector peer Applied Materials ($AMAT), suggesting a broader semi-equipment/memory sector de-risking by this specific firm.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section must be FACTUAL ONLY. Do NOT include verdicts, probabilities, or directional calls.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $455.50 \u2014 52-Week High boundary.\n  - \ud83d\udd34 $410.00 \u2014 Psychological resistance above current VWAP ($405.27) and Daily Close ($405.42).\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $401.45 \u2014 21-day EMA confluence.\n  - \ud83d\udfe2 $400.00 \u2014 Psychological support zone aligning with 21-day EMA proximity.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Daily close above $410.00 with volume exceeding 31.35M average.\n  - Target: $455.50\n  - Invalidation: Daily close below $401.45\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Daily close below $401.45 with MACD remaining in bearish crossover.\n  - Target: $242.18 (200-day EMA)\n  - Invalidation: Daily close above $410.00\n\n- **Risk Factors to Monitor**: VIX elevation at 25.79, Institutional reduction flows (Franklin Resources), Forward PE compression reliance (8.51x).",
+            "summary": {
+                "current_trend": "Bullish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 6,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 406.49. Relation to EMAs: 20(401.94), 50(375.13), 200(242.19)",
+                "momentum": "RSI: 52.39 (Neutral), MACD: Bearish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.85)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "ARM",
+            "analyst_report": "## Institutional Market Briefing: ARM\n\n### 1. Technical Deep Dive\n- **Price Structure**: Current price $115.94 sits below the 21-period EMA ($120.97) and the 200-period EMA ($129.43), confirming a bearish structure across 15m, 1h, 1d, and 1wk timeframes. Price is trading below the VWAP at $116.56, indicating intraday seller control.\n- **Indicator Confluence**: Daily RSI at 43.29 signals neutral-bearish momentum, while the 15m RSI at 34.53 indicates stronger short-term selling pressure. MACD displays a bearish crossover, aligning with the downward price action. ADX at 14.17 suggests the current bearish trend lacks strong directional conviction (value < 20).\n- **Chart Patterns**: Price action is consolidating below the VWAP ($116.56) with no clear reversal pattern formed. The relationship between price ($115.94) and the 200 EMA ($129.43) shows a ~10.4% gap to key dynamic resistance.\n- **Volatility**: Bollinger Bands are classified as \"Normal,\" indicating no immediate squeeze condition. Volume ratio is 0.35 (1.35M current vs 3.83M average), suggesting the current price decline is occurring on low participation.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: VIX at 25.82 indicates elevated market volatility, correlating with weakness in high-valuation tech assets. US 10Y Yield at 4.25% presents a headwind for growth stocks with high forward multiples. DXY at 99.7 shows neutral dollar strength relative to the asset's movement.\n- **Fundamental Health**: Trailing PE stands at 156.68, while Forward PE is 54.19, pricing in significant earnings growth expectations. Market Cap is $123.13B. Current price ($115.94) is 36.7% below the 52-week high of $183.16 and 44.9% above the 52-week low of $80.00.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Institutional flows are divergent; Capital World Investors is lowering positions while Capital Research Global Investors is making new investments. First Trust Advisors LP is also growing stock holdings.\n- **News Reaction**: Stock price moved up 3.96% on Mar 10 per TradingKey data, yet current technicals show a bearish trend, indicating the March 10 rally was not sustained. Benzinga coverage questions market sentiment, aligning with the mixed institutional activity.\n- **Insider Activity**: No recent insider activity reported. Institutional positioning shows a split between reduction (Capital World) and accumulation (Capital Research, First Trust).\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section must be FACTUAL ONLY. Do NOT include verdicts, probabilities, or directional calls.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $116.56 \u2014 Intraday VWAP confluence; price currently trading below this level.\n  - \ud83d\udd34 $120.97 \u2014 21-period EMA alignment; immediate dynamic resistance on daily timeframe.\n  - \ud83d\udd34 $129.43 \u2014 200-period EMA; major trend reversal threshold.\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $115.94 \u2014 Current price level; immediate support test.\n  - \ud83d\udfe2 $80.00 \u2014 52-week low; historical major support floor.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Price closes above $120.97 (21 EMA) with volume exceeding 3.83M average.\n  - Target: $129.43 (200 EMA).\n  - Invalidation: Price closes below $115.94 (Current Price).\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Price rejects at $116.56 (VWAP) with RSI failing to cross above 50.\n  - Target: $80.00 (52-week low).\n  - Invalidation: Price closes above $120.97 (21 EMA).\n\n- **Risk Factors to Monitor**: US 10Y Yield fluctuations around 4.25%, VIX levels above 25.82, divergent institutional filing activity (Capital World vs. Capital Research).",
+            "summary": {
+                "current_trend": "Bearish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 8,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 114.97. Relation to EMAs: 20(120.90), 50(121.59), 200(129.42)",
+                "momentum": "RSI: 42.25 (Neutral), MACD: Bearish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.65)"
+            },
+            "trade_setup": {
+                "entry_zone": "114.40 - 115.54",
+                "stop_loss": "124.01",
+                "target_1": "96.89",
+                "target_2": "87.85",
+                "risk_reward": "1:2",
+                "duration": "3-14 Days"
+            },
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "AVGO",
+            "analyst_report": "## Institutional Market Briefing: AVGO\n\n### 1. Technical Deep Dive\n- **Price Structure**: Price action at $337.64 maintains structure above the EMA 200 ($304.68) and EMA 21 ($332.04), confirming the Daily and Weekly bullish trends despite a Bearish 15m timeframe.\n- **Indicator Confluence**: RSI sits at 53.68 (Daily), indicating neutral momentum with room for expansion, while MACD registers a Bullish Crossover. ADX at 17.01 signals weak trend strength, suggesting consolidation rather than impulsive movement.\n- **Chart Patterns**: Price consolidates near VWAP ($336.28); the divergence between Bullish Daily/Weekly trends and Bearish 15m trends indicates a short-term pullback within a longer-term uptrend.\n- **Volatility**: Bollinger Bands are \"Normal\" with no squeeze indicated; current volume (8.44M) is significantly below average (25.13M), yielding a volume ratio of 0.34 which suggests low conviction in the current price level.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: Elevated VIX at 25.82 indicates broader market fear which may cap immediate upside; US 10Y Yield at 4.25% presents a moderate headwind for tech valuation multiples.\n- **Fundamental Health**: Trailing PE of 65.97 contrasts sharply with Forward PE of 19.26, pricing in significant earnings growth; stock trades well above 52-week low ($138.10) but remains 18.5% below 52-week high ($414.61).\n- **Valuation Context**: Market cap stands at $1.6T with a dividend yield of 0.76%; the disparity between trailing and forward multiples suggests the market is valuing future AI-driven cash flow rather than past performance.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Media focus centers on AI infrastructure driving cash flow, highlighted by Seeking Alpha headline: \"AI Is Turning This Chip Giant Into A Strong Buy Cash Flow Machine\".\n- **News Reaction**: Analytical caution persists post-earnings, evidenced by Morningstar headline questioning valuation: \"After Earnings, Is Broadcom Stock a Buy, a Sell, or Fairly Valued?\".\n- **Insider Activity**: No recent insider activity reported; institutional positioning remains opaque without derivative data.\n- **Sentiment Nuance**: The conflict between \"Strong Buy\" narratives and valuation questioning correlates with the technical \"WAIT\" decision and low volume ratio (0.34), indicating market participants are pausing to assess fundamental justification at current levels.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section must be FACTUAL ONLY. Do NOT include verdicts, probabilities, or directional calls.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $414.61 \u2014 52-Week High structural ceiling\n  - \ud83d\udd34 $340.00 \u2014 Psychological resistance above 1H/15M close ($337.76)\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $336.28 \u2014 VWAP confluence\n  - \ud83d\udfe2 $332.04 \u2014 EMA 21 dynamic support\n  - \ud83d\udfe2 $304.68 \u2014 EMA 200 major trend support\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Close above $340.00 with volume exceeding 25.13M average\n  - Target: $414.61\n  - Invalidation: Close below $332.04\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $340.00 with 15m trend remaining Bearish\n  - Target: $332.04\n  - Invalidation: Close above $340.00\n\n- **Risk Factors to Monitor**: VIX elevation at 25.82, US 10Y Yield fluctuations at 4.25%, Post-earnings valuation reassessment cited in Morningstar report.",
+            "summary": {
+                "current_trend": "Bullish",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 6,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 335.56. Relation to EMAs: 20(331.87), 50(335.07), 200(304.66)",
+                "momentum": "RSI: 52.29 (Neutral), MACD: Bullish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.56)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "ALAB",
+            "analyst_report": "## Institutional Market Briefing: ALAB\n\n### 1. Technical Deep Dive\n- **Price Structure**: Asset trades at $120.19, establishing a Lower High/Lower Low structure relative to the 52-week high of $262.90. Price remains suppressed below the 21-day EMA ($127.90) and 200-day EMA ($138.24), confirming bearish alignment across 15m, 1h, 1d, and 1wk timeframes.\n- **Indicator Confluence**: Daily RSI at 42.66 indicates neutral-bearish momentum without reaching oversold conditions (<30). MACD displays a bullish crossover signal, creating a divergence against the prevailing bearish price trend. ADX at 19.53 signals a weak trend environment, suggesting consolidation rather than strong directional movement.\n- **Chart Patterns**: Price action is compressing within normal Bollinger Bands, lacking the expansion required for breakout confirmation. No distinct reversal patterns (e.g., H&S, Flags) are identifiable within the provided dataset.\n- **Volatility**: Current volume stands at 1,412,824 against an average of 5,063,861 (Ratio 0.28), indicating significantly reduced participation. Price trading below VWAP ($120.85) confirms intraday seller control despite low volatility readings.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: Elevated VIX at 25.99 correlates with ALAB's weak trend score (3/10), reflecting broader market risk aversion. US 10Y Yield at 4.25% imposes pressure on high-multiple growth assets, limiting multiple expansion potential.\n- **Fundamental Health**: Market Cap resides at $20.46B. Valuation compression is evident with Trailing P/E at 98.51 versus Forward P/E at 34.12, pricing in significant earnings growth. Current price ($120.19) represents a 54.3% decline from the 52-week high ($262.90), adjusting entry multiples relative to peak valuation.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Institutional accumulation versus price weakness. Headlines highlight Silvant Capital Management LLC buying a new stake and First Trust Advisors LP growing holdings, contrasting with the technical bearish trend.\n- **News Reaction**: Timothy Sykes reporting \"Stock Soars\" conflicts with technical data showing a bearish trend and price below key EMAs. This divergence suggests headlines may be lagging price action or failing to catalyze buying pressure. Simply Wall Street questioning timing after volatility reinforces market caution.\n- **Insider Activity**: No recent insider activity reported. Sentiment is driven exclusively by institutional 13F-style flows (Silvant, First Trust) and conference participation (38th Annual Roth Conference).\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section must be FACTUAL ONLY. Do NOT include verdicts, probabilities, or directional calls.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $127.90 \u2014 21-day EMA confluence; immediate dynamic resistance.\n  - \ud83d\udd34 $138.24 \u2014 200-day EMA; major trend reversal threshold.\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $120.19 \u2014 Current price base; immediate consolidation floor.\n  - \ud83d\udfe2 $47.125 \u2014 52-week low; historical structural support.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Close above $127.90 (21-day EMA) with volume > 5,063,861.\n  - Target: $138.24 (200-day EMA).\n  - Invalidation: Daily close below $120.19.\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $120.85 (VWAP) or $127.90 (21-day EMA).\n  - Target: $47.125 (52-week low).\n  - Invalidation: Daily close above $138.24.\n\n- **Risk Factors to Monitor**: \n  - Elevated VIX (25.99) indicating broader market instability.\n  - US 10Y Yield (4.25%) impacting growth stock valuations.\n  - Discrepancy between bullish institutional flow headlines and bearish price action.",
+            "summary": {
+                "current_trend": "Bearish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 6,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 119.27. Relation to EMAs: 20(127.17), 50(141.62), 200(138.23)",
+                "momentum": "RSI: 42.20 (Neutral), MACD: Bullish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Low Volume (Ratio: 0.47)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "PLTR",
+            "analyst_report": "## Institutional Market Briefing: PLTR\n\n### 1. Technical Deep Dive\n- **Price Structure**: Asset trades at $154.93, positioned above the 200-day EMA ($150.72) and 21-day EMA ($147.52), confirming a bullish market structure across daily and weekly timeframes.\n- **Indicator Confluence**: Daily RSI sits at 57.53, indicating neutral momentum with capacity for upside before overbought conditions (>70). MACD registers a Bullish Crossover, though ADX at 21.54 suggests the current trend lacks strong directional conviction (below 25 threshold).\n- **Volume Analysis**: Current volume (30.68M) is 57% of the average (53.51M). This volume deficit during a bullish price structure indicates a lack of institutional aggression or potential accumulation phase.\n- **Volatility**: Bollinger Bands are classified as \"Normal,\" suggesting no immediate volatility expansion. However, price remains above VWAP ($153.93), providing intraday bullish bias.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: Broader market volatility is elevated with VIX at 25.99, potentially constraining multiple expansion for high-growth assets. US 10Y Yield at 4.25% presents a headwind for valuation compression given the asset's earnings profile. DXY at 99.7 indicates a neutral dollar environment.\n- **Fundamental Health**: Trailing PE stands at 242.05, significantly higher than the Forward PE of 83.82, pricing in substantial earnings growth. Market Cap is $370.5B. Price action remains 25.3% below the 52-week high ($207.52) and 134.3% above the 52-week low ($66.12).\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: Capital flows are driven by AI integration within defense and industrial sectors, specifically highlighted by partnerships with GE Aerospace and Centrus for production efficiency and nuclear capabilities.\n- **News Reaction**: Positive headlines regarding US Air Force jet maintenance and nuclear sector AI adoption have not yet triggered disproportionate volume spikes (Volume Ratio 0.57). The market is acknowledging the news without aggressive repricing.\n- **Insider Activity**: No recent insider activity reported, leaving institutional positioning unclear via Form 4 data.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n**\u26a0\ufe0f IMPORTANT: This section must be FACTUAL ONLY. Do NOT include verdicts, probabilities, or directional calls.**\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $207.52 \u2014 52-Week High liquidity zone.\n  - \ud83d\udd34 $160.00 \u2014 Psychological resistance level above current price action.\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $150.72 \u2014 200-day EMA confluence.\n  - \ud83d\udfe2 $147.52 \u2014 21-day EMA dynamic support.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Daily close above $160.00 with volume > 53.51M average.\n  - Target: $207.52\n  - Invalidation: Daily close below $147.52\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $160.00 with RSI divergence > 70.\n  - Target: $150.72\n  - Invalidation: Daily close above $160.00\n\n- **Risk Factors to Monitor**: VIX elevation above 25.99, US 10Y Yield movement above 4.25%, sustained volume ratio below 0.80.",
+            "summary": {
+                "current_trend": "Bullish",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 6,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 153.54. Relation to EMAs: 20(147.38), 50(153.14), 200(150.70)",
+                "momentum": "RSI: 56.28 (Neutral), MACD: Bullish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.85)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        },
+        {
+            "ticker": "GOOG",
+            "analyst_report": "## Institutional Market Briefing: GOOG\n\n### 1. Technical Deep Dive\n- **Price Structure**: Asset trades at $303.65, positioned below the 21-day EMA ($308.98) but significantly above the 200-day EMA ($256.76). Multi-timeframe analysis reveals a conflict: Weekly trend remains Bullish (RSI 56.3), while 15m, 1h, and 1d trends are Bearish (RSI 40.39, 45.79, 42.39 respectively). This indicates a short-term corrective phase within a broader secular uptrend.\n- **Indicator Confluence**: Daily RSI at 42.39 signals neutral-to-weak momentum without reaching oversold territory (<30). MACD registers a \"Bullish Crossover\" despite bearish price action on daily timeframes, suggesting underlying momentum is attempting to stabilize while price lags. ADX at 29.43 confirms the presence of a defined trend rather than a ranging market.\n- **Chart Patterns**: Price is currently testing the VWAP level of $304.38 from below, indicating intraday seller control. No distinct reversal patterns (e.g., H&S, Flags) are confirmed; structure is defined by the compression between the 21 EMA resistance and 200 EMA support.\n- **Volatility**: Bollinger Bands are \"Normal,\" indicating no immediate expansion breakout signal. However, volume analysis shows a critical contraction: current volume (6,227,328) is 31% of the average (19,992,006). This low participation ratio (0.31) suggests the current downward price pressure lacks aggressive institutional conviction.\n\n### 2. Macro & Fundamental Landscape\n- **Macro Correlation**: Broader market volatility is elevated with VIX at 26.09, correlating with the \"Weak\" bullish trend score on GOOG. US 10Y Yield at 4.25% presents a moderate headwind for growth valuation multiples. DXY at 99.7 suggests neutral currency pressure.\n- **Fundamental Health**: Forward P/E of 22.63 is discounted relative to the Trailing P/E of 28.13, implying analyst expectations for earnings expansion. Current price ($303.65) sits 13.3% below the 52-week high ($350.15) and 112% above the 52-week low ($142.66). Market Cap stands at $3.67T. Dividend yield is minimal at 0.27%.\n\n### 3. Sentiment & Narrative Analysis\n- **Dominant Narrative**: AI infrastructure and deployment remain the core equity story, reinforced by Northern Trust commentary on \"Vibe Coding and Vibe Shifting.\"\n- **News Reaction**: Steginsky Capital LLC reported purchasing shares despite the recent price weakness. This institutional accumulation contrasts with the bearish short-term price action, suggesting smart money may be utilizing the correction for entry.\n- **Insider Activity**: No recent insider activity reported. Institutional flow (Steginsky) is the only confirmed smart money signal in the provided data set.\n- **Nuance**: The market is exhibiting low-volume decay rather than high-volume capitulation. The lack of selling volume (0.31 ratio) during the bearish daily trend suggests absence of supply rather than overwhelming demand.\n\n### 4. Key Levels & Setup Identification (Data Only \u2014 No Opinion)\n\n- **Key Resistance Levels**:\n  - \ud83d\udd34 $308.98 \u2014 Confluence with 21-day EMA; reclaiming this level is required to neutralize short-term bearish trend.\n  - \ud83d\udd34 $350.15 \u2014 52-week high; major structural resistance ceiling.\n\n- **Key Support Levels**:\n  - \ud83d\udfe2 $304.38 \u2014 Intraday VWAP; immediate hurdle for bullish intraday recovery.\n  - \ud83d\udfe2 $256.76 \u2014 200-day EMA; primary structural support for the long-term bullish trend.\n\n- **Potential Long Setup** (IF conditions met):\n  - Trigger: Daily close above $308.98 (21 EMA) with volume exceeding 19,992,006 average.\n  - Target: $350.15 (52-week high).\n  - Invalidation: Daily close below $256.76 (200 EMA).\n\n- **Potential Short Setup** (IF conditions met):\n  - Trigger: Rejection at $304.38 (VWAP) with increasing volume ratio > 1.0.\n  - Target: $256.76 (200 EMA).\n  - Invalidation: Daily close above $308.98 (21 EMA).\n\n- **Risk Factors to Monitor**: \n  - Elevated VIX (26.09) indicating broader market instability.\n  - US 10Y Yield fluctuations around 4.25% impacting tech valuations.\n  - Low current volume (6,227,328) increasing susceptibility to liquidity gaps.",
+            "summary": {
+                "current_trend": "Bullish (Weak)",
+                "decision": "WAIT",
+                "action_type": "WAIT",
+                "confidence_score": 5,
+                "allocation_percentage": 0.0,
+                "turn_probability": 0
+            },
+            "technical_context": {
+                "price_action": "Price is 304.07. Relation to EMAs: 20(308.71), 50(311.57), 200(256.76)",
+                "momentum": "RSI: 42.76 (Neutral), MACD: Bullish Crossover",
+                "divergence": "None",
+                "bollinger_bands": "Normal",
+                "volume": "Normal (Ratio: 0.52)"
+            },
+            "trade_setup": null,
+            "exit_plan": {},
+            "psychology": {
+                "invalidation": "Close below Stop Loss or fundamental news shift.",
+                "ai_insight": "Pending",
+                "deep_reasoning": "Pending Portfolio Level Decision"
+            }
+        }
+    ],
+    "benchmark_start": {
+        "btc_price": 70526.75,
+        "eth_price": 2069.72,
+        "timestamp": "2026-03-11T20:43:54.477203"
+    },
+    "benchmark_return": "1.56%",
+    "portfolio_return": "0.00%",
+    "vs_benchmark": "-1.56%",
+    "last_fee_deduction": "2026-03-12T23:56:22.701332"
+}

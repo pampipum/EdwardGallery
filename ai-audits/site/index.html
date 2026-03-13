@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KI-Standortbestimmung Schweiz | Davos & Graubünden</title>
+    <meta
+      name="description"
+      content="KI-Standortbestimmung für Schweizer Unternehmen. Fixpreis 990 CHF. Datenschutzsensibel, deutschsprachig, gestartet in Davos und Graubünden."
+    />
+    <style>
+      :root {
+        --bg: #f4efe6;
+        --paper: rgba(255, 250, 242, 0.78);
+        --ink: #1e2a2f;
+        --muted: #5e6c71;
+        --line: rgba(30, 42, 47, 0.12);
+        --accent: #c46a2f;
+        --accent-soft: #e7b07e;
+        --forest: #29483d;
+        --gold: #9a7b36;
+        --shadow: 0 18px 50px rgba(34, 39, 42, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 20% 10%, rgba(196, 106, 47, 0.12), transparent 26%),
+          radial-gradient(circle at 80% 0%, rgba(41, 72, 61, 0.16), transparent 22%),
+          linear-gradient(180deg, #f8f2e8 0%, #efe6d8 38%, #f4efe6 100%);
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.16) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.16) 1px, transparent 1px);
+        background-size: 42px 42px;
+        opacity: 0.28;
+        mix-blend-mode: soft-light;
+      }
+
+      .wrap {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      .hero {
+        padding: 32px 0 64px;
+      }
+
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 0 30px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .badge {
+        display: inline-flex;
+        gap: 10px;
+        align-items: center;
+        padding: 10px 14px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.45);
+        backdrop-filter: blur(14px);
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 28px;
+        align-items: stretch;
+      }
+
+      .hero-copy,
+      .hero-card,
+      .panel,
+      .sector-card,
+      .pricing-card,
+      .privacy-card,
+      .process-card {
+        background: var(--paper);
+        backdrop-filter: blur(18px);
+        border: 1px solid rgba(255, 255, 255, 0.42);
+        box-shadow: var(--shadow);
+      }
+
+      .hero-copy {
+        padding: 42px;
+        border-radius: 36px 12px 36px 12px;
+      }
+
+      .eyebrow {
+        color: var(--forest);
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        font-size: 11px;
+        margin-bottom: 18px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-weight: 400;
+        line-height: 0.98;
+        margin: 0;
+      }
+
+      h1 {
+        font-size: clamp(3.1rem, 7vw, 6.3rem);
+        max-width: 10ch;
+      }
+
+      .lede {
+        max-width: 58ch;
+        margin: 22px 0 0;
+        font-size: 1.07rem;
+        line-height: 1.75;
+        color: var(--muted);
+      }
+
+      .cta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-top: 28px;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 50px;
+        padding: 0 22px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-size: 0.95rem;
+        letter-spacing: 0.03em;
+        transition: transform 180ms ease, background 180ms ease;
+      }
+
+      .btn:hover {
+        transform: translateY(-2px);
+      }
+
+      .btn-primary {
+        background: var(--ink);
+        color: #f8f3ea;
+      }
+
+      .btn-secondary {
+        color: var(--ink);
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.5);
+      }
+
+      .hero-card {
+        border-radius: 12px 36px 12px 36px;
+        padding: 26px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .alpine {
+        height: 220px;
+        border-radius: 24px;
+        background:
+          linear-gradient(160deg, rgba(41, 72, 61, 0.95), rgba(33, 53, 46, 0.8)),
+          linear-gradient(180deg, rgba(255,255,255,0.18), transparent);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .alpine::before,
+      .alpine::after {
+        content: "";
+        position: absolute;
+        inset: auto;
+        bottom: 0;
+        width: 120%;
+        left: -10%;
+        background: linear-gradient(180deg, rgba(244, 239, 230, 0), rgba(244, 239, 230, 0.9));
+      }
+
+      .alpine::before {
+        height: 130px;
+        clip-path: polygon(0 100%, 16% 55%, 29% 76%, 43% 34%, 54% 64%, 69% 24%, 82% 58%, 100% 10%, 100% 100%);
+      }
+
+      .alpine::after {
+        height: 110px;
+        background: linear-gradient(180deg, rgba(239, 230, 216, 0), rgba(239, 230, 216, 1));
+        clip-path: polygon(0 100%, 18% 60%, 32% 82%, 47% 40%, 60% 66%, 77% 30%, 92% 70%, 100% 48%, 100% 100%);
+      }
+
+      .stat-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+        margin-top: 18px;
+      }
+
+      .stat {
+        padding: 16px;
+        border-top: 1px solid var(--line);
+      }
+
+      .stat strong {
+        display: block;
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-bottom: 8px;
+      }
+
+      .section {
+        padding: 28px 0 18px;
+      }
+
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: end;
+        padding-bottom: 18px;
+      }
+
+      .section-head p {
+        max-width: 54ch;
+        line-height: 1.7;
+        color: var(--muted);
+        margin: 0;
+      }
+
+      .grid-2,
+      .grid-3 {
+        display: grid;
+        gap: 18px;
+      }
+
+      .grid-2 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .panel,
+      .sector-card,
+      .pricing-card,
+      .privacy-card,
+      .process-card {
+        padding: 26px;
+        border-radius: 24px;
+      }
+
+      .panel p,
+      .sector-card p,
+      .pricing-card p,
+      .privacy-card p,
+      .process-card p,
+      li {
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      ul {
+        margin: 14px 0 0;
+        padding-left: 18px;
+      }
+
+      .pricing-feature {
+        margin: 10px 0;
+        padding-top: 10px;
+        border-top: 1px solid var(--line);
+      }
+
+      .price {
+        font-size: 3rem;
+        margin: 10px 0 16px;
+      }
+
+      .privacy-band {
+        margin: 36px 0;
+        padding: 24px;
+        border-radius: 28px;
+        background: linear-gradient(120deg, rgba(41,72,61,0.96), rgba(24,41,36,0.96));
+        color: #f4efe6;
+        box-shadow: var(--shadow);
+      }
+
+      .privacy-band p,
+      .privacy-band li {
+        color: rgba(244, 239, 230, 0.84);
+      }
+
+      footer {
+        padding: 42px 0 70px;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      @media (max-width: 960px) {
+        .hero-grid,
+        .grid-2,
+        .grid-3 {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-copy,
+        .hero-card {
+          border-radius: 24px;
+        }
+
+        .section-head {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="wrap">
+        <div class="topbar">
+          <div>Swiss AI Audit</div>
+          <div class="badge">Davos · Graubünden · Deutsch / English</div>
+        </div>
+
+        <div class="hero-grid">
+          <section class="hero-copy">
+            <div class="eyebrow">KI-Standortbestimmung für Schweizer Unternehmen</div>
+            <h1>Weniger KI-Lärm. Mehr betriebliche Klarheit.</h1>
+            <p class="lede">
+              Wir analysieren Ihre relevanten Abläufe, identifizieren sinnvolle KI-Potenziale und
+              liefern einen konkreten, datenschutzsensiblen Umsetzungsrahmen. Fixpreis für den
+              Einstieg: <strong>990 CHF</strong>.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="mailto:hello@example.ch?subject=KI-Standortbestimmung">Erstgespräch anfragen</a>
+              <a class="btn btn-secondary" href="#prozess">Ablauf ansehen</a>
+            </div>
+          </section>
+
+          <aside class="hero-card">
+            <div class="alpine" aria-hidden="true"></div>
+            <div class="stat-grid">
+              <div class="stat">
+                <strong>990 CHF</strong>
+                Fixpreis für die KI-Standortbestimmung
+              </div>
+              <div class="stat">
+                <strong>3-5 Tage</strong>
+                Vom Discovery-Gespräch bis zum Review
+              </div>
+              <div class="stat">
+                <strong>nDSG</strong>
+                Transparente und verhältnismässige Datenbearbeitung
+              </div>
+              <div class="stat">
+                <strong>DE / EN</strong>
+                Standard German zuerst, Englisch nahtlos möglich
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="section">
+        <div class="section-head">
+          <h2>Für wen das gedacht ist</h2>
+          <p>
+            Wir starten bewusst lokal in Davos und Graubünden und fokussieren Branchen, in denen
+            wiederkehrende Kommunikation, Administration und Wissensarbeit bereits heute messbar
+            Reibung erzeugen.
+          </p>
+        </div>
+        <div class="grid-3">
+          <article class="sector-card">
+            <h3>Tourismus & Hotellerie</h3>
+            <p>Reservierungen, Gästekommunikation, interne SOPs, FAQ-Antworten, Review-Prozesse.</p>
+          </article>
+          <article class="sector-card">
+            <h3>Wealth Management</h3>
+            <p>Meeting-Vorbereitung, interne Recherche, Dokumentenlogik, Kommunikationsentwürfe mit Human Review.</p>
+          </article>
+          <article class="sector-card">
+            <h3>Private Kliniken & KMU</h3>
+            <p>Administrative Abläufe, Intake-Dokumente, Wissenszugriff, Offerten, Lieferanten- und Servicekommunikation.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="prozess">
+        <div class="section-head">
+          <h2>Der Ablauf</h2>
+          <p>
+            Kein generischer Workshop. Kein Tool-Pitch. Ein kompaktes Format mit klaren Outputs und
+            einer sauberen Priorisierung.
+          </p>
+        </div>
+        <div class="grid-2">
+          <article class="process-card">
+            <h3>1. Discovery</h3>
+            <p>45 Minuten Gespräch über Ihre tatsächlichen Engpässe, nicht über generische KI-Ideen.</p>
+          </article>
+          <article class="process-card">
+            <h3>2. Analyse</h3>
+            <p>Auswertung der relevanten Workflows, Identifikation sinnvoller Use Cases und Risikoprüfung.</p>
+          </article>
+          <article class="process-card">
+            <h3>3. Bericht</h3>
+            <p>Management-tauglicher Bericht mit Priorisierung, Quick Wins und Umsetzungsnotizen.</p>
+          </article>
+          <article class="process-card">
+            <h3>4. Review</h3>
+            <p>Durchgang der Empfehlungen, Klärung von Fragen und Einordnung der nächsten Schritte.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2>Das Einstiegsangebot</h2>
+          <p>
+            Der Einstieg ist bewusst kompakt. Er dient dazu, Klarheit zu schaffen und eine solide
+            Entscheidungsgrundlage zu liefern.
+          </p>
+        </div>
+        <div class="grid-2">
+          <article class="pricing-card">
+            <div class="eyebrow">KI-Standortbestimmung</div>
+            <div class="price">990 CHF</div>
+            <p>Für Unternehmen, die wissen wollen, wo KI konkret sinnvoll ist und wo nicht.</p>
+            <div class="pricing-feature">45-Minuten Discovery-Gespräch</div>
+            <div class="pricing-feature">Analyse von 3 bis 5 relevanten Abläufen</div>
+            <div class="pricing-feature">3 bis 7 priorisierte Empfehlungen</div>
+            <div class="pricing-feature">Review-Call mit Management-Fokus</div>
+          </article>
+          <article class="pricing-card">
+            <div class="eyebrow">Weiterführende Leistungen</div>
+            <p>
+              Wenn die Standortbestimmung auf konkrete Umsetzungsfelder zeigt, bauen wir darauf
+              auf. Typische nächste Schritte:
+            </p>
+            <ul>
+              <li>Workflow-Redesign: 3’000 bis 5’000 CHF</li>
+              <li>Automations-Setup: 1’500 bis 4’000 CHF</li>
+              <li>Knowledge-Systeme: ab 3’000 CHF</li>
+              <li>Implementation Sprint: 5’000 bis 10’000+ CHF</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="privacy-band">
+        <div class="section-head">
+          <h2>Datenschutz ist Teil des Angebots</h2>
+          <p>
+            Schweizer Unternehmen kaufen keine KI-Beratung, wenn sie der Datenbearbeitung nicht
+            trauen. Deshalb wird die Datenschutzlogik von Anfang an mitgedacht.
+          </p>
+        </div>
+        <div class="grid-2">
+          <article class="privacy-card">
+            <h3>Unser Rahmen</h3>
+            <ul>
+              <li>transparente Information über Zweck und Umfang der Datenbearbeitung</li>
+              <li>nur die Daten verwenden, die für die Analyse nötig sind</li>
+              <li>möglichst anonymisierte oder reduzierte Inputs bevorzugen</li>
+              <li>bevorzugt Schweizer oder europäische Datenverarbeitung</li>
+            </ul>
+          </article>
+          <article class="privacy-card">
+            <h3>Konkrete Zusagen</h3>
+            <ul>
+              <li>keine unnötige Speicherung von Interviewdaten</li>
+              <li>klare Löschlogik nach Abschluss, sofern nichts anderes vereinbart ist</li>
+              <li>menschliche Prüfung vor jeder Empfehlung</li>
+              <li>geeignet für Unternehmen mit sensiblen internen Abläufen</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2>Was Sie danach wissen</h2>
+          <p>
+            Der Bericht ist so aufgebaut, dass Geschäftsleitung oder Bereichsverantwortliche
+            unmittelbar entscheiden können, was jetzt, später oder gar nicht umgesetzt werden soll.
+          </p>
+        </div>
+        <div class="grid-3">
+          <article class="panel">
+            <h3>Prioritäten</h3>
+            <p>Welche Anwendungsfälle echten Nutzen bringen und welche nur Ablenkung sind.</p>
+          </article>
+          <article class="panel">
+            <h3>Risiken</h3>
+            <p>Wo Datenschutz, Qualität oder operative Abhängigkeiten genauer geprüft werden müssen.</p>
+          </article>
+          <article class="panel">
+            <h3>Nächste Schritte</h3>
+            <p>Welche Quick Wins sofort testbar sind und welche Umsetzungen mehr Vorbereitung brauchen.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="wrap">
+      Swiss AI Audit · gestartet in Davos und Graubünden · Deutsch zuerst, Englisch nahtlos möglich
+    </footer>
+  </body>
+</html>

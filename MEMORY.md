@@ -16,3 +16,4 @@
 
 ## Discord project-channel workflow
 - When AML asks for a new Discord project channel, create the channel, wire it into Discord/OpenClaw routing, and confirm when Albi can respond there.
+- Project channels should use `docs/project-channel-workflow.md` plus `docs/projects/<project-slug>.md` for project-specific rules, PM guidance, and standard updates in the format: Status / Blockers / Next steps.

@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+yfinance
+pandas
+pandas-ta-classic # DO NOT CHANGE: User requires pandas-ta-classic
+
+httpx
+google-generativeai
+python-dotenv

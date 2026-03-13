@@ -152,19 +152,6 @@ export function renderLayout() {
 
             <!-- Right Column: Tabs & Intelligence (40%) -->
             <div class="w-full md:w-2/5 flex flex-col gap-4 min-h-[500px] md:min-h-0 flex-1 md:flex-initial md:h-full shrink-0 md:shrink overflow-hidden">
-
-                <!-- Live Monitor -->
-                <div class="glass-card rounded-2xl border border-glass-border bg-space-900/40 backdrop-blur-sm p-3">
-                    <div class="flex items-center justify-between mb-2">
-                        <h3 class="text-[10px] font-black tracking-[0.2em] uppercase text-accent-teal">Live Monitor</h3>
-                        <span id="live-monitor-updated" class="text-[10px] font-mono text-gray-500">--:--:--</span>
-                    </div>
-                    <div id="live-pm-strip" class="grid grid-cols-3 gap-2 text-[10px] mb-2"></div>
-                    <div id="live-pm-detail" class="text-[10px] text-gray-300 bg-black/20 border border-glass-border rounded p-2 mb-2">Select a PM for details…</div>
-                    <div id="live-trades-feed" class="h-16 overflow-y-auto custom-scrollbar font-mono text-[10px] leading-4 text-gray-300 bg-black/20 border border-glass-border rounded p-2 mb-2"></div>
-                    <div id="live-log-tail" class="h-16 overflow-y-auto custom-scrollbar font-mono text-[10px] leading-4 text-gray-300 bg-black/20 border border-glass-border rounded p-2"></div>
-                </div>
-
                 <div class="glass-card flex-1 rounded-2xl border border-glass-border flex flex-col overflow-hidden bg-space-900/40 backdrop-blur-sm">
                     <!-- Tabs Header -->
                     <div class="flex border-b border-glass-border bg-black/20 overflow-x-auto no-scrollbar shrink-0">
@@ -189,8 +176,26 @@ export function renderLayout() {
                     <!-- Tab Viewports -->
                     <div class="flex-1 overflow-y-auto p-4 custom-scrollbar relative">
                         <div id="content-modelchat" class="space-y-4">
+                            <div class="border border-glass-border rounded-xl p-3 bg-black/20">
+                                <div class="flex items-center justify-between mb-2">
+                                    <h3 class="text-[10px] font-black tracking-[0.2em] uppercase text-accent-teal">Live Monitor</h3>
+                                    <span id="live-monitor-updated" class="text-[10px] font-mono text-gray-500">--:--:--</span>
+                                </div>
+                                <div id="live-pm-strip" class="grid grid-cols-2 xl:grid-cols-3 gap-2 text-[10px] mb-2"></div>
+                                <div id="live-pm-detail" class="text-[10px] text-gray-300 bg-black/20 border border-glass-border rounded p-2 mb-2">Select a PM for details…</div>
+                                <div class="grid grid-cols-1 xl:grid-cols-2 gap-2">
+                                    <div>
+                                        <div class="text-[9px] uppercase tracking-widest text-gray-500 mb-1">Recent Trades</div>
+                                        <div id="live-trades-feed" class="h-24 overflow-y-auto custom-scrollbar font-mono text-[10px] leading-4 text-gray-300 bg-black/20 border border-glass-border rounded p-2"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-[9px] uppercase tracking-widest text-gray-500 mb-1">Runtime Log</div>
+                                        <div id="live-log-tail" class="h-24 overflow-y-auto custom-scrollbar font-mono text-[10px] leading-4 text-gray-300 bg-black/20 border border-glass-border rounded p-2"></div>
+                                    </div>
+                                </div>
+                            </div>
                             <div id="modelchat-feed" class="flex flex-col gap-3">
-                                <div class="text-center text-gray-500 text-[10px] uppercase tracking-widest mt-10">Select a portfolio to see live intelligence</div>
+                                <div class="text-center text-gray-500 text-[10px] uppercase tracking-widest mt-4">Select a portfolio to see live intelligence</div>
                             </div>
                         </div>
                         <div id="content-positions" class="hidden">

@@ -1,0 +1,17 @@
+[Unit]
+Description=Investment App Market Analyst
+After=network.target
+
+[Service]
+# Change this if you want to run as a specific user
+User=root
+# Adjust this path to where you uploaded the files
+WorkingDirectory=/opt/investment-app
+# Adjust this path to your virtual environment python or global python
+ExecStart=/opt/investment-app/venv/bin/uvicorn backend.main:app --host 0.0.0.0 --port 8000
+Restart=always
+# Load environment variables
+EnvironmentFile=/opt/investment-app/.env
+
+[Install]
+WantedBy=multi-user.target

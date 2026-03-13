@@ -18,7 +18,8 @@ def _clean_env(value: str | None) -> str | None:
     return value.strip()
 
 GEMINI_API_KEY = _clean_env(os.getenv("GEMINI_API_KEY"))
-OPENAI_API_KEY = _clean_env(os.getenv("OPENAI_API_KEY") or os.getenv("ALIBABA_API_KEY"))
+# Prefer ALIBABA_API_KEY when provided (for DashScope OpenAI-compatible endpoint)
+OPENAI_API_KEY = _clean_env(os.getenv("ALIBABA_API_KEY") or os.getenv("OPENAI_API_KEY"))
 OPENROUTER_API_KEY = _clean_env(os.getenv("OPENROUTER_API_KEY"))
 OPENCLAW_AVAILABLE = shutil.which("openclaw") is not None
 

@@ -1,0 +1,12 @@
+{
+  "name": "swiss-ai-audit",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "leads": "node scripts/fetch-swiss-leads.mjs",
+    "check": "node --check scripts/fetch-swiss-leads.mjs"
+  },
+  "dependencies": {
+    "agentmail": "^0.4.5"
+  }
+}

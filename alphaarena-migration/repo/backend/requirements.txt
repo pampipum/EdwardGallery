@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+yfinance
+curl_cffi  # Required by yfinance for Yahoo API requests
+pandas
+pandas-ta-classic # DO NOT CHANGE: User requires pandas-ta-classic
+
+httpx
+google-generativeai
+python-dotenv
+openai
+apscheduler
+requests
+pytz

@@ -5,3 +5,6 @@ sites/
 
 # Nested OpenClaw workspace used for experiments
 research-beast/
+
+# Secret env files
+alphaarena-migration/.env
