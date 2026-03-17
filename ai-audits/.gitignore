@@ -1,0 +1,32 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+.npm/
+
+# Build / logs
+build/
+dist/
+coverage/
+*.log
+
+# Local data / generated files
+.tmp/
+tmp/
+.cache/
