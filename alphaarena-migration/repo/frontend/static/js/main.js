@@ -176,12 +176,13 @@ async function checkPortfolioStatusWrapper() {
         // Always render CRO at the end
         updateCROStatus();
 
-        // Continue polling if we are in a running state (or just always poll for now)
-        // For 'all', we might want to poll too
-        setTimeout(checkPortfolioStatusWrapper, 30000); // Poll every 30 seconds
-
     } catch (error) {
         console.error("Error checking portfolio status:", error);
+    } finally {
+        // Keep polling even after transient fetch/render errors so the UI does not
+        // get stuck showing stale PM reasoning.
+        clearTimeout(window._portfolioStatusPollTimer);
+        window._portfolioStatusPollTimer = setTimeout(checkPortfolioStatusWrapper, 30000);
     }
 }
 
@@ -357,7 +358,11 @@ window.selectLivePM = function(pmId) {
 
 // --- PM Switching ---
 window.switchPM = function (pmId) {
-    if (currentPM === pmId) return; // Already on this PM
+    if (currentPM === pmId) {
+        // Allow re-clicking the active PM as a manual refresh gesture.
+        checkPortfolioStatusWrapper();
+        return;
+    }
 
     currentPM = pmId;
 
