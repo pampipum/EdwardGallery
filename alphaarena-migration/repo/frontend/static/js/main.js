@@ -21,6 +21,8 @@ window.renderMarkdownPreview = function (markdown) {
 // --- PM State Management ---
 let currentPM = 'all'; // Default to ALL PMs so user sees the big picture on load
 let selectedLivePM = 'pm1';
+let statusPollTimer = null;
+let statusRequestSeq = 0;
 
 const PM_INFO = {
     'pm1': { name: '1: ADAPTIVE STRUCTURAL ALPHA', label: '1: Adaptive Structural Alpha', strategy: 'current' },
@@ -101,9 +103,16 @@ async function fetchDashboardDataWrapper() {
 }
 
 async function checkPortfolioStatusWrapper() {
+    const requestSeq = ++statusRequestSeq;
+    const requestedPM = currentPM;
+
     try {
         // Always fetch all PMs data for sparklines, regardless of selected PM
         const allData = await getAllPMsStatus();
+
+        // Ignore stale responses that arrive after a newer poll or PM switch.
+        if (requestSeq !== statusRequestSeq || requestedPM !== currentPM) return;
+
         drawAllSparklines(allData);
 
         if (currentPM === 'all') {
@@ -147,6 +156,9 @@ async function checkPortfolioStatusWrapper() {
 
         } else {
             const data = await checkPortfolioStatus(currentPM);
+
+            // Ignore stale responses that arrive after a newer poll or PM switch.
+            if (requestSeq !== statusRequestSeq || requestedPM !== currentPM) return;
 
             UI.renderPortfolioControls(data, currentPM);
 
@@ -360,11 +372,13 @@ window.selectLivePM = function(pmId) {
 window.switchPM = function (pmId) {
     if (currentPM === pmId) {
         // Allow re-clicking the active PM as a manual refresh gesture.
+        statusRequestSeq++;
         checkPortfolioStatusWrapper();
         return;
     }
 
     currentPM = pmId;
+    statusRequestSeq++;
 
     // Update PM tabs styling
     ['pm1', 'pm2', 'pm3', 'pm4', 'pm5', 'pm6'].forEach(id => {
