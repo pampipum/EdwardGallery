@@ -2,7 +2,7 @@
     "analyst_provider": "openai",
     "analyst_model": "qwen3.5-plus",
     "pm_provider": "openclaw",
-    "pm_model": "alphaarena",
+    "pm_model": "main",
     "butler_provider": "openclaw",
     "butler_model": "alphaarena",
     "assets": [
