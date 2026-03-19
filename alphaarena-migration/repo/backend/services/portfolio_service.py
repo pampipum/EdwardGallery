@@ -156,6 +156,7 @@ class PortfolioService:
                     self.data["active_learnings"] = []
                 if "retired_learnings" not in self.data:
                     self.data["retired_learnings"] = []
+                self._last_loaded_mtime = os.path.getmtime(self.portfolio_file)
         else:
             self.data = {
                 "pm_id": self.pm_id,
@@ -170,10 +171,29 @@ class PortfolioService:
                 "active_learnings": [],
                 "retired_learnings": []
             }
+            self._last_loaded_mtime = 0.0
 
     def save_portfolio(self):
         with open(self.portfolio_file, "w") as f:
             json.dump(self.data, f, indent=4)
+        if os.path.exists(self.portfolio_file):
+            self._last_loaded_mtime = os.path.getmtime(self.portfolio_file)
+
+    def refresh_from_disk_if_stale(self):
+        """Reload portfolio JSON if another process or a manual edit wrote a newer file.
+
+        This prevents long-lived API processes from serving stale in-memory manager_log /
+        latest_analysis / trade_log data after external writes.
+        """
+        try:
+            if not os.path.exists(self.portfolio_file):
+                return
+            current_mtime = os.path.getmtime(self.portfolio_file)
+            loaded_mtime = getattr(self, "_last_loaded_mtime", 0.0)
+            if current_mtime > loaded_mtime + 1e-9:
+                self.load_portfolio()
+        except Exception as e:
+            logger.warning(f"[{self.pm_id}] Failed to refresh stale portfolio cache from disk: {e}")
 
     def start_portfolio(self, capital: float):
         # Check if LIVE mode and override capital with actual wallet balance
@@ -1250,6 +1270,7 @@ class PortfolioManager:
         """Get or create a portfolio service for a PM"""
         if pm_id not in self.portfolios:
             self.portfolios[pm_id] = PortfolioService(pm_id)
+        self.portfolios[pm_id].refresh_from_disk_if_stale()
         return self.portfolios[pm_id]
     
     def get_all_status(self):
