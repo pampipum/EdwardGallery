@@ -88,9 +88,46 @@ def get_config():
 def generate_text_with_provider(prompt: str, provider: str, model_name: str, purpose: str = "Unknown", pm_id: str = "N/A") -> str:
     """
     Helper to generate text using the specified provider via llm_provider abstraction.
-    Includes exponential backoff retry logic for rate limit errors.
+    Includes provider fallback when the OpenClaw runtime returns an empty payload,
+    which can otherwise zero out PM decisioning despite a healthy upstream pipeline.
     """
     from backend.services.llm_provider import get_llm_provider
+
+    def _provider_candidates(primary_provider: str, primary_model: str):
+        primary_provider = (primary_provider or "").lower()
+        candidates = []
+
+        def _add(name: str, key: str | None, model: str):
+            if key:
+                candidates.append((name, key, model))
+
+        if primary_provider == "openclaw":
+            _add("openclaw", "OPENCLAW" if OPENCLAW_AVAILABLE else None, primary_model or "main")
+            _add("openai", OPENAI_API_KEY, "gpt-4.1-mini")
+            _add("openrouter", OPENROUTER_API_KEY, "openai/gpt-4.1-mini")
+            _add("gemini", GEMINI_API_KEY, "gemini-2.5-pro")
+        elif primary_provider == "openai":
+            _add("openai", OPENAI_API_KEY, primary_model or "gpt-4.1-mini")
+            _add("openrouter", OPENROUTER_API_KEY, "openai/gpt-4.1-mini")
+            _add("gemini", GEMINI_API_KEY, "gemini-2.5-pro")
+            _add("openclaw", "OPENCLAW" if OPENCLAW_AVAILABLE else None, "main")
+        elif primary_provider == "openrouter":
+            _add("openrouter", OPENROUTER_API_KEY, primary_model or "openai/gpt-4.1-mini")
+            _add("openai", OPENAI_API_KEY, "gpt-4.1-mini")
+            _add("gemini", GEMINI_API_KEY, "gemini-2.5-pro")
+            _add("openclaw", "OPENCLAW" if OPENCLAW_AVAILABLE else None, "main")
+        elif primary_provider == "gemini":
+            _add("gemini", GEMINI_API_KEY, primary_model or "gemini-2.5-pro")
+            _add("openai", OPENAI_API_KEY, "gpt-4.1-mini")
+            _add("openrouter", OPENROUTER_API_KEY, "openai/gpt-4.1-mini")
+            _add("openclaw", "OPENCLAW" if OPENCLAW_AVAILABLE else None, "main")
+        else:
+            _add("openclaw", "OPENCLAW" if OPENCLAW_AVAILABLE else None, "main")
+            _add("gemini", GEMINI_API_KEY, "gemini-2.5-pro")
+            _add("openai", OPENAI_API_KEY, "gpt-4.1-mini")
+            _add("openrouter", OPENROUTER_API_KEY, "openai/gpt-4.1-mini")
+
+        return candidates
     
     # Select the appropriate API key based on provider
     provider_lower = provider.lower()
@@ -131,17 +168,41 @@ def generate_text_with_provider(prompt: str, provider: str, model_name: str, pur
         )
         model_name = default_model
     
-    logger.debug(f"   [DEBUG] Sending request to {provider} (Model: {model_name}) | Purpose: {purpose}...")
-    start_time = datetime.now()
-    
-    # Get the LLM provider (retry logic is built into the provider)
-    llm = get_llm_provider(provider_lower, api_key, model_name)
-    result = llm.generate_text(prompt, purpose=purpose, pm_id=pm_id)
-    
-    duration = (datetime.now() - start_time).total_seconds()
-    logger.debug(f"   [{provider}] Completed in {duration:.2f}s")
-    
-    return result
+    candidates = _provider_candidates(provider_lower, model_name)
+    if not candidates:
+        raise ValueError(f"No configured provider available for purpose={purpose}")
+
+    last_error = None
+    for idx, (candidate_provider, candidate_key, candidate_model) in enumerate(candidates):
+        try:
+            if idx > 0:
+                logger.warning(
+                    f"Falling back to {candidate_provider} ({candidate_model}) for {purpose} after prior provider failure."
+                )
+
+            logger.debug(
+                f"   [DEBUG] Sending request to {candidate_provider} (Model: {candidate_model}) | Purpose: {purpose}..."
+            )
+            start_time = datetime.now()
+
+            llm = get_llm_provider(candidate_provider, candidate_key, candidate_model)
+            result = llm.generate_text(prompt, purpose=purpose, pm_id=pm_id)
+
+            duration = (datetime.now() - start_time).total_seconds()
+            logger.debug(f"   [{candidate_provider}] Completed in {duration:.2f}s")
+            return result
+        except Exception as e:
+            last_error = e
+            error_text = str(e)
+            logger.warning(
+                f"Provider {candidate_provider} failed for {purpose}: {error_text}"
+            )
+
+            # Empty OpenClaw payloads are known to be intermittent; continue through the
+            # fallback chain instead of failing PM decisioning outright.
+            continue
+
+    raise last_error if last_error else RuntimeError(f"All providers failed for {purpose}")
 
 def generate_analyst_report(ticker: str, technical_data: dict, news: list, macro_data: dict, fundamentals: dict, insider_data: dict = {}, deep_dive_data: dict = {}) -> str:
     """
