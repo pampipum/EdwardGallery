@@ -604,8 +604,14 @@ def run_market_analysis(pm_id: str = 'pm1'):
         if decision and decision != "WAIT":
             score += 40
             reasons.append(f"decision={decision}")
-        if confidence >= 7:
-            score += 25
+        # De-emphasize analyst confidence here.
+        # Phase 2 should receive a broader opportunity set instead of being overly
+        # anchored to precomputed analyst scores.
+        if confidence >= 8:
+            score += 10
+            reasons.append(f"conf={confidence:.1f}")
+        elif confidence >= 7:
+            score += 6
             reasons.append(f"conf={confidence:.1f}")
         if alloc > 0:
             score += 20
@@ -654,7 +660,15 @@ def run_market_analysis(pm_id: str = 'pm1'):
         if interesting:
             ranked_candidates.append((score, report, reason))
 
-    # Fallback: if nothing scores as interesting, keep top-3 by confidence so PM still has context.
+    # Keep payload bounded while giving the PM a meaningfully broader cross-section
+    # of the market. The prior 2-4 asset window was too narrow and repeatedly
+    # starved Phase 2 of context.
+    MIN_PHASE2_REPORTS = 6
+    MAX_PHASE2_REPORTS = 8
+
+    # Fallback: if nothing scores as interesting, keep a broader top set by
+    # confidence so PM still has context. Confidence is used only as a last-resort
+    # ordering hint here, not the primary selector.
     if not ranked_candidates:
         def _confidence(r):
             s = r.get("analysis", {}).get("summary", {})
@@ -662,12 +676,8 @@ def run_market_analysis(pm_id: str = 'pm1'):
                 return float(s.get("confidence_score", 0) or 0)
             except Exception:
                 return 0.0
-        fallback = sorted(all_reports, key=_confidence, reverse=True)[:3]
+        fallback = sorted(all_reports, key=_confidence, reverse=True)[:MAX_PHASE2_REPORTS]
         ranked_candidates = [(0, r, f"{r.get('ticker')}: fallback_top_conf") for r in fallback]
-
-    # Keep payload bounded and ensure enough context for portfolio-level reasoning.
-    MIN_PHASE2_REPORTS = 2
-    MAX_PHASE2_REPORTS = 4
     ranked_candidates.sort(key=lambda x: x[0], reverse=True)
 
     selected = ranked_candidates[:MAX_PHASE2_REPORTS]
