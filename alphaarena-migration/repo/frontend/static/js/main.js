@@ -23,6 +23,7 @@ let currentPM = 'all'; // Default to ALL PMs so user sees the big picture on loa
 let selectedLivePM = 'pm1';
 let statusPollTimer = null;
 let statusRequestSeq = 0;
+let liveMonitorRequestSeq = 0;
 
 const PM_INFO = {
     'pm1': { name: '1: ADAPTIVE STRUCTURAL ALPHA', label: '1: Adaptive Structural Alpha', strategy: 'current' },
@@ -316,8 +317,13 @@ async function updateCROStatus() {
 }
 
 async function updateLiveMonitor() {
+    const requestSeq = ++liveMonitorRequestSeq;
+    const requestedLivePM = selectedLivePM;
+
     try {
         const data = await fetchLiveOverview(50);
+        if (requestSeq !== liveMonitorRequestSeq || requestedLivePM !== selectedLivePM) return;
+
         const strip = document.getElementById('live-pm-strip');
         const detail = document.getElementById('live-pm-detail');
         const trades = document.getElementById('live-trades-feed');
@@ -335,11 +341,11 @@ async function updateLiveMonitor() {
             return `<button onclick="window.selectLivePM('${pmId}')" class="bg-black/20 border ${activeCls} rounded px-2 py-1 text-left">${running} <span class="font-bold uppercase">${pmId}</span> | $${val} | ${pos} pos</button>`;
         }).join('');
 
-        const pm = data.pm?.[selectedLivePM] || {};
+        const pm = data.pm?.[requestedLivePM] || {};
         const lm = pm.last_manager?.message || 'No manager insight yet';
         const lt = pm.last_trade;
         const tradeText = lt ? `${lt.action || '?'} ${lt.ticker || '?'} @ ${lt.price || '?'} (${lt.timestamp || ''})` : 'No trades yet';
-        detail.innerHTML = `<div><span class="text-gray-500">${selectedLivePM.toUpperCase()}:</span> ${lm}</div><div class="text-gray-400 mt-1">Last trade: ${tradeText}</div>`;
+        detail.innerHTML = `<div><span class="text-gray-500">${requestedLivePM.toUpperCase()}:</span> ${lm}</div><div class="text-gray-400 mt-1">Last trade: ${tradeText}</div>`;
 
         trades.innerHTML = (data.recent_trades || []).map((t) => {
             const cls = /BUY|COVER/i.test(t.action || '') ? 'text-accent-teal' : (/SELL|SHORT/i.test(t.action || '') ? 'text-accent-red' : 'text-gray-300');
