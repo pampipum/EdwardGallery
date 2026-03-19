@@ -102,10 +102,10 @@ def generate_text_with_provider(prompt: str, provider: str, model_name: str, pur
                 candidates.append((name, key, model))
 
         if primary_provider == "openclaw":
+            # Stay on OpenClaw for OpenClaw-configured workloads instead of falling
+            # through to unrelated providers/models. Reliability should come from
+            # retrying the same OpenClaw path, not from silently changing model family.
             _add("openclaw", "OPENCLAW" if OPENCLAW_AVAILABLE else None, primary_model or "main")
-            _add("openai", OPENAI_API_KEY, "gpt-4.1-mini")
-            _add("openrouter", OPENROUTER_API_KEY, "openai/gpt-4.1-mini")
-            _add("gemini", GEMINI_API_KEY, "gemini-2.5-pro")
         elif primary_provider == "openai":
             _add("openai", OPENAI_API_KEY, primary_model or "gpt-4.1-mini")
             _add("openrouter", OPENROUTER_API_KEY, "openai/gpt-4.1-mini")
@@ -174,33 +174,40 @@ def generate_text_with_provider(prompt: str, provider: str, model_name: str, pur
 
     last_error = None
     for idx, (candidate_provider, candidate_key, candidate_model) in enumerate(candidates):
-        try:
-            if idx > 0:
+        max_attempts = 3 if candidate_provider == "openclaw" else 1
+
+        for attempt in range(1, max_attempts + 1):
+            try:
+                if idx > 0 and attempt == 1:
+                    logger.warning(
+                        f"Falling back to {candidate_provider} ({candidate_model}) for {purpose} after prior provider failure."
+                    )
+                if candidate_provider == "openclaw" and attempt > 1:
+                    logger.warning(
+                        f"Retrying OpenClaw for {purpose} (attempt {attempt}/{max_attempts}) after prior empty/error response."
+                    )
+
+                logger.debug(
+                    f"   [DEBUG] Sending request to {candidate_provider} (Model: {candidate_model}) | Purpose: {purpose}..."
+                )
+                start_time = datetime.now()
+
+                llm = get_llm_provider(candidate_provider, candidate_key, candidate_model)
+                result = llm.generate_text(prompt, purpose=purpose, pm_id=pm_id)
+
+                duration = (datetime.now() - start_time).total_seconds()
+                logger.debug(f"   [{candidate_provider}] Completed in {duration:.2f}s")
+                return result
+            except Exception as e:
+                last_error = e
+                error_text = str(e)
                 logger.warning(
-                    f"Falling back to {candidate_provider} ({candidate_model}) for {purpose} after prior provider failure."
+                    f"Provider {candidate_provider} failed for {purpose}: {error_text}"
                 )
 
-            logger.debug(
-                f"   [DEBUG] Sending request to {candidate_provider} (Model: {candidate_model}) | Purpose: {purpose}..."
-            )
-            start_time = datetime.now()
-
-            llm = get_llm_provider(candidate_provider, candidate_key, candidate_model)
-            result = llm.generate_text(prompt, purpose=purpose, pm_id=pm_id)
-
-            duration = (datetime.now() - start_time).total_seconds()
-            logger.debug(f"   [{candidate_provider}] Completed in {duration:.2f}s")
-            return result
-        except Exception as e:
-            last_error = e
-            error_text = str(e)
-            logger.warning(
-                f"Provider {candidate_provider} failed for {purpose}: {error_text}"
-            )
-
-            # Empty OpenClaw payloads are known to be intermittent; continue through the
-            # fallback chain instead of failing PM decisioning outright.
-            continue
+                if candidate_provider == "openclaw" and attempt < max_attempts:
+                    continue
+                break
 
     raise last_error if last_error else RuntimeError(f"All providers failed for {purpose}")
 
