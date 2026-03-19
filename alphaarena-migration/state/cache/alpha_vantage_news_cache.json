@@ -1,45 +1,45 @@
 {
   "TSLA": {
-    "timestamp": "2026-03-16T16:02:05.840132",
+    "timestamp": "2026-03-18T19:52:34.163806",
     "news": [
       {
-        "title": "5 Leadership Lessons from Tesla\u2019s Turbulent Growth Strategy",
-        "publisher": "Inc.com",
-        "link": "https://www.inc.com/peter-economy/tesla-is-a-case-study-in-volatility-here-are-leadership-realities-behind-it/91311907",
-        "published": "20260316T131250"
+        "title": "Forget Tesla \u2014 Nvidia And Lucid Are Quietly Building Uber's AI Fleet",
+        "publisher": "Benzinga",
+        "link": "https://www.benzinga.com/markets/tech/26/03/51337149/forget-tesla-nvidia-and-lucid-are-quietly-building-ubers-ai-fleet",
+        "published": "20260318T185853"
       },
       {
-        "title": "Stock market correction close to its ending stages, Morgan Stanley\u2019s Wilson says",
-        "publisher": "Investing.com",
-        "link": "https://www.investing.com/news/stock-market-news/stock-market-correction-close-to-its-ending-stages-morgan-stanleys-wilson-says-4562789",
-        "published": "20260316T125508"
+        "title": "In China, even electric two-wheelers are starting to use LiDAR",
+        "publisher": "CnEVPost",
+        "link": "https://cnevpost.com/2026/03/18/in-china-even-electric-two-wheelers-use-lidar/",
+        "published": "20260318T174300"
       },
       {
-        "title": "UK consumers hit by worries over war in Iran, S&P Global says By Reuters",
-        "publisher": "Investing.com",
-        "link": "https://www.investing.com/news/economy-news/uk-consumers-hit-by-worries-over-war-in-iran-sp-global-says-4562395",
-        "published": "20260316T120830"
+        "title": "American Bitcoin (ABTC) bitcoin stack rises to 6,889 BTC coins",
+        "publisher": "CoinDesk",
+        "link": "https://www.coindesk.com/business/2026/03/18/trump-linked-american-bitcoin-just-overtook-mike-novogratz-s-galaxy-digital-in-the-bitcoin-rankings",
+        "published": "20260318T160943"
       },
       {
-        "title": "Hyperion Asset Management Ltd Has $515.55 Million Stock Holdings in Tesla, Inc. $TSLA",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-hyperion-asset-management-ltd-has-51555-million-stock-holdings-in-tesla-inc-tsla-2026-03-16/",
-        "published": "20260316T110431"
+        "title": "Caterpillar and Chevron Anchor Dow Jones Shift to Texas as Stock Exchanges Launch",
+        "publisher": "Disruption Banking",
+        "link": "https://www.disruptionbanking.com/2026/03/18/caterpillar-and-chevron-anchor-dow-jones-shift-to-texas-as-stock-exchanges-launch/",
+        "published": "20260318T152011"
       },
       {
-        "title": "Flow Traders U.S. LLC Takes Position in Direxion Daily TSLA Bull 2X Shares $TSLL",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-flow-traders-us-llc-takes-position-in-direxion-daily-tsla-bull-2x-shares-tsll-2026-03-16/",
-        "published": "20260316T102200"
+        "title": "This is the most important catalyst for Tesla stock this year: Morgan Stanley By Investing.com",
+        "publisher": "Investing.com South Africa",
+        "link": "https://za.investing.com/news/stock-market-news/this-is-the-most-important-catalyst-for-tesla-stock-this-year-morgan-stanley-4171475",
+        "published": "20260318T143800"
       }
     ]
   },
   "ETH-USD": {
-    "timestamp": "2026-03-16T16:02:09.957023",
+    "timestamp": "2026-03-18T19:52:38.361442",
     "news": []
   },
   "SOL-USD": {
-    "timestamp": "2026-03-16T16:02:09.999372",
+    "timestamp": "2026-03-18T19:52:38.457863",
     "news": [
       {
         "title": "Solana's 'Precious Metal' Tease Evokes Curiosity As SOL Spikes 4%",
@@ -74,430 +74,430 @@
     ]
   },
   "BTC-USD": {
-    "timestamp": "2026-03-16T16:02:10.173918",
+    "timestamp": "2026-03-18T19:52:38.454926",
     "news": []
   },
   "GOOGL": {
-    "timestamp": "2026-03-16T16:03:21.456550",
+    "timestamp": "2026-03-18T19:46:33.306037",
     "news": [
       {
-        "title": "Microsoft Is On Sale: 5 Reasons To Buy Now (NASDAQ:MSFT)",
-        "publisher": "Seeking Alpha",
-        "link": "https://seekingalpha.com/article/4882726-microsoft-is-on-sale-5-reasons-to-buy-now",
-        "published": "20260316T142405"
+        "title": "Apple Expands Wearables Portfolio With New AirPods Max: What's Ahead?",
+        "publisher": "The Globe and Mail",
+        "link": "https://www.theglobeandmail.com/investing/markets/stocks/AAPL/pressreleases/824482/apple-expands-wearables-portfolio-with-new-airpods-max-whats-ahead/",
+        "published": "20260318T170656"
       },
       {
-        "title": "Emerald Growth Equity Strategy Sold Revvity (RVTY) in Q4",
+        "title": "Adobe Drops 6% Post Q1 Earnings: Buy, Sell or Hold the Stock?",
+        "publisher": "TradingView",
+        "link": "https://www.tradingview.com/news/zacks:3c855683a094b:0-adobe-drops-6-post-q1-earnings-buy-sell-or-hold-the-stock/",
+        "published": "20260318T163716"
+      },
+      {
+        "title": "Fast followers will fall behind in the AI race, warns ServiceNow",
+        "publisher": "Computer Weekly",
+        "link": "https://www.computerweekly.com/news/366640532/Fast-followers-will-fall-behind-in-the-AI-race-warns-ServiceNow",
+        "published": "20260318T161858"
+      },
+      {
+        "title": "Elanco Animal (ELAN) Climbs 7.6% on Upbeat Outlook, Sets Sights on AI",
         "publisher": "Insider Monkey",
-        "link": "https://www.insidermonkey.com/blog/emerald-growth-equity-strategy-sold-revvity-rvty-in-q4-1717681/",
-        "published": "20260316T140311"
+        "link": "https://www.insidermonkey.com/blog/elanco-animal-elan-climbs-7-6-on-upbeat-outlook-sets-sights-on-ai-1719199/?amp=1",
+        "published": "20260318T160902"
       },
       {
-        "title": "Here\u2019s Why Xcel Energy\u2019s $60 Billion Capex Plan Points to 50% Upside by 2030",
-        "publisher": "TIKR.com",
-        "link": "https://www.tikr.com/blog/heres-why-xcel-energys-60-billion-capex-plan-points-to-50-upside-by-2030",
-        "published": "20260316T132203"
-      },
-      {
-        "title": "Here\u2019s Why Merck (MRK) Surged in Q4",
-        "publisher": "Insider Monkey",
-        "link": "https://www.insidermonkey.com/blog/heres-why-merck-mrk-surged-in-q4-1717634/",
-        "published": "20260316T130754"
-      },
-      {
-        "title": "Lam Research (LCRX) Gained From Strong Demand Uptick",
-        "publisher": "Insider Monkey",
-        "link": "https://www.insidermonkey.com/blog/lam-research-lcrx-gained-from-strong-demand-uptick-1717618/",
-        "published": "20260316T125602"
+        "title": "Google, DTE Energy Partner for Major Michigan Data Center and Energy Expansion",
+        "publisher": "ConstructConnect News",
+        "link": "https://news.constructconnect.com/google-dte-energy-partner-for-major-michigan-data-center-and-energy-expansion?hs_amp=true",
+        "published": "20260318T160724"
       }
     ]
   },
   "NVDA": {
-    "timestamp": "2026-03-16T16:03:29.321722",
-    "news": [
-      {
-        "title": "5 Best Very Cheap Stocks to Buy According to Billionaires",
-        "publisher": "Insider Monkey",
-        "link": "https://www.insidermonkey.com/blog/5-best-very-cheap-stocks-to-buy-according-to-billionaires-1717757/",
-        "published": "20260316T151142"
-      },
-      {
-        "title": "Super Micro Stock Climbs as Nvidia GTC Puts AI Server Demand and Margins to the Test",
-        "publisher": "TechStock\u00b2",
-        "link": "https://ts2.tech/en/super-micro-stock-climbs-as-nvidia-gtc-puts-ai-server-demand-and-margins-to-the-test/",
-        "published": "20260316T145916"
-      },
-      {
-        "title": "AI-Driven Memory Chip Demand to Drive Micron's DRAM Revenue in Q2",
-        "publisher": "The Globe and Mail",
-        "link": "https://www.theglobeandmail.com/investing/markets/stocks/MU/pressreleases/772028/ai-driven-memory-chip-demand-to-drive-microns-dram-revenue-in-q2/",
-        "published": "20260316T143800"
-      },
-      {
-        "title": "Coherent Corp. Shines in Vibrant Strategic Partnership with Nvidia",
-        "publisher": "StocksToTrade",
-        "link": "https://stockstotrade.com/news/coherent-corp-cohr-news-2026_03_16/",
-        "published": "20260316T141711"
-      },
-      {
-        "title": "3M expands optical interconnect manufacturing for AI data centers",
-        "publisher": "StreetInsider",
-        "link": "https://www.streetinsider.com/Corporate+News/3M+expands+optical+interconnect+manufacturing+for+AI+data+centers/26164373.html",
-        "published": "20260316T141502"
-      }
-    ]
+    "timestamp": "2026-03-18T19:46:33.662511",
+    "news": []
   },
   "META": {
-    "timestamp": "2026-03-16T16:03:31.150625",
+    "timestamp": "2026-03-18T19:46:34.479250",
     "news": [
       {
-        "title": "Madison Small Cap Fund\u2019s Standout Performer: Ciena Corp (CIEN)",
+        "title": "What\u2019s up with\u2026 Ciena & Meta, Odido, Liberty Global",
+        "publisher": "TelecomTV",
+        "link": "https://www.telecomtv.com/content/access-evolution/what-s-up-with-ciena-meta-odido-liberty-global-55122/",
+        "published": "20260318T170849"
+      },
+      {
+        "title": "The Trade Desk's Largest Customers Are Pushing Back on Fees While Competitive Threats Loom",
+        "publisher": "Morningstar",
+        "link": "https://www.morningstar.com/company-reports/1461894-the-trade-desks-largest-customers-are-pushing-back-on-fees-while-competitive-threats-loom",
+        "published": "20260318T020826"
+      },
+      {
+        "title": "This $50 Billion AI Bet Is Either Oracle's Masterstroke or Its Biggest Mistake",
+        "publisher": "The Motley Fool",
+        "link": "https://www.fool.com/investing/2026/03/17/this-50-billion-ai-bet-is-either-oracles-masterstr/",
+        "published": "20260317T221201"
+      },
+      {
+        "title": "3 Key Reasons to Consider Selling OXM and One Alternative Stock Worth Buying",
+        "publisher": "Bitget",
+        "link": "https://www.bitget.com/amp/news/detail/12560605273639",
+        "published": "20260317T213856"
+      },
+      {
+        "title": "Lithium Argentina (LAR) Reports 42% Increase in Lithium Resource to 28.1M Tonnes",
         "publisher": "Insider Monkey",
-        "link": "https://www.insidermonkey.com/blog/madison-small-cap-funds-standout-performer-ciena-corp-cien-1717578/",
-        "published": "20260316T134038"
-      },
-      {
-        "title": "Stock market correction close to its ending stages, Morgan Stanley\u2019s Wilson says",
-        "publisher": "Investing.com",
-        "link": "https://www.investing.com/news/stock-market-news/stock-market-correction-close-to-its-ending-stages-morgan-stanleys-wilson-says-4562789",
-        "published": "20260316T125508"
-      },
-      {
-        "title": "UK consumers hit by worries over war in Iran, S&P Global says By Reuters",
-        "publisher": "Investing.com",
-        "link": "https://www.investing.com/news/economy-news/uk-consumers-hit-by-worries-over-war-in-iran-sp-global-says-4562395",
-        "published": "20260316T120830"
-      },
-      {
-        "title": "Nvidia, Citigroup, Meta And More On CNBC's 'Final Trades'",
-        "publisher": "Benzinga",
-        "link": "https://www.benzinga.com/trading-ideas/long-ideas/26/03/51264922/citigroup-meta-nvidia-more-on-cnbc-final-trades",
-        "published": "20260316T112311"
-      },
-      {
-        "title": "Nebius & Meta AI Deal: $12B Agreement, $15B Option Through 2027 - News and Statistics",
-        "publisher": "IndexBox - Market Intelligence Platform",
-        "link": "https://www.indexbox.io/blog/nebius-group-signs-27-billion-ai-capacity-deal-with-meta-platforms/",
-        "published": "20260316T110559"
+        "link": "https://www.insidermonkey.com/blog/lithium-argentina-lar-reports-42-increase-in-lithium-resource-to-28-1m-tonnes-1718835/?amp=1",
+        "published": "20260317T200400"
       }
     ]
   },
   "AMD": {
-    "timestamp": "2026-03-16T16:03:33.271808",
+    "timestamp": "2026-03-18T19:46:52.863696",
     "news": [
       {
-        "title": "SuperMicro takes on server leaders as AMD pushes on-premise AI",
-        "publisher": "Computer Weekly",
-        "link": "https://www.computerweekly.com/news/366640375/SuperMicro-takes-on-server-leaders-as-AMD-pushes-on-premise-AI",
-        "published": "20260316T150916"
+        "title": "Assessing Texas Instruments (TXN) Valuation After New 800V AI Data Center Power Architecture Announcement",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-txn/texas-instruments/news/assessing-texas-instruments-txn-valuation-after-new-800v-ai",
+        "published": "20260318T172427"
       },
       {
-        "title": "AI-Driven Memory Chip Demand to Drive Micron's DRAM Revenue in Q2",
-        "publisher": "The Globe and Mail",
-        "link": "https://www.theglobeandmail.com/investing/markets/stocks/MU/pressreleases/772028/ai-driven-memory-chip-demand-to-drive-microns-dram-revenue-in-q2/",
-        "published": "20260316T143800"
+        "title": "The Nvidia GTC Has Been Very Bullish For AMD (NASDAQ:AMD)",
+        "publisher": "Seeking Alpha",
+        "link": "https://seekingalpha.com/article/4883700-the-nvidia-gtc-has-been-very-bullish-for-amd",
+        "published": "20260318T165100"
       },
       {
-        "title": "Celestica, AMD partner for \u2018Helios\u2019 rack-scale AI platform",
-        "publisher": "TipRanks",
-        "link": "https://www.tipranks.com/news/the-fly/celestica-amd-partner-for-helios-rack-scale-ai-platform-thefly-news",
-        "published": "20260316T131844"
+        "title": "AMD-Samsung Expand Power Alliance To Resolve AI Data Bottlenecks",
+        "publisher": "Benzinga",
+        "link": "https://www.benzinga.com/markets/tech/26/03/51323718/amd-samsung-expand-power-alliance-to-resolve-ai-data-bottlenecks",
+        "published": "20260318T132003"
       },
       {
-        "title": "Lam Research (LCRX) Gained From Strong Demand Uptick",
-        "publisher": "Insider Monkey",
-        "link": "https://www.insidermonkey.com/blog/lam-research-lcrx-gained-from-strong-demand-uptick-1717618/",
-        "published": "20260316T125602"
+        "title": "Supermicro Advances Enterprises' Adoption of Accelerated Computing Across AI Factory, Data Center, and Edge with Expanded Portfolio Featuring NVIDIA RTX PRO Blackwell Server Edition GPUs",
+        "publisher": "PR Newswire",
+        "link": "https://www.prnewswire.com/news-releases/supermicro-advances-enterprises-adoption-of-accelerated-computing-across-ai-factory-data-center-and-edge-with-expanded-portfolio-featuring-nvidia-rtx-pro-blackwell-server-edition-gpus-302716287.html",
+        "published": "20260318T130817"
       },
       {
-        "title": "Inside \"Helios\": Celestica and AMD build AI racks for cloud, enterprise by 2026",
-        "publisher": "Stock Titan",
-        "link": "https://www.stocktitan.net/news/CLS/celestica-and-amd-announce-collaboration-to-advance-the-next-era-of-5lphkt3jzj74.html",
-        "published": "20260316T120844"
+        "title": "Supermicro Advances Enterprises' Adoption of Accelerated Computing Across AI Factory, Data Center, and Edge with Expanded Portfolio Featuring NVIDIA RTX PRO Blackwell Server Edition GPUs",
+        "publisher": "PR Newswire UK",
+        "link": "https://www.prnewswire.co.uk/news-releases/supermicro-advances-enterprises-adoption-of-accelerated-computing-across-ai-factory-data-center-and-edge-with-expanded-portfolio-featuring-nvidia-rtx-pro-blackwell-server-edition-gpus-302716333.html",
+        "published": "20260318T130515"
       }
     ]
   },
   "TSM": {
-    "timestamp": "2026-03-16T16:04:19.123534",
+    "timestamp": "2026-03-18T19:48:09.719947",
     "news": [
       {
-        "title": "Fayez Sarofim & Co Has $576.16 Million Stake in Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
+        "title": "Cantor Fitzgerald L. P. Sells 10,475 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
         "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-fayez-sarofim-co-has-57616-million-stake-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-03-16/",
-        "published": "20260316T103808"
+        "link": "https://www.marketbeat.com/instant-alerts/filing-cantor-fitzgerald-l-p-sells-10475-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-03-18/",
+        "published": "20260318T090932"
       },
       {
-        "title": "Taiwan Semiconductor Manufacturing Company Ltd. $TSM Stock Position Lowered by Fairfield Bush & CO.",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-taiwan-semiconductor-manufacturing-company-ltd-tsm-stock-position-lowered-by-fairfield-bush-co-2026-03-16/",
-        "published": "20260316T103349"
+        "title": "Korea, Taiwan chip sectors most exposed to helium shortage amid Middle East war",
+        "publisher": "South China Morning Post",
+        "link": "https://www.scmp.com/tech/article/3347005/korea-taiwan-chip-sectors-most-exposed-helium-shortage-amid-middle-east-war-fitch",
+        "published": "20260318T080932"
       },
       {
-        "title": "20,700 Shares in Taiwan Semiconductor Manufacturing Company Ltd. $TSM Purchased by First Trust Bank Ltd.",
+        "title": "Mairs & Power Inc. Purchases 48,439 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
         "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-20700-shares-in-taiwan-semiconductor-manufacturing-company-ltd-tsm-purchased-by-first-trust-bank-ltd-2026-03-16/",
-        "published": "20260316T102549"
+        "link": "https://www.marketbeat.com/instant-alerts/filing-mairs-power-inc-purchases-48439-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-03-17/",
+        "published": "20260317T120859"
       },
       {
-        "title": "Earnest Partners LLC Sells 9,633 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-earnest-partners-llc-sells-9633-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-03-16/",
-        "published": "20260316T093849"
+        "title": "Assessing Taiwan Semiconductor Manufacturing (NYSE:TSM) Valuation After Strong Multi\u2011Year Shareholder Returns",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/semiconductors/nyse-tsm/taiwan-semiconductor-manufacturing/news/assessing-taiwan-semiconductor-manufacturing-nysetsm-valuati-3",
+        "published": "20260317T102754"
       },
       {
-        "title": "EFG Asset Management Americas Corp. Buys 1,578 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-efg-asset-management-americas-corp-buys-1578-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-03-15/",
-        "published": "20260315T125221"
+        "title": "TSMC (NYSE: TSM) opens 2026 AGM resolution submission period for ADS holders",
+        "publisher": "Stock Titan",
+        "link": "https://www.stocktitan.net/sec-filings/TSM/6-k-taiwan-semiconductor-manufacturing-co-ltd-current-report-foreign--b122133448b8.html",
+        "published": "20260317T100859"
       }
     ]
   },
   "ASML": {
-    "timestamp": "2026-03-16T16:04:39.534193",
+    "timestamp": "2026-03-18T19:48:11.396675",
     "news": [
       {
-        "title": "Hollow Brook Wealth Management LLC Buys 2,411 Shares of ASML Holding N.V. $ASML",
+        "title": "Greenfield Seitz Capital Management LLC Takes $2.79 Million Position in ASML Holding N.V. $ASML",
         "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-hollow-brook-wealth-management-llc-buys-2411-shares-of-asml-holding-nv-asml-2026-03-16/",
-        "published": "20260316T113912"
+        "link": "https://www.marketbeat.com/instant-alerts/filing-greenfield-seitz-capital-management-llc-takes-279-million-position-in-asml-holding-nv-asml-2026-03-18/",
+        "published": "20260318T113837"
       },
       {
-        "title": "Fayez Sarofim & Co Acquires 12,754 Shares of ASML Holding N.V. $ASML",
+        "title": "Campbell Capital Management Inc. Acquires 857 Shares of ASML Holding N.V. $ASML",
         "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-fayez-sarofim-co-acquires-12754-shares-of-asml-holding-nv-asml-2026-03-16/",
-        "published": "20260316T103912"
+        "link": "https://www.marketbeat.com/instant-alerts/filing-campbell-capital-management-inc-acquires-857-shares-of-asml-holding-nv-asml-2026-03-18/",
+        "published": "20260318T083837"
       },
       {
-        "title": "Focus Partners Wealth Raises Stock Position in ASML Holding N.V. $ASML",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-focus-partners-wealth-raises-stock-position-in-asml-holding-nv-asml-2026-03-16/",
-        "published": "20260316T103912"
+        "title": "Analysts remain optimistic about ASML Holding (ASML)",
+        "publisher": "MSN",
+        "link": "https://www.msn.com/en-us/money/topstocks/analysts-remain-optimistic-about-asml-holding-asml/ar-AA1YNNNB?ocid=finance-verthp-feeds&apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+        "published": "20260318T003837"
       },
       {
-        "title": "ASML Holding N.V. $ASML is Hyperion Asset Management Ltd's 10th Largest Position",
+        "title": "Light Street Capital Management LLC Grows Stock Position in ASML Holding N.V. $ASML",
         "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-asml-holding-nv-asml-is-hyperion-asset-management-ltds-10th-largest-position-2026-03-16/",
-        "published": "20260316T103912"
+        "link": "https://www.marketbeat.com/instant-alerts/filing-light-street-capital-management-llc-grows-stock-position-in-asml-holding-nv-asml-2026-03-17/",
+        "published": "20260317T100859"
       },
       {
-        "title": "4,892 Shares in ASML Holding N.V. $ASML Acquired by Cinctive Capital Management LP",
+        "title": "Ameriprise Financial Inc. Sells 9,936 Shares of ASML Holding N.V. $ASML",
         "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-4892-shares-in-asml-holding-nv-asml-acquired-by-cinctive-capital-management-lp-2026-03-16/",
-        "published": "20260316T083912"
+        "link": "https://www.marketbeat.com/instant-alerts/filing-ameriprise-financial-inc-sells-9936-shares-of-asml-holding-nv-asml-2026-03-17/",
+        "published": "20260317T070859"
       }
     ]
   },
   "MU": {
-    "timestamp": "2026-03-16T16:04:39.380285",
-    "news": []
-  },
-  "MRVL": {
-    "timestamp": "2026-03-16T16:04:48.237590",
+    "timestamp": "2026-03-18T19:48:18.517771",
     "news": [
       {
-        "title": "Is Marvell Technology, Inc. (MRVL) a good stock to buy now?",
-        "publisher": "MSN",
-        "link": "https://www.msn.com/en-us/money/technology/is-marvell-technology-inc-mrvl-a-good-stock-to-buy-now/ar-AA1YH0Z8?ocid=finance-verthp-feeds",
-        "published": "20260316T015239"
+        "title": "Western Digital Ethics Award Renews Focus On Returns And Capital Allocation",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/tech/nasdaq-wdc/western-digital/news/western-digital-ethics-award-renews-focus-on-returns-and-cap",
+        "published": "20260318T172334"
       },
       {
-        "title": "Evercore Cites Robust Guidance as Key Driver for Marvell Technology (MRVL) Upgrade",
-        "publisher": "Yahoo Finance Singapore",
-        "link": "https://sg.finance.yahoo.com/news/evercore-cites-robust-guidance-key-184726340.html",
-        "published": "20260315T184700"
+        "title": "Fda says intuitive surgical issued letter recommending recall of some curved-tip staplers",
+        "publisher": "marketscreener.com",
+        "link": "https://www.marketscreener.com/news/fda-says-intuitive-surgical-issued-letter-recommending-recall-of-some-curved-tip-staplers-ce7e5ed9da88f024",
+        "published": "20260318T142343"
       },
       {
-        "title": "Crawford Investment Counsel Inc. Buys 17,336 Shares of Marvell Technology, Inc. $MRVL",
+        "title": "Reassessing Alexandria Real Estate Equities (ARE) After A 46% One-Year Share Price Slump",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/real-estate/nyse-are/alexandria-real-estate-equities/news/reassessing-alexandria-real-estate-equities-are-after-a-46-o",
+        "published": "20260318T123204"
+      },
+      {
+        "title": "Jabil beats estimates, raises full-year outlook",
+        "publisher": "Investing.com",
+        "link": "https://www.investing.com/news/earnings/jabil-beats-estimates-raises-fullyear-outlook-4568128",
+        "published": "20260318T114645"
+      },
+      {
+        "title": "Micron options lean bullish ahead of earnings with ~8% move priced in",
+        "publisher": "Seeking Alpha",
+        "link": "https://seekingalpha.com/news/4565732-micron-options-lean-bullish-ahead-of-earnings-with-8-percent-move-priced-in",
+        "published": "20260318T110000"
+      }
+    ]
+  },
+  "MRVL": {
+    "timestamp": "2026-03-18T19:48:23.714644",
+    "news": [
+      {
+        "title": "Marvell Launches Industry's First 260-lane PCIe 6.0 Switch for AI Data Center Scale-up Infrastructure",
+        "publisher": "Investing News Network",
+        "link": "https://investingnews.com/marvell-launches-industry-s-first-260-lane-pcie-6-0-switch-for-ai-data-center-scale-up-infrastructure/",
+        "published": "20260317T160958"
+      },
+      {
+        "title": "Marvell Launches Next-generation CXL Switch, Enabling Memory Pooling to Break Through the AI \u201cMemory Wall\u201d",
+        "publisher": "Business Wire",
+        "link": "https://www.businesswire.com/news/home/20260317298785/en/Marvell-Launches-Next-generation-CXL-Switch-Enabling-Memory-Pooling-to-Break-Through-the-AI-Memory-Wall",
+        "published": "20260317T130958"
+      },
+      {
+        "title": "Marvell Technology, Inc. $MRVL Shares Purchased by Lombard Odier Asset Management USA Corp",
         "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-crawford-investment-counsel-inc-buys-17336-shares-of-marvell-technology-inc-mrvl-2026-03-15/",
-        "published": "20260315T105239"
+        "link": "https://www.marketbeat.com/instant-alerts/filing-marvell-technology-inc-mrvl-shares-purchased-by-lombard-odier-asset-management-usa-corp-2026-03-17/",
+        "published": "20260317T130958"
       },
       {
-        "title": "Clough Capital Partners L P Takes $2.16 Million Position in Marvell Technology, Inc. $MRVL",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-clough-capital-partners-l-p-takes-216-million-position-in-marvell-technology-inc-mrvl-2026-03-15/",
-        "published": "20260315T105239"
+        "title": "Marvell Launches Industry\u2019s First 260-lane PCIe 6.0 Switch for AI Data Center Scale-up Infrastructure",
+        "publisher": "Marvell",
+        "link": "https://investor.marvell.com/news-events/press-releases/detail/1016/marvell-launches-industrys-first-260-lane-pcie-6-0-switch-for-ai-data-center-scale-up-infrastructure",
+        "published": "20260317T073901"
       },
       {
-        "title": "Marvell Technology (NASDAQ:MRVL) Downgraded by Wall Street Zen to \"Hold\"",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/marvell-technology-nasdaqmrvl-downgraded-by-wall-street-zen-to-hold-2026-03-15/",
-        "published": "20260315T045155"
+        "title": "Wells Fargo Backs Marvell, Micron, and Rambus With Strong Buy Ratings as AI Demand Grows",
+        "publisher": "MEXC",
+        "link": "https://www.mexc.com/news/941350",
+        "published": "20260316T190549"
       }
     ]
   },
   "ARM": {
-    "timestamp": "2026-03-16T16:05:18.221384",
+    "timestamp": "2026-03-18T19:49:28.634880",
     "news": [
       {
-        "title": "Hyperion Asset Management Ltd Makes New $202.98 Million Investment in ARM Holdings PLC Sponsored ADR $ARM",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-hyperion-asset-management-ltd-makes-new-20298-million-investment-in-arm-holdings-plc-sponsored-adr-arm-2026-03-16/",
-        "published": "20260316T103839"
+        "title": "Jim Cramer Says Arm Holdings (ARM) Stock Price Is \u201cNowhere Near Reflecting the Kind of Book of Business That Rene Has Just Outlined for the Next Year and a Half\u201d",
+        "publisher": "Insider Monkey",
+        "link": "https://www.insidermonkey.com/blog/jim-cramer-says-arm-holdings-arm-stock-price-is-nowhere-near-reflecting-the-kind-of-book-of-business-that-rene-has-just-outlined-for-the-next-year-and-a-half-1718811/",
+        "published": "20260317T181400"
       },
       {
-        "title": "Cantor Fitzgerald L. P. Increases Stake in ARM Holdings PLC Sponsored ADR $ARM",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-cantor-fitzgerald-l-p-increases-stake-in-arm-holdings-plc-sponsored-adr-arm-2026-03-15/",
-        "published": "20260315T095234"
-      },
-      {
-        "title": "Clear Street Group Inc. Buys Shares of 116,334 ARM Holdings PLC Sponsored ADR $ARM",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-clear-street-group-inc-buys-shares-of-116334-arm-holdings-plc-sponsored-adr-arm-2026-03-15/",
-        "published": "20260315T095234"
-      },
-      {
-        "title": "Quinn Opportunity Partners LLC Makes New $7.48 Million Investment in ARM Holdings PLC Sponsored ADR $ARM",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-quinn-opportunity-partners-llc-makes-new-748-million-investment-in-arm-holdings-plc-sponsored-adr-arm-2026-03-14/",
-        "published": "20260314T085142"
-      },
-      {
-        "title": "Arm Holdings PLC Stock (ARM) Moved Down by 4.15% on Mar 12: Key Drivers Unveiled",
+        "title": "Arm Holdings PLC Stock (ARM) Opened Up by 4.54% on Mar 17: Drivers Behind the Movement",
         "publisher": "TradingKey",
-        "link": "https://www.tradingkey.com/news/stocks/261676041-market-movers-arm-20260312",
-        "published": "20260313T175142"
+        "link": "https://www.tradingkey.com/news/Market-Movers/261690179-market-movers-arm-20260317",
+        "published": "20260317T144700"
+      },
+      {
+        "title": "59,975 Shares in ARM Holdings PLC Sponsored ADR $ARM Acquired by Lansdowne Partners UK LLP",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-59975-shares-in-arm-holdings-plc-sponsored-adr-arm-acquired-by-lansdowne-partners-uk-llp-2026-03-17/",
+        "published": "20260317T104011"
+      },
+      {
+        "title": "Banco Bilbao Vizcaya Argentaria S.A. Purchases 31,087 Shares of ARM Holdings PLC Sponsored ADR $ARM",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-banco-bilbao-vizcaya-argentaria-sa-purchases-31087-shares-of-arm-holdings-plc-sponsored-adr-arm-2026-03-17/",
+        "published": "20260317T074011"
+      },
+      {
+        "title": "Is Arm Holdings plc (ARM) a good stock to buy now?",
+        "publisher": "MSN",
+        "link": "http://www.msn.com/en-us/money/savingandinvesting/is-arm-holdings-plc-arm-a-good-stock-to-buy-now/ar-AA1YHdEb?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+        "published": "20260317T010912"
       }
     ]
   },
   "AVGO": {
-    "timestamp": "2026-03-16T16:05:37.335220",
+    "timestamp": "2026-03-18T19:49:32.844590",
     "news": [
       {
-        "title": "Inside the first 800GE Ultra Ethernet test for massive AI networks",
-        "publisher": "Stock Titan",
-        "link": "https://www.stocktitan.net/news/KEYS/keysight-advances-ai-networking-with-ultra-ethernet-llr-and-cbfc-1rc3wc3x03ym.html",
-        "published": "20260316T145946"
+        "title": "Assessing Texas Instruments (TXN) Valuation After New 800V AI Data Center Power Architecture Announcement",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-txn/texas-instruments/news/assessing-texas-instruments-txn-valuation-after-new-800v-ai",
+        "published": "20260318T172427"
       },
       {
-        "title": "HighVista Strategies LLC Has $1.35 Million Stake in Core Scientific, Inc. $CORZ",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-highvista-strategies-llc-has-135-million-stake-in-core-scientific-inc-corz-2026-03-16/",
-        "published": "20260316T110923"
+        "title": "Cisco is Overvalued at 4.95X PS: Should You Still Buy the Stock?",
+        "publisher": "TradingView",
+        "link": "https://www.tradingview.com/news/zacks:a7c660040094b:0-cisco-is-overvalued-at-4-95x-ps-should-you-still-buy-the-stock/",
+        "published": "20260318T163703"
       },
       {
-        "title": "Gotham Asset Management LLC Increases Position in Skyworks Solutions, Inc. $SWKS",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-gotham-asset-management-llc-increases-position-in-skyworks-solutions-inc-swks-2026-03-16/",
-        "published": "20260316T104627"
+        "title": "Zacks.com spotlighted companies such as Ross Stores, Globe Life, Broadcom, Colgate-Palmolive, and TE Connectivity.",
+        "publisher": "Bitget",
+        "link": "https://www.bitget.com/amp/news/detail/12560605276657",
+        "published": "20260318T150915"
       },
       {
-        "title": "Comfort Systems USA, Inc. $FIX Shares Purchased by Granahan Investment Management LLC",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-comfort-systems-usa-inc-fix-shares-purchased-by-granahan-investment-management-llc-2026-03-16/",
-        "published": "20260316T103934"
+        "title": "Zacks.com featured highlights include Ross Stores, Globe Life, Broadcom, Colgate-Palmolive and TE Connectivity",
+        "publisher": "The Globe and Mail",
+        "link": "https://www.theglobeandmail.com/investing/markets/stocks/AVGO/pressreleases/821957/zackscom-featured-highlights-include-ross-stores-globe-life-broadcom-colgate-palmolive-and-te-connectivity/",
+        "published": "20260318T150749"
       },
       {
-        "title": "Broadcom (AVGO): The Architect of the AI Infrastructure Supercycle",
-        "publisher": "FinancialContent",
-        "link": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-16-broadcom-avgo-the-architect-of-the-ai-infrastructure-supercycle",
-        "published": "20260316T100200"
+        "title": "Freshpet Stock To $88?",
+        "publisher": "Trefis",
+        "link": "https://www.trefis.com/stock/frpt/articles2/594028/freshpet-stock-to-88/2026-03-18",
+        "published": "20260318T133951"
       }
     ]
   },
   "ALAB": {
-    "timestamp": "2026-03-16T16:05:50.287367",
+    "timestamp": "2026-03-18T19:49:39.141705",
     "news": [
       {
-        "title": "Fred Alger Management LLC Has $301.81 Million Position in Astera Labs, Inc. $ALAB",
+        "title": "Silvant Capital Management LLC Makes New $2.20 Million Investment in Astera Labs, Inc. $ALAB",
         "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-fred-alger-management-llc-has-30181-million-position-in-astera-labs-inc-alab-2026-03-16/",
-        "published": "20260316T104008"
+        "link": "https://www.marketbeat.com/instant-alerts/filing-silvant-capital-management-llc-makes-new-220-million-investment-in-astera-labs-inc-alab-2026-03-18/",
+        "published": "20260318T103933"
       },
       {
-        "title": "Aquatic Capital Management LLC Buys New Shares in Astera Labs, Inc. $ALAB",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-aquatic-capital-management-llc-buys-new-shares-in-astera-labs-inc-alab-2026-03-16/",
-        "published": "20260316T074008"
+        "title": "Astera Labs (ALAB) Is Up 9.5% After Amazon Warrant Deal And GTC Showcase - Has The Bull Case Changed?",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-alab/astera-labs/news/astera-labs-alab-is-up-95-after-amazon-warrant-deal-and-gtc",
+        "published": "20260318T013933"
       },
       {
-        "title": "Astera Labs, Inc. (NASDAQ:ALAB) Given Consensus Recommendation of \"Moderate Buy\" by Brokerages",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/astera-labs-inc-nasdaqalab-given-consensus-recommendation-of-moderate-buy-by-brokerages-2026-03-16/",
-        "published": "20260316T064008"
+        "title": "Astera Labs director Lazar sells $325,000 in stock",
+        "publisher": "Investing.com",
+        "link": "https://m.investing.com/news/insider-trading-news/astera-labs-director-lazar-sells-325000-in-stock-93CH-4567179?ampMode=1",
+        "published": "20260317T233933"
       },
       {
-        "title": "Alliancebernstein L.P. Sells 3,472,895 Shares of Astera Labs, Inc. $ALAB",
+        "title": "Astera Labs (NASDAQ:ALAB) Director Sells $325,000.00 in Stock",
         "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-alliancebernstein-lp-sells-3472895-shares-of-astera-labs-inc-alab-2026-03-15/",
-        "published": "20260315T114008"
+        "link": "https://www.marketbeat.com/instant-alerts/astera-labs-nasdaqalab-director-sells-32500000-in-stock-2026-03-17/",
+        "published": "20260317T223933"
       },
       {
-        "title": "Brevan Howard Capital Management LP Raises Stock Position in Astera Labs, Inc. $ALAB",
+        "title": "Astera Labs, Inc. $ALAB Shares Acquired by Numerai GP LLC",
         "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-brevan-howard-capital-management-lp-raises-stock-position-in-astera-labs-inc-alab-2026-03-15/",
-        "published": "20260315T105205"
+        "link": "https://www.marketbeat.com/instant-alerts/filing-astera-labs-inc-alab-shares-acquired-by-numerai-gp-llc-2026-03-17/",
+        "published": "20260317T133846"
       }
     ]
   },
   "PLTR": {
-    "timestamp": "2026-03-16T16:06:03.249332",
+    "timestamp": "2026-03-18T19:49:49.304979",
     "news": [
       {
-        "title": "Farallon Capital Management LLC Reduces Holdings in Woodward, Inc. $WWD",
+        "title": "General Electric (GE) Is Down 7.5% After AI-Driven Defense, Manufacturing Expansion News Is Announced \u2013 Has The Bull Case Changed?",
+        "publisher": "Simply Wall Street",
+        "link": "https://simplywall.st/stocks/us/capital-goods/nyse-ge/general-electric/news/general-electric-ge-is-down-75-after-ai-driven-defense-manuf",
+        "published": "20260318T121736"
+      },
+      {
+        "title": "Is Essex Property Stock Underperforming the S&P 500?",
+        "publisher": "Barchart.com",
+        "link": "https://www.barchart.com/story/news/815760/is-essex-property-stock-underperforming-the-s-p-500",
+        "published": "20260318T114429"
+      },
+      {
+        "title": "Woodward, Inc. $WWD Shares Sold by Graybill Wealth Management LTD.",
         "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-farallon-capital-management-llc-reduces-holdings-in-woodward-inc-wwd-2026-03-16/",
-        "published": "20260316T103811"
+        "link": "https://www.marketbeat.com/instant-alerts/filing-woodward-inc-wwd-shares-sold-by-graybill-wealth-management-ltd-2026-03-18/",
+        "published": "20260318T113332"
       },
       {
-        "title": "McGill and Partners and AIG Launch Long-Term Strategic Collaboration in a Major Development for the Subscription Market",
-        "publisher": "Business Wire",
-        "link": "https://www.businesswire.com/news/home/20260316960625/en/McGill-and-Partners-and-AIG-Launch-Long-Term-Strategic-Collaboration-in-a-Major-Development-for-the-Subscription-Market",
-        "published": "20260316T103659"
+        "title": "Is Darden Restaurants Stock Underperforming the Nasdaq?",
+        "publisher": "Barchart.com",
+        "link": "https://www.barchart.com/story/news/812917/is-darden-restaurants-stock-underperforming-the-nasdaq",
+        "published": "20260318T094422"
       },
       {
-        "title": "Crawford Investment Counsel Inc. Sells 3,225 Shares of Woodward, Inc. $WWD",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-crawford-investment-counsel-inc-sells-3225-shares-of-woodward-inc-wwd-2026-03-16/",
-        "published": "20260316T091011"
-      },
-      {
-        "title": "Chevy Chase Trust Holdings LLC Sells 52,361 Shares of Truist Financial Corporation $TFC",
-        "publisher": "MarketBeat",
-        "link": "https://www.marketbeat.com/instant-alerts/filing-chevy-chase-trust-holdings-llc-sells-52361-shares-of-truist-financial-corporation-tfc-2026-03-16/",
-        "published": "20260316T081010"
-      },
-      {
-        "title": "Opendoor (OPEN) Up or Down on March 16? Trading Odds & Predictions (Mar. 16, 2026)",
-        "publisher": "Polymarket",
-        "link": "https://polymarket.com/event/open-up-or-down-on-march-16-2026",
-        "published": "20260315T213938"
+        "title": "BlackRock Lifts Stake in Caledonia Mining Above Regulatory Threshold",
+        "publisher": "TipRanks",
+        "link": "https://www.tipranks.com/news/company-announcements/blackrock-lifts-stake-in-caledonia-mining-above-regulatory-threshold",
+        "published": "20260318T083941"
       }
     ]
   },
   "GOOG": {
-    "timestamp": "2026-03-16T16:06:25.359741",
+    "timestamp": "2026-03-18T19:50:54.309830",
     "news": [
       {
-        "title": "Microsoft Is On Sale: 5 Reasons To Buy Now (NASDAQ:MSFT)",
-        "publisher": "Seeking Alpha",
-        "link": "https://seekingalpha.com/article/4882726-microsoft-is-on-sale-5-reasons-to-buy-now",
-        "published": "20260316T142405"
+        "title": "Google, DTE Energy Partner for Major Michigan Data Center and Energy Expansion",
+        "publisher": "ConstructConnect News",
+        "link": "https://news.constructconnect.com/google-dte-energy-partner-for-major-michigan-data-center-and-energy-expansion?hs_amp=true",
+        "published": "20260318T160724"
       },
       {
-        "title": "Emerald Growth Equity Strategy Sold Revvity (RVTY) in Q4",
-        "publisher": "Insider Monkey",
-        "link": "https://www.insidermonkey.com/blog/emerald-growth-equity-strategy-sold-revvity-rvty-in-q4-1717681/",
-        "published": "20260316T140311"
+        "title": "Here's Why Google's $185 Billion AI Bet in 2026 Could Either Be a Masterstroke or Its Biggest Mistake",
+        "publisher": "The Globe and Mail",
+        "link": "https://www.theglobeandmail.com/investing/markets/stocks/INTC/pressreleases/817563/heres-why-googles-185-billion-ai-bet-in-2026-could-either-be-a-masterstroke-or-its-biggest-mistake/",
+        "published": "20260318T123734"
       },
       {
-        "title": "Oracle Just Posted Its Best Quarter in 15 Years -- Here's Why 2026 Could Get Even Better",
-        "publisher": "The Motley Fool",
-        "link": "https://www.fool.com/investing/2026/03/16/oracle-best-quarter-15-years-why-2026-better/",
-        "published": "20260316T133028"
+        "title": "International Business Machines Corporation $IBM Shares Acquired by Wilmington Savings Fund Society FSB",
+        "publisher": "MarketBeat",
+        "link": "https://www.marketbeat.com/instant-alerts/filing-international-business-machines-corporation-ibm-shares-acquired-by-wilmington-savings-fund-society-fsb-2026-03-18/",
+        "published": "20260318T122544"
       },
       {
-        "title": "Score the Google Pixel 10A for free with T-Mobile \u2014 how to qualify",
-        "publisher": "Mashable",
-        "link": "https://mashable.com/article/march-16-google-pixel-10a-tmobile-deal",
-        "published": "20260316T121836"
-      },
-      {
-        "title": "Alphabet Inc. Class A Stock Dips Amid AI Capex Concerns as Analysts Stay Bullish",
+        "title": "Yelp Inc Stock (ISIN: US9884981013) Faces Pressure Amid Slowing Growth and Cautious 2026 Outlook",
         "publisher": "AD HOC NEWS",
-        "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/alphabet-inc-class-a-stock-dips-amid-ai-capex-concerns-as-analysts-stay/68694346",
-        "published": "20260316T114737"
+        "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/yelp-inc-stock-isin-us9884981013-faces-pressure-amid-slowing-growth-and/68785533",
+        "published": "20260318T113840"
+      },
+      {
+        "title": "Google confirms 1GW data center campus near Detroit, Michigan, partners with DTE Energy on 2.7GW power generation",
+        "publisher": "Data Center Dynamics",
+        "link": "https://www.datacenterdynamics.com/en/news/google-confirms-1gw-data-center-campus-near-detroit-michigan-partners-with-dte-energy-on-27gw-power-generation/",
+        "published": "20260318T113723"
       }
     ]
   }
