@@ -115,7 +115,7 @@ async function checkPortfolioStatusWrapper() {
 
         drawAllSparklines(allData);
 
-        if (currentPM === 'all') {
+        if (requestedPM === 'all') {
             const comparisonData = {};
             let totalBalance = 0;
             let totalValue = 0;
@@ -155,12 +155,12 @@ async function checkPortfolioStatusWrapper() {
             window.switchTab('completed-trades');
 
         } else {
-            const data = await checkPortfolioStatus(currentPM);
+            const data = await checkPortfolioStatus(requestedPM);
 
             // Ignore stale responses that arrive after a newer poll or PM switch.
             if (requestSeq !== statusRequestSeq || requestedPM !== currentPM) return;
 
-            UI.renderPortfolioControls(data, currentPM);
+            UI.renderPortfolioControls(data, requestedPM);
 
             if (data.history && data.history.length > 0) {
                 const { renderChart } = await import('./chart.js');
@@ -174,12 +174,12 @@ async function checkPortfolioStatusWrapper() {
                 window.filterModelChat('analyst');
             }
 
-            UI.renderCompletedTrades(data.trade_log || [], (PM_INFO[currentPM] ? PM_INFO[currentPM].name : 'Unknown PM'));
+            UI.renderCompletedTrades(data.trade_log || [], (PM_INFO[requestedPM] ? PM_INFO[requestedPM].name : 'Unknown PM'));
             UI.renderPositionsTab(data.positions || {}, (data.available_cash !== undefined ? data.available_cash : data.balance) || 0, data.total_unrealized_pnl || 0);
             UI.renderStrategyInfo(data.strategy_info);
 
             // If we just clicked a PM tab (or on initial PM1 load), default to ModelChat as it has the juiciest data
-            if (currentPM !== 'all' && !window._hasSetInitialTab) {
+            if (requestedPM !== 'all' && !window._hasSetInitialTab) {
                 window.switchTab('modelchat');
                 window._hasSetInitialTab = true;
             }
