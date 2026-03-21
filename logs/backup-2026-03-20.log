@@ -1,0 +1,36 @@
+[03:00:01] 💾 Backup Script - Fri Mar 20 03:00:01 GMT 2026
+[03:00:01] Workspace: /root/.openclaw/workspace
+[03:00:01] Dry run: false
+[03:00:01] 📋 Identifying assets…
+[03:00:02] Total assets: 88
+[03:00:02] Sample (first 20):
+  - /root/.openclaw/workspace/Agentwebpage/data/nai_one.db
+  - /root/.openclaw/workspace/alphaarena-migration/repo/frontend/static/favicon.png
+  - /root/.openclaw/workspace/assets/wurster/eduard-wurster-portrait.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-01.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-02.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-03.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-04.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-05.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-06.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-07.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-08.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-09.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-10.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-11.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-12.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-13.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-14.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-15.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-16.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-17.jpg
+[03:00:02] 📦 Creating archive: /root/.openclaw/workspace/backups/backup-2026-03-20.tar.gz
+tar: Removing leading `/' from member names
+tar: Removing leading `/' from hard link targets
+[03:00:04] ✅ Archive created (16M)
+[03:00:04] ⚠️  BOX_ACCESS_TOKEN not set; skipping Box upload.
+[03:00:04] 🧹 Retention cleanup: keep last 14 days
+[03:00:04] Removed old backups: 0
+[03:00:04] ✅ Backup complete
+[03:00:04] Archive: /root/.openclaw/workspace/backups/backup-2026-03-20.tar.gz
+[03:00:04] Log: /root/.openclaw/workspace/logs/backup-2026-03-20.log

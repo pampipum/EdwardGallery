@@ -1,0 +1,1168 @@
+📝 Auto-Commit Check - Thu Mar 19 18:00:01 GMT 2026
+==============================
+
+📋 Uncommitted changes detected:
+ M Agentwebpage
+ M HEARTBEAT.md
+ M MEMORY.md
+ M alphaarena-migration/state/cache/analyst_cache.json
+ M alphaarena-migration/state/cache/fear_greed_cache.json
+ M alphaarena-migration/state/logs/app.log
+ M alphaarena-migration/state/portfolios/pm1.json
+ M alphaarena-migration/state/portfolios/pm2.json
+ M alphaarena-migration/state/portfolios/pm3.json
+ M alphaarena-migration/state/portfolios/pm4.json
+ M alphaarena-migration/state/portfolios/pm5.json
+ M alphaarena-migration/state/portfolios/pm6.json
+ M bwtec-navigation-kiosk
+?? ai-audits/scripts/run-critique-email.sh
+?? ai-audits/scripts/run-lead-fetch.sh
+?? docs/PRD.md
+?? docs/SCHEDULER-SETUP.md
+?? docs/alerts-config.md
+?? docs/automation-systems.md
+?? docs/logging-system.md
+?? docs/scheduling.md
+?? learnings.md
+?? logs/
+?? memory/2026-03-19.md
+?? memory/alert-state.json
+?? memory/alerts/
+?? memory/docs-validation-2026-03-19.md
+?? memory/heartbeat-state.json
+?? memory/morning-review-2026-03-19.md
+?? memory/morning-review-template.md
+?? memory/openclaw-update-2026-03-19.md
+?? scripts/auto-commit.sh
+?? scripts/backup-assets.sh
+?? scripts/check-alerts.sh
+?? scripts/log-agent-action.sh
+?? scripts/log-system.sh
+?? scripts/manage-cron.sh
+?? scripts/morning-review.sh
+?? scripts/run-auto-tests.sh
+?? scripts/setup-cron-jobs.sh
+?? scripts/update-openclaw.sh
+?? scripts/validate-docs.sh
+?? scripts/weekly-maintenance.sh
+
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+✅ No changes to commit (other changes may be ignored)
+📝 Auto-Commit Check - Fri Mar 20 00:00:01 GMT 2026
+==============================
+
+📋 Uncommitted changes detected:
+ M Agentwebpage
+ M HEARTBEAT.md
+ M MEMORY.md
+ M alphaarena-migration/state/cache/alpha_vantage_calls.json
+ M alphaarena-migration/state/cache/alpha_vantage_news_cache.json
+ M alphaarena-migration/state/cache/analyst_cache.json
+ M alphaarena-migration/state/cache/fear_greed_cache.json
+ M alphaarena-migration/state/logs/app.log
+ M alphaarena-migration/state/portfolios/pm1.json
+ M alphaarena-migration/state/portfolios/pm2.json
+ M alphaarena-migration/state/portfolios/pm3.json
+ M alphaarena-migration/state/portfolios/pm4.json
+ M alphaarena-migration/state/portfolios/pm5.json
+ M alphaarena-migration/state/portfolios/pm6.json
+ M bwtec-navigation-kiosk
+?? ai-audits/scripts/run-critique-email.sh
+?? ai-audits/scripts/run-lead-fetch.sh
+?? docs/PRD.md
+?? docs/SCHEDULER-SETUP.md
+?? docs/alerts-config.md
+?? docs/automation-systems.md
+?? docs/logging-system.md
+?? docs/scheduling.md
+?? learnings.md
+?? logs/
+?? memory/2026-03-19.md
+?? memory/alert-state.json
+?? memory/alerts/
+?? memory/docs-validation-2026-03-19.md
+?? memory/heartbeat-state.json
+?? memory/morning-review-2026-03-19.md
+?? memory/morning-review-template.md
+?? memory/openclaw-update-2026-03-19.md
+?? scripts/auto-commit.sh
+?? scripts/backup-assets.sh
+?? scripts/check-alerts.sh
+?? scripts/log-agent-action.sh
+?? scripts/log-system.sh
+?? scripts/manage-cron.sh
+?? scripts/morning-review.sh
+?? scripts/run-auto-tests.sh
+?? scripts/setup-cron-jobs.sh
+?? scripts/update-openclaw.sh
+?? scripts/validate-docs.sh
+?? scripts/weekly-maintenance.sh
+
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+✅ No changes to commit (other changes may be ignored)
+📝 Auto-Commit Check - Fri Mar 20 06:00:01 GMT 2026
+==============================
+
+📋 Uncommitted changes detected:
+ M Agentwebpage
+ M HEARTBEAT.md
+ M MEMORY.md
+ M alphaarena-migration/state/cache/alpha_vantage_calls.json
+ M alphaarena-migration/state/cache/alpha_vantage_news_cache.json
+ M alphaarena-migration/state/cache/analyst_cache.json
+ M alphaarena-migration/state/cache/fear_greed_cache.json
+ M alphaarena-migration/state/logs/app.log
+ M alphaarena-migration/state/portfolios/pm1.json
+ M alphaarena-migration/state/portfolios/pm2.json
+ M alphaarena-migration/state/portfolios/pm3.json
+ M alphaarena-migration/state/portfolios/pm4.json
+ M alphaarena-migration/state/portfolios/pm5.json
+ M alphaarena-migration/state/portfolios/pm6.json
+ M bwtec-navigation-kiosk
+?? ai-audits/scripts/run-critique-email.sh
+?? ai-audits/scripts/run-lead-fetch.sh
+?? backups/
+?? docs/PRD.md
+?? docs/SCHEDULER-SETUP.md
+?? docs/alerts-config.md
+?? docs/automation-systems.md
+?? docs/logging-system.md
+?? docs/scheduling.md
+?? learnings.md
+?? logs/
+?? memory/2026-03-19.md
+?? memory/alert-state.json
+?? memory/alerts/
+?? memory/docs-validation-2026-03-19.md
+?? memory/docs-validation-2026-03-20.md
+?? memory/heartbeat-state.json
+?? memory/morning-review-2026-03-19.md
+?? memory/morning-review-template.md
+?? memory/openclaw-update-2026-03-19.md
+?? memory/openclaw-update-2026-03-20.md
+?? scripts/auto-commit.sh
+?? scripts/backup-assets.sh
+?? scripts/check-alerts.sh
+?? scripts/log-agent-action.sh
+?? scripts/log-system.sh
+?? scripts/manage-cron.sh
+?? scripts/morning-review.sh
+?? scripts/run-auto-tests.sh
+?? scripts/setup-cron-jobs.sh
+?? scripts/update-openclaw.sh
+?? scripts/validate-docs.sh
+?? scripts/weekly-maintenance.sh
+
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+✅ No changes to commit (other changes may be ignored)
+📝 Auto-Commit Check - Fri Mar 20 12:00:02 GMT 2026
+==============================
+
+📋 Uncommitted changes detected:
+ M Agentwebpage
+ M HEARTBEAT.md
+ M MEMORY.md
+ M alphaarena-migration/state/cache/alpha_vantage_calls.json
+ M alphaarena-migration/state/cache/alpha_vantage_news_cache.json
+ M alphaarena-migration/state/cache/analyst_cache.json
+ M alphaarena-migration/state/cache/fear_greed_cache.json
+ M alphaarena-migration/state/logs/app.log
+ M alphaarena-migration/state/portfolios/pm1.json
+ M alphaarena-migration/state/portfolios/pm2.json
+ M alphaarena-migration/state/portfolios/pm3.json
+ M alphaarena-migration/state/portfolios/pm4.json
+ M alphaarena-migration/state/portfolios/pm5.json
+ M alphaarena-migration/state/portfolios/pm6.json
+ M bwtec-navigation-kiosk
+?? ai-audits/scripts/run-critique-email.sh
+?? ai-audits/scripts/run-lead-fetch.sh
+?? backups/
+?? docs/PRD.md
+?? docs/SCHEDULER-SETUP.md
+?? docs/alerts-config.md
+?? docs/automation-systems.md
+?? docs/logging-system.md
+?? docs/scheduling.md
+?? learnings.md
+?? logs/
+?? memory/2026-03-19.md
+?? memory/alert-state.json
+?? memory/alerts/
+?? memory/docs-validation-2026-03-19.md
+?? memory/docs-validation-2026-03-20.md
+?? memory/heartbeat-state.json
+?? memory/morning-review-2026-03-19.md
+?? memory/morning-review-2026-03-20.md
+?? memory/morning-review-template.md
+?? memory/openclaw-update-2026-03-19.md
+?? memory/openclaw-update-2026-03-20.md
+?? scripts/auto-commit.sh
+?? scripts/backup-assets.sh
+?? scripts/check-alerts.sh
+?? scripts/log-agent-action.sh
+?? scripts/log-system.sh
+?? scripts/manage-cron.sh
+?? scripts/morning-review.sh
+?? scripts/run-auto-tests.sh
+?? scripts/setup-cron-jobs.sh
+?? scripts/update-openclaw.sh
+?? scripts/validate-docs.sh
+?? scripts/weekly-maintenance.sh
+
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+✅ No changes to commit (other changes may be ignored)
+📝 Auto-Commit Check - Fri Mar 20 18:00:01 GMT 2026
+==============================
+
+📋 Uncommitted changes detected:
+ M Agentwebpage
+ M HEARTBEAT.md
+ M MEMORY.md
+ M alphaarena-migration/state/cache/alpha_vantage_calls.json
+ M alphaarena-migration/state/cache/alpha_vantage_news_cache.json
+ M alphaarena-migration/state/cache/analyst_cache.json
+ M alphaarena-migration/state/cache/fear_greed_cache.json
+ M alphaarena-migration/state/logs/app.log
+ M alphaarena-migration/state/portfolios/pm1.json
+ M alphaarena-migration/state/portfolios/pm2.json
+ M alphaarena-migration/state/portfolios/pm3.json
+ M alphaarena-migration/state/portfolios/pm4.json
+ M alphaarena-migration/state/portfolios/pm5.json
+ M alphaarena-migration/state/portfolios/pm6.json
+ M bwtec-navigation-kiosk
+?? ai-audits/scripts/run-critique-email.sh
+?? ai-audits/scripts/run-lead-fetch.sh
+?? backups/
+?? docs/PRD.md
+?? docs/SCHEDULER-SETUP.md
+?? docs/alerts-config.md
+?? docs/automation-systems.md
+?? docs/logging-system.md
+?? docs/scheduling.md
+?? learnings.md
+?? logs/
+?? memory/2026-03-19.md
+?? memory/alert-state.json
+?? memory/alerts/
+?? memory/docs-validation-2026-03-19.md
+?? memory/docs-validation-2026-03-20.md
+?? memory/heartbeat-state.json
+?? memory/morning-review-2026-03-19.md
+?? memory/morning-review-2026-03-20.md
+?? memory/morning-review-template.md
+?? memory/openclaw-update-2026-03-19.md
+?? memory/openclaw-update-2026-03-20.md
+?? scripts/auto-commit.sh
+?? scripts/backup-assets.sh
+?? scripts/check-alerts.sh
+?? scripts/log-agent-action.sh
+?? scripts/log-system.sh
+?? scripts/manage-cron.sh
+?? scripts/morning-review.sh
+?? scripts/run-auto-tests.sh
+?? scripts/setup-cron-jobs.sh
+?? scripts/update-openclaw.sh
+?? scripts/validate-docs.sh
+?? scripts/weekly-maintenance.sh
+
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+✅ No changes to commit (other changes may be ignored)
+📝 Auto-Commit Check - Sat Mar 21 00:00:01 GMT 2026
+==============================
+
+📋 Uncommitted changes detected:
+ M Agentwebpage
+ M HEARTBEAT.md
+ M MEMORY.md
+ M alphaarena-migration/state/cache/alpha_vantage_calls.json
+ M alphaarena-migration/state/cache/alpha_vantage_news_cache.json
+ M alphaarena-migration/state/cache/analyst_cache.json
+ M alphaarena-migration/state/cache/fear_greed_cache.json
+ M alphaarena-migration/state/logs/app.log
+ M alphaarena-migration/state/portfolios/pm1.json
+ M alphaarena-migration/state/portfolios/pm2.json
+ M alphaarena-migration/state/portfolios/pm3.json
+ M alphaarena-migration/state/portfolios/pm4.json
+ M alphaarena-migration/state/portfolios/pm5.json
+ M alphaarena-migration/state/portfolios/pm6.json
+ M bwtec-navigation-kiosk
+?? ai-audits/scripts/run-critique-email.sh
+?? ai-audits/scripts/run-lead-fetch.sh
+?? backups/
+?? docs/PRD.md
+?? docs/SCHEDULER-SETUP.md
+?? docs/alerts-config.md
+?? docs/automation-systems.md
+?? docs/logging-system.md
+?? docs/scheduling.md
+?? learnings.md
+?? logs/
+?? memory/2026-03-19.md
+?? memory/alert-state.json
+?? memory/alerts/
+?? memory/docs-validation-2026-03-19.md
+?? memory/docs-validation-2026-03-20.md
+?? memory/heartbeat-state.json
+?? memory/morning-review-2026-03-19.md
+?? memory/morning-review-2026-03-20.md
+?? memory/morning-review-template.md
+?? memory/openclaw-update-2026-03-19.md
+?? memory/openclaw-update-2026-03-20.md
+?? scripts/auto-commit.sh
+?? scripts/backup-assets.sh
+?? scripts/check-alerts.sh
+?? scripts/log-agent-action.sh
+?? scripts/log-system.sh
+?? scripts/manage-cron.sh
+?? scripts/morning-review.sh
+?? scripts/run-auto-tests.sh
+?? scripts/setup-cron-jobs.sh
+?? scripts/update-openclaw.sh
+?? scripts/validate-docs.sh
+?? scripts/weekly-maintenance.sh
+
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 7: unterminated `s' command
+sed: -e expression #1, char 6: unterminated `s' command
+✅ No changes to commit (other changes may be ignored)

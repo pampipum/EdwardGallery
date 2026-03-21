@@ -1,0 +1,21 @@
+🌅 Morning Review - 2026-03-20
+==========================
+
+📊 Analyzing logs from last 24 hours...
+   Cutoff: 2026-03-19T07:00:01Z
+
+📈 Statistics:
+   Total events (24h): 12
+   Error/Alert events: 4
+
+🔍 Categorizing errors...
+   Errors by source: 4
+   Code-related errors: 0
+
+📝 Generating report...
+✓ Report created: /root/.openclaw/workspace/memory/morning-review-2026-03-20.md
+
+==========================
+Morning review complete!
+Report: /root/.openclaw/workspace/memory/morning-review-2026-03-20.md
+

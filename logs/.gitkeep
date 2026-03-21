@@ -1,0 +1,18 @@
+# Logs Directory
+
+This directory contains system logs in JSONL format.
+
+## Files
+
+- `system.log` - Main system event log (JSONL format)
+- `morning-review.log` - Output from morning-review.sh cron job
+
+## Log Rotation
+
+Logs are automatically rotated to keep only the last 7 days.
+Run `scripts/log-system.sh rotate` to manually rotate.
+
+## Privacy
+
+⚠️ **Do not commit logs to version control.**
+Logs may contain sensitive operational data.

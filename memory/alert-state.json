@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "activeAlerts": [],
+  "acknowledgedAlerts": [],
+  "resolvedAlerts": [
+    {
+      "id": "alert-001",
+      "severity": "HIGH",
+      "source": "cron",
+      "title": "Weekly Monetization Report - Consecutive Timeouts",
+      "description": "Job 'Weekly Monetization & Offer Ideas Report' had 2 consecutive errors. Last error: cron job execution timed out",
+      "jobId": "8c937039-7474-41eb-ba8b-9b1c40334b73",
+      "consecutiveErrors": 2,
+      "detectedAt": "2026-03-19T10:50:00Z",
+      "acknowledged": false,
+      "escalatedAt": "2026-03-19T16:50:00Z",
+      "resolvedAt": "2026-03-19T19:24:00Z",
+      "resolution": "Error state reset in cron jobs.json"
+    },
+    {
+      "id": "alert-002",
+      "severity": "HIGH",
+      "source": "cron",
+      "title": "AlphaArena Weekend Open - Model Error",
+      "description": "Job 'AlphaArena crypto cadence - open time (weekends)' had 2 consecutive errors. Model 'gpt-5.3-codex-spark' not supported with ChatGPT account",
+      "jobId": "d90499d2-2c95-49c6-b5c8-b383854fb3ae",
+      "consecutiveErrors": 2,
+      "detectedAt": "2026-03-19T10:50:00Z",
+      "acknowledged": false,
+      "escalatedAt": "2026-03-19T16:50:00Z",
+      "resolvedAt": "2026-03-19T19:24:00Z",
+      "resolution": "Session model overrides updated from gpt-5.3-codex-spark to gpt-5.2"
+    },
+    {
+      "id": "alert-003",
+      "severity": "HIGH",
+      "source": "cron",
+      "title": "AlphaArena Weekend Pre-Close - Model Error",
+      "description": "Job 'AlphaArena crypto cadence - pre-close time (weekends)' had 2 consecutive errors. Model 'gpt-5.3-codex-spark' not supported with ChatGPT account",
+      "jobId": "253177f9-215a-4064-9328-4ba6a39d0aaa",
+      "consecutiveErrors": 2,
+      "detectedAt": "2026-03-19T10:50:00Z",
+      "acknowledged": false,
+      "escalatedAt": "2026-03-19T16:50:00Z",
+      "resolvedAt": "2026-03-19T19:24:00Z",
+      "resolution": "Session model overrides updated from gpt-5.3-codex-spark to gpt-5.2"
+    },
+    {
+      "id": "alert-004",
+      "severity": "MEDIUM",
+      "source": "cron",
+      "title": "Weekly AI Automation Report - Model Error",
+      "description": "Job 'Weekly AI Automation Opportunities Report' had 1 consecutive error. Model 'gpt-5.3-codex-spark' not supported with ChatGPT account",
+      "jobId": "1704e18d-5e39-4e5b-9a47-8f853bb443c6",
+      "consecutiveErrors": 1,
+      "detectedAt": "2026-03-19T10:50:00Z",
+      "acknowledged": false,
+      "escalatedAt": null,
+      "resolvedAt": "2026-03-19T19:24:00Z",
+      "resolution": "Session model overrides updated from gpt-5.3-codex-spark to gpt-5.2"
+    }
+  ],
+  "lastCheck": "2026-03-20T19:20:00Z",
+  "suppressedUntil": null,
+  "stats": {
+    "totalAlerts": 0,
+    "criticalCount": 0,
+    "highCount": 0,
+    "mediumCount": 0,
+    "lowCount": 0
+  }
+}

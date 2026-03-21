@@ -1,0 +1,54 @@
+[12:49:32] 💾 Backup Script - Thu Mar 19 12:49:32 GMT 2026
+[12:49:32] Workspace: /root/.openclaw/workspace
+[12:49:32] Dry run: true
+[12:49:32] 📋 Identifying assets…
+[12:49:33] Total assets: 85
+[12:49:33] Sample (first 20):
+  - /root/.openclaw/workspace/Agentwebpage/data/nai_one.db
+  - /root/.openclaw/workspace/alphaarena-migration/repo/frontend/static/favicon.png
+  - /root/.openclaw/workspace/assets/wurster/eduard-wurster-portrait.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-01.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-02.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-03.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-04.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-05.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-06.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-07.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-08.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-09.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-10.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-11.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-12.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-13.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-14.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-15.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-16.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-17.jpg
+[12:49:33] ✅ Dry run complete (no archive created, no upload, no retention cleanup).
+[12:50:47] 💾 Backup Script - Thu Mar 19 12:50:47 GMT 2026
+[12:50:47] Workspace: /root/.openclaw/workspace
+[12:50:47] Dry run: true
+[12:50:47] 📋 Identifying assets…
+[12:50:47] Total assets: 85
+[12:50:47] Sample (first 20):
+  - /root/.openclaw/workspace/Agentwebpage/data/nai_one.db
+  - /root/.openclaw/workspace/alphaarena-migration/repo/frontend/static/favicon.png
+  - /root/.openclaw/workspace/assets/wurster/eduard-wurster-portrait.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-01.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-02.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-03.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-04.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-05.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-06.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-07.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-08.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-09.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-10.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-11.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-12.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-13.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-14.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-15.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-16.jpg
+  - /root/.openclaw/workspace/assets/wurster/wurster-17.jpg
+[12:50:47] ✅ Dry run complete (no archive created, no upload, no retention cleanup).

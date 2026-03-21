@@ -1,0 +1,15 @@
+{"timestamp":"2026-03-19T12:52:36Z","epoch":1773924756,"event_type":"SYSTEM_START","severity":"INFO","source":"scheduler","message":"System initialized","context":{}}
+{"timestamp":"2026-03-19T12:52:36Z","epoch":1773924756,"event_type":"AGENT_ACTION","severity":"INFO","source":"agent-session","message":"Session started: sess_e2e","context":{}}
+{"timestamp":"2026-03-19T12:52:36Z","epoch":1773924756,"event_type":"AGENT_ACTION","severity":"INFO","source":"tool-call","message":"Tool call: exec","context":{}}
+{"timestamp":"2026-03-19T12:52:36Z","epoch":1773924756,"event_type":"AGENT_ACTION","severity":"ERROR","source":"tool-call","message":"Tool call: browser","context":{}}
+{"timestamp":"2026-03-19T12:52:36Z","epoch":1773924756,"event_type":"AGENT_ACTION","severity":"INFO","source":"subagent","message":"Subagent spawned: sub_e2e","context":{}}
+{"timestamp":"2026-03-19T12:52:36Z","epoch":1773924756,"event_type":"AGENT_ACTION","severity":"ERROR","source":"subagent","message":"Subagent completed: sub_e2e","context":{}}
+{"timestamp":"2026-03-19T12:52:36Z","epoch":1773924756,"event_type":"AGENT_ACTION","severity":"ERROR","source":"agent-session","message":"Session ended: sess_e2e (20000ms)","context":{}}
+{"timestamp":"2026-03-19T12:52:36Z","epoch":1773924756,"event_type":"CRON_JOB","severity":"INFO","source":"morning-review","message":"Morning review started","context":{}}
+{"timestamp":"2026-03-19T12:52:37Z","epoch":1773924757,"event_type":"CRON_JOB","severity":"INFO","source":"morning-review","message":"Morning review completed","context":{}}
+{"timestamp":"2026-03-19T12:52:51Z","epoch":1773924771,"event_type":"CRON_JOB","severity":"INFO","source":"check-alerts","message":"Alert check started","context":{}}
+{"timestamp":"2026-03-19T12:52:51Z","epoch":1773924771,"event_type":"ALERT","severity":"WARNING","source":"check-alerts","message":"Alert check detected issues","context":{}}
+{"timestamp":"2026-03-20T07:00:01Z","epoch":1773990001,"event_type":"CRON_JOB","severity":"INFO","source":"morning-review","message":"Morning review started","context":{}}
+{"timestamp":"2026-03-20T07:00:02Z","epoch":1773990002,"event_type":"CRON_JOB","severity":"INFO","source":"morning-review","message":"Morning review completed","context":{}}
+{"timestamp":"2026-03-20T21:21:20Z","epoch":1774041680,"event_type":"CRON_JOB","severity":"INFO","source":"check-alerts","message":"Alert check started","context":{}}
+{"timestamp":"2026-03-20T21:21:20Z","epoch":1774041680,"event_type":"CRON_JOB","severity":"INFO","source":"check-alerts","message":"Alert check OK","context":{}}
