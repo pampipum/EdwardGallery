@@ -19,3 +19,27 @@
 Morning review complete!
 Report: /root/.openclaw/workspace/memory/morning-review-2026-03-20.md
 
+🌅 Morning Review - 2026-03-21
+==========================
+
+📊 Analyzing logs from last 24 hours...
+   Cutoff: 2026-03-20T07:00:01Z
+
+📈 Statistics:
+   Total events (24h): 15
+   Error/Alert events: 0
+
+✅ No errors found in the last 24 hours!
+✓ Healthy report created: /root/.openclaw/workspace/memory/morning-review-2026-03-21.md
+🌅 Morning Review - 2026-03-22
+==========================
+
+📊 Analyzing logs from last 24 hours...
+   Cutoff: 2026-03-21T07:00:01Z
+
+📈 Statistics:
+   Total events (24h): 32
+   Error/Alert events: 0
+
+✅ No errors found in the last 24 hours!
+✓ Healthy report created: /root/.openclaw/workspace/memory/morning-review-2026-03-22.md

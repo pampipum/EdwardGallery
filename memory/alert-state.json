@@ -1,6 +1,21 @@
 {
   "version": 1,
-  "activeAlerts": [],
+  "activeAlerts": [
+    {
+      "id": "alert-005",
+      "severity": "MEDIUM",
+      "source": "cron",
+      "title": "Weekly AI Automation Opportunities Report - Timeout",
+      "description": "Job 'Weekly AI Automation Opportunities Report' had 1 consecutive error. Issue: cron job execution timed out",
+      "jobId": "1704e18d-5e39-4e5b-9a47-8f853bb443c6",
+      "consecutiveErrors": 1,
+      "detectedAt": "2026-03-23T00:53:39Z",
+      "acknowledged": false,
+      "escalatedAt": null,
+      "resolvedAt": null,
+      "resolution": null
+    }
+  ],
   "acknowledgedAlerts": [],
   "resolvedAlerts": [
     {
@@ -60,13 +75,13 @@
       "resolution": "Session model overrides updated from gpt-5.3-codex-spark to gpt-5.2"
     }
   ],
-  "lastCheck": "2026-03-20T19:20:00Z",
+  "lastCheck": "2026-03-23T00:53:39Z",
   "suppressedUntil": null,
   "stats": {
-    "totalAlerts": 0,
+    "totalAlerts": 1,
     "criticalCount": 0,
     "highCount": 0,
-    "mediumCount": 0,
+    "mediumCount": 1,
     "lowCount": 0
   }
 }
